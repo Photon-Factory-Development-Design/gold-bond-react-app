@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
 const logo_url = "https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/logo.svg"
 
 function App() {
