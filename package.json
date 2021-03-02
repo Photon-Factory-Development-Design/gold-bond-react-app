@@ -13,9 +13,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-app-rewired build && npm run build-rename",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-rename": "npm run build-rename-js && npm run build-rename-css",
+    "build-rename-js": "renamer --find \"/main\\.[^\\.]+\\.chunk.js/\" --replace 'main.js' build/static/js/*.js",
+    "build-rename-css": "renamer  --find '/main\\.[^\\.]+\\.chunk.css/' --replace 'main.css' build/static/css/*.css"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.1.8",
+    "renamer": "^2.0.1"
   }
 }
