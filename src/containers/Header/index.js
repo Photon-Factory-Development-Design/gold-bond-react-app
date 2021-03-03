@@ -13,6 +13,7 @@ const HeaderContainer = styled(Box)`
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
 `;
 
 const HeaderTitleContainer = styled(Box)`
