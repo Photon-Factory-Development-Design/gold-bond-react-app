@@ -1,12 +1,18 @@
 import { Box } from '@material-ui/core';
-import { Header } from './components';
+import { ThemeProvider } from '@material-ui/styles';
+import theme from './theme';
+import { Header, QuizContainer } from './containers';
+import './assets/styles/base.scss';
 
 function App() {
-  return (
-    <Box>
-        <Header />
-    </Box>
-  );
+    return (
+        <ThemeProvider theme={theme}>
+            <Box>
+                <Header />
+            </Box>
+            <QuizContainer />
+        </ThemeProvider>
+    );
 }
 
 export default App;
