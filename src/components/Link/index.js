@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 import buildATC from 'common/helpers/buildATC';
 
 const Link = ({ children, ...props }) => {
@@ -10,15 +11,15 @@ const Link = ({ children, ...props }) => {
         if (ref.current && !initRef.current) {
             initRef.current = true;
 
+            console.log('buildATC', ref.current);
             // build ATC
             buildATC(ref.current);
         }
     }, [ref]);
 
-    
     return (
         <a data-component-type="CustomLink" ref={ref} {...props}>
-            {children}
+            <Button color="primary">{children}</Button>
         </a>
     );
 };

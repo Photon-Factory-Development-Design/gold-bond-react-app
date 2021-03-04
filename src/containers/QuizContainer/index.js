@@ -1,25 +1,30 @@
-import { Container, Box } from '@material-ui/core';
 import React from 'react';
-import { BackgroundContainer, Typography } from '../../components';
+import { Container, Box } from '@material-ui/core';
+import { BackgroundContainer, Typography } from 'components';
+import QuestionContainer from './QuestionContainer';
+import ProductContainer from './ProductContainer';
 
-const QuizContainer = () => {
+const QuizContainer = React.forwardRef((props, ref) => {
+    const [question, setQuestion] = React.useState(null);
+
+    const onUpdateQuestion = (question) => {
+        setQuestion(question);
+    };
     return (
-        <BackgroundContainer color="primary" vertical="8">
-            <Box py={2}>
-                <Typography color="primary" variant="h2" align="center">
-                    THE BEST & NATURAL INGREDIENTS
+        <BackgroundContainer ref={ref} color="secondary" vertical={8}>
+            <Container>
+                <Typography variant="h1" color="primary" align="center">
+                    What are you looking for?
                 </Typography>
-            </Box>
 
-            <Container maxWidth="md">
-                <Typography color="secondary" variant="body1" align="center">
-                    We use the very best, research-backed ingredients chosen by dermatologists. 
-                    But far more importantly, we use them in just the right formula for you. 
-                    You need to use just the right ones at the amount that is safe and effective for your skin.
-                </Typography>
+                <Box my={4}>
+                    <QuestionContainer onUpdateQuestion={onUpdateQuestion} />
+                </Box>
+
+                <ProductContainer question={question} />
             </Container>
         </BackgroundContainer>
-    )
-};
+    );
+});
 
 export default QuizContainer;

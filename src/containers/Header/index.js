@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import { Box, Typography, Button } from '@material-ui/core';
 import Logo from '../Logo/index';
 
-const headerBackImage = 'https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/images/Header.jpg';
+const headerBackImage =
+    'https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/images/Header.jpg';
 
 // create custom header
 const HeaderContainer = styled(Box)`
@@ -22,19 +23,24 @@ const HeaderTitleContainer = styled(Box)`
     transform: translateX(-50%) translateY(-50%);
     position: absolute;
 `;
-const Header = () => (
+const Header = ({ onClickQuiz }) => (
     <HeaderContainer>
         <Box pt={4} display="flex" flexDirection="row" justifyContent="center">
             <Logo />
         </Box>
-        <HeaderTitleContainer display="flex" flexDirection="column" alignItems="center">
+        <HeaderTitleContainer
+            display="flex"
+            flexDirection="column"
+            alignItems="center">
             <Typography align="center" variant="h1" color="primary">
                 FIND THE RIGHT GOLD BOND <br />
                 PRODUCT FOR YOU
             </Typography>
 
             <Box mt={2}>
-                <Button color="primary">TAKE THE QUIZ</Button>
+                <Button onClick={onClickQuiz} color="primary">
+                    TAKE THE QUIZ
+                </Button>
             </Box>
         </HeaderTitleContainer>
     </HeaderContainer>
