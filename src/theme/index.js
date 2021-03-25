@@ -14,14 +14,18 @@ const Theme = createMuiTheme({
     overrides: {
         MuiButton: {
             root: {
-                borderRadius: '0px'
+                borderRadius: '0px',
+                '&::-moz-focus-inner': {
+                    border: 0,
+                    outline: 'none'
+                }
             },
             label: {
                 fontFamily: 'GothamMedium',
-                fontSize: '18px',
+                fontSize: '18px'
             }
         }
     }
-})
+});
 
 export default Theme;

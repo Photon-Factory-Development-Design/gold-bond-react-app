@@ -17,13 +17,15 @@ function App() {
         }
     };
     return (
-        <ThemeProvider theme={theme}>
-            <Box>
-                <Header onClickQuiz={onClickQuiz} />
-            </Box>
-            <QuizContainer ref={quizRef} />
-            <IngrdientsContainer />
-        </ThemeProvider>
+        <React.Fragment>
+            <ThemeProvider theme={theme}>
+                <Box>
+                    <Header onClickQuiz={onClickQuiz} />
+                </Box>
+                <QuizContainer ref={quizRef} />
+                <IngrdientsContainer />
+            </ThemeProvider>
+        </React.Fragment>
     );
 }
 

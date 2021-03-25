@@ -5,7 +5,8 @@ import products from 'common/data/products';
 import { Typography, Link } from 'components';
 
 // util to get products from question value
-const getProducts = (question) => products[question];
+const getProducts = (asins) =>
+    products.filter((product) => asins.includes(product.data.ASIN.value));
 
 // get product item props from product object
 const getProductProps = (product) => ({
@@ -50,17 +51,15 @@ const ProductItem = ({ image, title, description, asin }) => (
     </Grid>
 );
 
-const ProductContainer = ({ question }) => {
+const ProductContainer = ({ asins }) => {
     const [products, setProducts] = React.useState([]);
 
     // update products for question
     React.useEffect(() => {
-        if (question) {
-            setProducts(getProducts(question) || []);
+        if (asins) {
+            setProducts(getProducts(asins) || []);
         }
-    }, [question]);
-
-    console.log(products, question);
+    }, [asins]);
 
     // render
     return (
