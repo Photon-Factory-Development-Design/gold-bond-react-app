@@ -9,7 +9,7 @@ const headerBackImage =
 // create custom header
 const HeaderContainer = styled(Box)`
     background: url(${headerBackImage}) no-repeat center center fixed;
-    height: 100vh;
+    height: 50vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
