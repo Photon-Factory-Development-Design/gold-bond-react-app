@@ -28,11 +28,19 @@ const QuizContainer = React.forwardRef((props, ref) => {
             }
 
             setSteps(newSteps);
+            // clear up asins
+            setAsins([]);
         } else {
             // show asins
-            console.log(quesitonItem.ASINS);
             setAsins(quesitonItem.ASINS);
         }
+    };
+
+    const onUpdateStep = (step) => {
+        setActiveStep(step);
+
+        // clear asins
+        setAsins([]);
     };
 
     return (
@@ -45,7 +53,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
                 <Stepper
                     steps={steps}
                     activeStep={activeStep}
-                    onUpdateIndex={setActiveStep}
+                    onUpdateIndex={onUpdateStep}
                 />
                 <Carousel
                     items={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
