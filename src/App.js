@@ -24,6 +24,14 @@ function App() {
                 </Box>
                 <QuizContainer ref={quizRef} />
                 <IngrdientsContainer />
+
+                <span className="a-button a-button-primary add-to-cart ">
+                    <span className="a-button-inner">
+                        <a className="a-button-text" aria-hidden="true">
+                            Add to Cart
+                        </a>
+                    </span>
+                </span>
             </ThemeProvider>
         </React.Fragment>
     );
