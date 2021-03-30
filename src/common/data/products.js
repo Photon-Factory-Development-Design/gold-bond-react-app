@@ -27,12 +27,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -40,15 +40,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Hydroxyethyl Urea, Glycerin, Gluconolactone, Cetyl Alcohol, Dimethic… See more',
-                    Scent: 'Fragrance Free',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -73,7 +67,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#77 in Body Creams',
+                    'Best Sellers Rank:': '#80 in Body Creams',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -124,6 +118,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.34',
+                    ounce: '($4.67 / Ounce)',
+                    price_block_savings: '$3.55 (28%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4',
+                    acrCustomerReviewText: '1,603 ratings'
+                },
+                error: null
             }
         }
     },
@@ -159,7 +168,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -169,7 +178,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -194,7 +203,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#91 in Body Lotions',
+                    'Best Sellers Rank:': '#69 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -245,6 +254,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.34',
+                    ounce: '($0.72 / Ounce)',
+                    price_block_savings: '$1.25 (12%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '4,497 ratings'
+                },
+                error: null
             }
         }
     },
@@ -263,7 +287,7 @@ const products = [
             basePrice: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
                 value:
@@ -273,12 +297,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -311,7 +335,7 @@ const products = [
                     'Manufacturer :': 'AmazonUs/NC1NB',
                     'ASIN :': 'B08CJ74R3S',
                     'Best Sellers Rank:':
-                        '#390 in Facial Creams & Moisturizers',
+                        '#344 in Facial Creams & Moisturizers',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -332,6 +356,18 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '43 ratings'
+                },
+                error: null
             }
         }
     },
@@ -351,7 +387,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 9.97
+                    amount: 9.99
                 },
                 error: null
             },
@@ -367,7 +403,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -377,7 +413,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -397,7 +433,7 @@ const products = [
                     'Manufacturer :': 'AmazonUs/CHMZ7',
                     'ASIN :': 'B07W8Z1TY7',
                     'Best Sellers Rank:':
-                        '#160 in Neck & Décolleté Moisturizers',
+                        '#110 in Neck & Décolleté Moisturizers',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -442,6 +478,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.99',
+                    ounce: '($5.88 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-3-5',
+                    acrCustomerReviewText: '6 ratings'
+                },
+                error: null
             }
         }
     },
@@ -476,7 +526,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -555,6 +605,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.34',
+                    ounce: '($4.67 / Ounce)',
+                    price_block_savings: '$6.65 (42%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '4,148 ratings'
+                },
+                error: null
             }
         }
     },
@@ -586,12 +651,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -601,7 +666,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -626,7 +691,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#268 in Foot Health Care Products',
+                    'Best Sellers Rank:': '#299 in Foot Health Care Products',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -671,6 +736,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$6.96',
+                    ounce: '($9.28 / Ounce)',
+                    price_block_savings: '$2.83 (29%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '691 ratings'
+                },
+                error: null
             }
         }
     },
@@ -702,12 +782,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -715,15 +795,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Ingredients: Active Ingredients: Petrolatum (30%). Purpose: Skin Protectant. Inactive Ingredients: Water… See more',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'All',
-                    'Item Weight': '0.04 Pounds'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -746,7 +820,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#28 in Hand Creams & Lotions',
+                    'Best Sellers Rank:': '#26 in Hand Creams & Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -791,6 +865,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$5.94',
+                    ounce: '($7.92 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,545 ratings'
+                },
+                error: null
             }
         }
     },
@@ -799,7 +887,7 @@ const products = [
         data: {
             productTitle: {
                 value:
-                    'Gold Bond Medicated Cracked Foot Skin Relief Ointment, 0.75 oz, Soothes Cracked Heels and Toes',
+                    'Gold Bond Medicated Cracked Foot Skin Relief Ointment, 0.75 oz, pack of 24',
                 error: null
             },
             ASIN: {
@@ -822,12 +910,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -839,14 +927,14 @@ const products = [
                     Ingredients: 'Petrolatum - 30 % (Skin Protectant)',
                     'Item Form': 'Ointment',
                     Brand: 'Gold Bond',
-                    'Item Weight': '0.05 Pounds',
+                    'Item Weight': '18 Ounces',
                     'Item Dimensions LxWxH': '2.5 x 0.88 x 4.62 inches'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Includes one (1) 0.75-ounce tube of Gold Bond Medicated Cracked Foot Skin Relief Ointment with a precision tip',
+                    'Includes (24) 0.75-ounce tube of Gold Bond Medicated Cracked Foot Skin Relief Ointment with a precision tip',
                     'Skin protectant ointment with 30% petrolatum, temporarily protects and helps relieve chapped or cracked skin',
                     'This cracked skin relief formula is made with lipids and ceramides to help repair and restore the skin barrier',
                     'Gold Bond Cracked Foot Skin Relief is formulated with jojoba and shea to soften and condition skin',
@@ -857,7 +945,7 @@ const products = [
             productDetails: {
                 value: {
                     'Product Dimensions :':
-                        '2.5 x 0.88 x 4.62 inches; 0.75 Ounces',
+                        '2.5 x 0.88 x 4.62 inches; 1.13 Pounds',
                     'Date First Available :': 'January 15, 2021',
                     'Manufacturer :': 'AmazonUs/CHMZ7',
                     'ASIN :': 'B08TPGYM4L'
@@ -910,6 +998,18 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$24.95',
+                    ounce: '($1.39 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             }
         }
     },
@@ -941,7 +1041,7 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Hydrating Lotion',
@@ -953,15 +1053,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Glycerin, Hydroxyethyl Urea, Dimethicone, Jojoba Esters, Petrolatum Cetyl Alcohol, Distearyldimonium Chlo… See more',
-                    Scent: 'Fragrance Free',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -985,7 +1079,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#23 in Hand Creams & Lotions',
+                    'Best Sellers Rank:': '#18 in Hand Creams & Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -1030,6 +1124,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$4.92',
+                    ounce: '($1.09 / Ounce)',
+                    price_block_savings: '$1.27 (21%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '2,880 ratings'
+                },
+                error: null
             }
         }
     },
@@ -1049,7 +1158,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 8.5
+                    amount: 8.52
                 },
                 error: null
             },
@@ -1061,12 +1170,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -1074,14 +1183,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients: 'Dimethicone 3%, White petrolatum 30%',
-                    Scent: 'Fragrance Free',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1153,6 +1257,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$8.52',
+                    ounce: '($2.51 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '2,666 ratings'
+                },
+                error: null
             }
         }
     },
@@ -1172,7 +1290,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 6.99
+                    amount: 6.7
                 },
                 error: null
             },
@@ -1184,7 +1302,7 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Hand Cream',
@@ -1196,15 +1314,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Glycerin, Hydroxyethyl Urea, Dimethicone, Jojoba Esters, Petrolatum, Cetyl Alcohol, Distearyldimonium Chlo… See more',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry',
-                    'Item Weight': '0.16 Pounds'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1225,7 +1337,7 @@ const products = [
                     'UPC :': '041167053607',
                     'Manufacturer :': 'Chattem Inc.',
                     'ASIN :': 'B00OCN97DW',
-                    'Best Sellers Rank:': '#23 in Hand Creams & Lotions',
+                    'Best Sellers Rank:': '#18 in Hand Creams & Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -1276,6 +1388,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$6.70',
+                    ounce: '($2.79 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '137 ratings'
+                },
+                error: null
             }
         }
     },
@@ -1307,12 +1433,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -1322,7 +1448,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1335,21 +1461,9 @@ const products = [
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '3.38 x 2.25 x 10 inches; 1.43 Pounds',
-                    'UPC :': '041167055519 783327358107',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00OW9OTN4',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#113 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             images: {
                 value: [
@@ -1397,6 +1511,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.97',
+                    ounce: '($0.47 / Ounce)',
+                    price_block_savings: '$3.02 (23%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '2,329 ratings'
+                },
+                error: null
             }
         }
     },
@@ -1428,7 +1557,7 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Lotion',
@@ -1468,7 +1597,7 @@ const products = [
                         '785525846714 885649881735 787734619882 811804977739 885971127822 041167055335 885129838037 885136864821 793379238531 885361809680 884800870465',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B00AHH00MO',
-                    'Best Sellers Rank:': '#57 in Body Lotions',
+                    'Best Sellers Rank:': '#58 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -1519,6 +1648,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.74',
+                    ounce: '($0.53 / Ounce)',
+                    price_block_savings: '$4.25 (35%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '5,636 ratings'
+                },
+                error: null
             }
         }
     },
@@ -1563,7 +1707,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1586,7 +1730,7 @@ const products = [
                     'Domestic Shipping:': 'Item can be shipped within U.S.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#273 in Body Lotions',
+                    'Best Sellers Rank:': '#249 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -1637,6 +1781,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$4.97',
+                    ounce: '($0.76 / Ounce)',
+                    price_block_savings: '$1.52 (23%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '854 ratings'
+                },
+                error: null
             }
         }
     },
@@ -1668,12 +1827,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -1681,15 +1840,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Hydroxyethyl Urea, Dimethicone, Glycerin, Petrolatum, Stearyl Alcohol, Aloe Barbadensis Leaf Juice, Glyceryl… See more',
-                    Scent: 'Clean',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1714,7 +1867,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#158 in Body Lotions',
+                    'Best Sellers Rank:': '#161 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -1765,6 +1918,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.58',
+                    ounce: '($0.58 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '2,190 ratings'
+                },
+                error: null
             }
         }
     },
@@ -1800,7 +1967,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -1811,10 +1978,10 @@ const products = [
                 value: {
                     Ingredients:
                         'Active Ingredients: Avobenzone (3%), Octisalate (2%), Octocrylene (10%). Purpose: Sunscreen. Inactive Ingredie… See more',
-                    Scent: 'Fragrance free',
-                    'Item Form': 'Lotion',
+                    Scent: 'Unscented',
                     Brand: 'Gold Bond',
-                    'Skin Type': 'All'
+                    'Skin Type': 'All',
+                    'Item Form': 'Liquid'
                 },
                 error: null
             },
@@ -1828,18 +1995,9 @@ const products = [
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.5 x 2.38 x 5.88 inches; 3.99 Ounces',
-                    'Item model number :': 'SG_B074KM543R_US',
-                    'UPC :': '041167055618',
-                    'Manufacturer :': 'Karewell Brands, Inc -- Dropship',
-                    'ASIN :': 'B074KM543R',
-                    'Best Sellers Rank:': '#77 in Face Moisturizers',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             images: {
                 value: [
@@ -1887,6 +2045,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.97',
+                    ounce: '($2.42 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,682 ratings'
+                },
+                error: null
             }
         }
     },
@@ -1918,12 +2090,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -1956,7 +2128,7 @@ const products = [
                     'Date First Available :': 'August 1, 2019',
                     'Manufacturer :': 'AmazonUs/CHMZ7',
                     'ASIN :': 'B07WLNN8RQ',
-                    'Best Sellers Rank:': '#4,750 in Skin Care Products',
+                    'Best Sellers Rank:': '#5,139 in Skin Care Products',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2007,6 +2179,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.99',
+                    ounce: '($1.00 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '825 ratings'
+                },
+                error: null
             }
         }
     },
@@ -2026,7 +2212,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 9.97
+                    amount: 9.74
                 },
                 error: null
             },
@@ -2038,12 +2224,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -2082,7 +2268,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#43 in Body Lotions',
+                    'Best Sellers Rank:': '#48 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2127,6 +2313,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.74',
+                    ounce: '($0.49 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '8,714 ratings'
+                },
+                error: null
             }
         }
     },
@@ -2146,7 +2346,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 6.99
+                    amount: 7.58
                 },
                 error: null
             },
@@ -2171,7 +2371,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -2196,7 +2396,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#101 in Body Lotions',
+                    'Best Sellers Rank:': '#109 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2241,6 +2441,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.58',
+                    ounce: '($0.54 / Ounce)',
+                    price_block_savings: '$2.41 (24%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '5,578 ratings'
+                },
+                error: null
             }
         }
     },
@@ -2272,7 +2487,7 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Fragrance Free - 14 Ounce',
@@ -2313,7 +2528,7 @@ const products = [
                     'UPC :': '794437304793 041167066089',
                     'Manufacturer :': 'Karewell Brands, Inc -- Dropship',
                     'ASIN :': 'B00H35BV2G',
-                    'Best Sellers Rank:': '#110 in Body Lotions',
+                    'Best Sellers Rank:': '#117 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2364,6 +2579,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.58',
+                    ounce: '($0.54 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '2,831 ratings'
+                },
+                error: null
             }
         }
     },
@@ -2399,7 +2628,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -2407,15 +2636,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Vitamin A: Improves elasticity and reduces appearance of wrinkles. Vitamin C: Promotes skin development and co… See more',
-                    Scent: 'Fresh, Clean',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Sensitive'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -2440,7 +2663,7 @@ const products = [
                     'Domestic Shipping:': 'Item can be shipped within U.S.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#17 in Body Lotions',
+                    'Best Sellers Rank:': '#13 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2485,6 +2708,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.97',
+                    ounce: '($0.50 / Ounce)',
+                    price_block_savings: '$2.02 (17%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '11,362 ratings'
+                },
+                error: null
             }
         }
     },
@@ -2504,7 +2742,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 7.69
+                    amount: 7.58
                 },
                 error: null
             },
@@ -2520,7 +2758,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -2564,7 +2802,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#17 in Body Lotions',
+                    'Best Sellers Rank:': '#13 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2615,6 +2853,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.58',
+                    ounce: '($0.54 / Ounce)',
+                    price_block_savings: '$5.19 (41%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '3,206 ratings'
+                },
+                error: null
             }
         }
     },
@@ -2634,7 +2887,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 15.23
+                    amount: 9.26
                 },
                 error: null
             },
@@ -2650,7 +2903,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -2690,7 +2943,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#350 in Body Lotions',
+                    'Best Sellers Rank:': '#230 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2741,6 +2994,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.26',
+                    ounce: '($0.64 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '770 ratings'
+                },
+                error: null
             }
         }
     },
@@ -2776,7 +3043,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value: 'Directions: apply liberally before going to bed.',
@@ -2815,7 +3082,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#26 in Body Lotions',
+                    'Best Sellers Rank:': '#27 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2859,6 +3126,20 @@ const products = [
                             'https://images-na.ssl-images-amazon.com/images/I/81uo8TucolL._SY355_.jpg'
                     }
                 ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.64',
+                    ounce: '($0.96 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '8,426 ratings'
+                },
                 error: null
             }
         }
@@ -2936,7 +3217,7 @@ const products = [
                     'Domestic Shipping:': 'Item can be shipped within U.S.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#41 in Body Lotions',
+                    'Best Sellers Rank:': '#38 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -2987,6 +3268,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.58',
+                    ounce: '($0.58 / Ounce)',
+                    price_block_savings: '$1.18 (13%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '6,301 ratings'
+                },
+                error: null
             }
         }
     },
@@ -3018,12 +3314,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -3058,7 +3354,7 @@ const products = [
                     'UPC :': '041167066546',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B00NNIOU48',
-                    'Best Sellers Rank:': '#341 in Body Lotions',
+                    'Best Sellers Rank:': '#389 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -3109,6 +3405,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$23.07',
+                    ounce: '($0.55 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '331 ratings'
+                },
+                error: null
             }
         }
     },
@@ -3153,7 +3463,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -3178,7 +3488,7 @@ const products = [
                         'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#41 in Body Lotions',
+                    'Best Sellers Rank:': '#38 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -3229,6 +3539,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.97',
+                    ounce: '($0.50 / Ounce)',
+                    price_block_savings: '$3.02 (23%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '6,301 ratings'
+                },
+                error: null
             }
         }
     },
@@ -3260,12 +3585,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -3275,7 +3600,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -3297,7 +3622,7 @@ const products = [
                         '885288939347 794437479057 885803517012 041167066232',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B001G8Y9VG',
-                    'Best Sellers Rank:': '#409 in Body Lotions',
+                    'Best Sellers Rank:': '#416 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -3348,6 +3673,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$19.88',
+                    ounce: '($0.90 / Ounce)',
+                    price_block_savings: '$4.42 (18%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '356 ratings'
+                },
+                error: null
             }
         }
     },
@@ -3383,7 +3723,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -3394,10 +3734,10 @@ const products = [
                 value: {
                     Ingredients:
                         'Active Ingredients: Avobenzone (3%), Octisalate (2%), Octocrylene (10%). Purpose: Sunscreen. Inactive Ingredie… See more',
-                    Scent: 'Fragrance free',
-                    'Item Form': 'Lotion',
+                    Scent: 'Unscented',
                     Brand: 'Gold Bond',
-                    'Skin Type': 'All'
+                    'Skin Type': 'All',
+                    'Item Form': 'Liquid'
                 },
                 error: null
             },
@@ -3419,7 +3759,7 @@ const products = [
                     'UPC :': '041167055618',
                     'Manufacturer :': 'Karewell Brands, Inc -- Dropship',
                     'ASIN :': 'B074KM543R',
-                    'Best Sellers Rank:': '#77 in Face Moisturizers',
+                    'Best Sellers Rank:': '#109 in Face Moisturizers',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -3469,6 +3809,20 @@ const products = [
                             'https://images-na.ssl-images-amazon.com/images/I/91rYeb104PL._SY355_.jpg'
                     }
                 ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.97',
+                    ounce: '($2.42 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,682 ratings'
+                },
                 error: null
             }
         }
@@ -3529,17 +3883,9 @@ const products = [
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.18 x 0.79 x 6.18 inches; 1 Ounces',
-                    'UPC :': '041167017333',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B06VVP4CLP',
-                    'Best Sellers Rank:': '#3 in Foot Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             images: {
                 value: [
@@ -3587,6 +3933,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.99',
+                    ounce: '($2.28 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '2,351 ratings'
+                },
+                error: null
             }
         }
     },
@@ -3603,12 +3963,9 @@ const products = [
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 18.71
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
                 value:
@@ -3657,7 +4014,7 @@ const products = [
                     'UPC :': '041167078006',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B001MIZMIE',
-                    'Best Sellers Rank:': '#3 in Foot Creams & Lotions',
+                    'Best Sellers Rank:': '#4 in Foot Creams & Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -3708,6 +4065,18 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '2,351 ratings'
+                },
+                error: null
             }
         }
     },
@@ -3716,7 +4085,7 @@ const products = [
         data: {
             productTitle: {
                 value:
-                    'Gold Bond Ultimate Softening Foot Cream with Shea Butter, Leaves Rough, Dry, Calloused Feet, Heels, and Soles Feeling Smoother and Softer, Includes Vitamins A, C, E, and Silk Amino Acids, 4 Ounce',
+                    'Gold Bond Ultimate Softening Foot Cream With Shea Butter to Soften Rough & Calloused Feet, 4 oz.',
                 error: null
             },
             ASIN: {
@@ -3746,19 +4115,13 @@ const products = [
             },
             productDescription: {
                 value:
-                    'Gold Bond Ultimate Softening Foot Cream, 7 penetrating moisturizers. Softens rough calloused feet. Penetrates fast. Non-greasy. Fresh soft scent. As the cream is applied to rough, dry, cracked feet it creates a protective layer of moisture. Softening moisturizers and 3 vitamins penetrate to condition and repair even the toughest skin. Unique blend of hydralast emollients and humectants draw moisture throughout the day, for 24 hour moisturization. Non-irritating. Hypoallergenic, Dermatologist tested.',
+                    "Treat your feet to the Gold Bond Ultimate Softening Foot Cream With Shea Butter to soften calloused feet. Restore and maintain your skin's youthful appearance with the unique silk peptide matrix, formulated with vitamins and shea butter to soften and revitalize your feet when life leaves them rough and dry. The combination of vitamins A, C, and E nourish the skin and soften callouses with the softness of shea butter, leaving a fresh scent on your revitalized skin. The rich cream moisturizes skin quickly for soft, velvety-feeling feet.",
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Shea Butter for softening. Unique blend of HYDRALAST™ emollients and humectants draw moisture throughout… See more',
-                    Scent: 'Fresh, Soft',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Rough'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -3771,9 +4134,20 @@ const products = [
                 error: null
             },
             productDetails: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    'Is Discontinued By Manufacturer :': 'No',
+                    'Product Dimensions :': '1.88 x 3 x 5.5 inches; 4.7 Pounds',
+                    'Item model number :': '876068',
+                    'UPC :': '787734736589 041167016503 885176051496',
+                    'Manufacturer :': 'Gold Bond',
+                    'ASIN :': 'B0073E7JFK',
+                    'Domestic Shipping:': 'Item can be shipped within U.S.',
+                    'International Shipping:':
+                        'This item can be shipped to select countries outside of the U.S. Learn More',
+                    'Best Sellers Rank:': '#4 in Foot Creams & Lotions',
+                    'Customer Reviews:': ''
+                },
+                error: null
             },
             images: {
                 value: [
@@ -3821,6 +4195,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$5.98',
+                    ounce: '($1.50 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '13,867 ratings'
+                },
+                error: null
             }
         }
     },
@@ -3836,12 +4224,9 @@ const products = [
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 16.08
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
                 value:
@@ -3851,12 +4236,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -3864,15 +4249,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Urea, Dimethicone, Petrolatum, Glycerin,… See more',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry',
-                    'Age Range (Description)': 'Adult'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -3892,7 +4271,7 @@ const products = [
                     'Date First Available :': 'September 26, 2008',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B001ET78HY',
-                    'Best Sellers Rank:': '#15 in Foot Creams & Lotions',
+                    'Best Sellers Rank:': '#18 in Foot Creams & Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -3943,6 +4322,18 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '2,538 ratings'
+                },
+                error: null
             }
         }
     },
@@ -3961,7 +4352,7 @@ const products = [
             basePrice: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
                 value:
@@ -3971,12 +4362,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -4009,7 +4400,7 @@ const products = [
                         '2.38 x 1.44 x 5.13 inches; 3.6 Ounces',
                     'Manufacturer :': 'AmazonUs/NC1NB',
                     'ASIN :': 'B08CJ2S9HJ',
-                    'Best Sellers Rank:': '#2,383 in Hand Creams & Lotions',
+                    'Best Sellers Rank:': '#2,638 in Hand Creams & Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -4060,6 +4451,18 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '1 rating'
+                },
+                error: null
             }
         }
     },
@@ -4078,7 +4481,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 3.48
+                    amount: 3.76
                 },
                 error: null
             },
@@ -4094,7 +4497,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -4135,7 +4538,7 @@ const products = [
                     'Domestic Shipping:': 'Item can be shipped within U.S.',
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#5 in Hand Creams & Lotions',
+                    'Best Sellers Rank:': '#3 in Hand Creams & Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -4180,6 +4583,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$3.76',
+                    ounce: '($1.25 / Ounce)',
+                    price_block_savings: '$3.49 (48%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '7,940 ratings'
+                },
+                error: null
             }
         }
     },
@@ -4199,7 +4617,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 16.23
+                    amount: 16.16
                 },
                 error: null
             },
@@ -4211,12 +4629,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -4226,7 +4644,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -4245,7 +4663,7 @@ const products = [
                     'Date First Available :': 'December 1, 2020',
                     'Manufacturer :': 'AmazonUs/CHMZ7',
                     'ASIN :': 'B08NQH1Z66',
-                    'Best Sellers Rank:': '#36 in Hand Sanitizers',
+                    'Best Sellers Rank:': '#33 in Hand Sanitizers',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -4296,6 +4714,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$16.16',
+                    ounce: '($4.04 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '425 ratings'
+                },
+                error: null
             }
         }
     },
@@ -4331,7 +4763,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -4428,6 +4860,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$5.23',
+                    ounce: '($2.99 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '12,822 ratings'
+                },
+                error: null
             }
         }
     },
@@ -4446,7 +4892,7 @@ const products = [
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 7.29
+                    amount: 8.12
                 },
                 error: null
             },
@@ -4458,12 +4904,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -4473,7 +4919,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -4493,7 +4939,7 @@ const products = [
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B00WVHRE7W',
                     'Best Sellers Rank:':
-                        '#65 in Eczema, Psoriasis & Rosacea Care',
+                        '#72 in Eczema, Psoriasis & Rosacea Care',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -4544,6 +4990,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$8.12',
+                    ounce: '($1.48 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,011 ratings'
+                },
+                error: null
             }
         }
     },
@@ -4574,12 +5034,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -4619,7 +5079,7 @@ const products = [
                     'International Shipping:':
                         'This item can be shipped to select countries outside of the U.S. Learn More',
                     'Best Sellers Rank:':
-                        '#14 in Eczema, Psoriasis & Rosacea Care',
+                        '#13 in Eczema, Psoriasis & Rosacea Care',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -4664,6 +5124,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$14.28',
+                    ounce: '($1.02 / Ounce)',
+                    price_block_savings: '$3.01 (17%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '4,567 ratings'
+                },
+                error: null
             }
         }
     },
@@ -4695,7 +5170,7 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Skin Protectant Cream',
@@ -4786,6 +5261,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.34',
+                    ounce: '($1.17 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '2,091 ratings'
+                },
+                error: null
             }
         }
     },
@@ -4816,7 +5305,7 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Hand Cream',
@@ -4906,6 +5395,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$3.99',
+                    ounce: '($1.33 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,292 ratings'
+                },
+                error: null
             }
         }
     },
@@ -4937,12 +5440,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value: 'Health and Personal Care',
@@ -4951,7 +5454,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -4972,7 +5475,7 @@ const products = [
                     'Manufacturer :': 'Karewell Brands, Inc -- Dropship',
                     'ASIN :': 'B00P2V1CDG',
                     'Best Sellers Rank:':
-                        '#32 in Pain Relief Homeopathic Remedies',
+                        '#30 in Pain Relief Homeopathic Remedies',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -5023,6 +5526,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$6.74',
+                    ounce: '($3.85 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '3,522 ratings'
+                },
+                error: null
             }
         }
     },
@@ -5054,7 +5571,7 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Extra Strength',
@@ -5093,7 +5610,7 @@ const products = [
                     'Date First Available :': 'June 7, 2010',
                     'Manufacturer :': 'Everready First Aid',
                     'ASIN :': 'B003QB26MA',
-                    'Best Sellers Rank:': '#97 in Body Lotions',
+                    'Best Sellers Rank:': '#94 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -5113,6 +5630,21 @@ const products = [
                             'https://images-na.ssl-images-amazon.com/images/I/81JbxTe1MmL._AC_SY879_.jpg'
                     }
                 ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.58',
+                    ounce: '($0.54 / Ounce)',
+                    price_block_savings: '$3.41 (31%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '4,089 ratings'
+                },
                 error: null
             }
         }
@@ -5144,12 +5676,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -5190,7 +5722,7 @@ const products = [
                     'International Shipping:':
                         'This item is not eligible for international shipping. Learn More',
                     'Best Sellers Rank:':
-                        '#15 in Eczema, Psoriasis & Rosacea Care',
+                        '#12 in Eczema, Psoriasis & Rosacea Care',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -5241,6 +5773,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.33',
+                    ounce: '($2.33 / Ounce)',
+                    price_block_savings: '$6.66 (42%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '3,346 ratings'
+                },
+                error: null
             }
         }
     },
@@ -5275,7 +5822,7 @@ const products = [
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -5283,15 +5830,9 @@ const products = [
                 error: null
             },
             productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Gluconolactone, Hydroxyethyl Urea, Butyrospermum Parkii (Shea) Butter Extract, Cetyl Alcohol, Ammoni… See more',
-                    Scent: 'Unscented',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -5302,21 +5843,9 @@ const products = [
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '3.56 x 3.56 x 2.81 inches; 8 Ounces',
-                    'Item model number :': '41167050705',
-                    'UPC :': '041167050705 885722016733',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00MMKAM5E',
-                    'Domestic Shipping:': 'Item can be shipped within U.S.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#61 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             images: {
                 value: [
@@ -5358,6 +5887,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.48',
+                    ounce: '($1.19 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '7,555 ratings'
+                },
+                error: null
             }
         }
     },
@@ -5374,9 +5917,12 @@ const products = [
                 error: null
             },
             basePrice: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 9.29
+                },
+                error: null
             },
             mainImage: {
                 value:
@@ -5399,7 +5945,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -5418,7 +5964,8 @@ const products = [
                     'Date First Available :': 'March 1, 2021',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B08W5GNXBG',
-                    'Best Sellers Rank:': '#6 in Feminine Powders'
+                    'Best Sellers Rank:': '#5 in Feminine Powders',
+                    'Customer Reviews:': ''
                 },
                 error: null
             },
@@ -5468,6 +6015,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.29',
+                    ounce: '($9.29 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '2 ratings'
+                },
+                error: null
             }
         }
     },
@@ -5485,7 +6046,7 @@ const products = [
             basePrice: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
                 value:
@@ -5495,12 +6056,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -5536,7 +6097,7 @@ const products = [
                     'Date First Available :': 'November 22, 2004',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B00126LXNO',
-                    'Best Sellers Rank:': '#64 in Baby Powders',
+                    'Best Sellers Rank:': '#53 in Baby Powders',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -5587,6 +6148,18 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '3,468 ratings'
+                },
+                error: null
             }
         }
     },
@@ -5631,7 +6204,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -5650,7 +6223,7 @@ const products = [
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B08W5F5X6Z',
                     'Best Sellers Rank:':
-                        '#45 in Eczema, Psoriasis & Rosacea Care',
+                        '#18 in Eczema, Psoriasis & Rosacea Care',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -5701,6 +6274,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$11.29',
+                    ounce: '($11.29 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '9 ratings'
+                },
+                error: null
             }
         }
     },
@@ -5745,7 +6332,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -5763,7 +6350,7 @@ const products = [
                     'Date First Available :': 'March 1, 2021',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B08W5DTJQR',
-                    'Best Sellers Rank:': '#503 in Health Care Products',
+                    'Best Sellers Rank:': '#420 in Health Care Products',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -5814,6 +6401,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$1.29',
+                    ounce: '($1.29 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '2 ratings'
+                },
+                error: null
             }
         }
     },
@@ -5858,7 +6459,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -5877,7 +6478,7 @@ const products = [
                     'Date First Available :': 'March 1, 2021',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B08W5DK88Y',
-                    'Best Sellers Rank:': '#503 in Health Care Products',
+                    'Best Sellers Rank:': '#420 in Health Care Products',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -5928,6 +6529,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.29',
+                    ounce: '($9.29 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '10 ratings'
+                },
+                error: null
             }
         }
     },
@@ -5959,12 +6574,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -5974,7 +6589,7 @@ const products = [
             productOverview: {
                 value: {
                     Ingredients:
-                        'Corn Starch, Sodium Bicarbonate, Silica, Fragrance, Ascorbyl Pal… See more',
+                        'Corn Starch, Sodium Bicarbonate, Sil… See more',
                     Scent: 'Fresh, Clean',
                     'Item Form': 'Powder',
                     Brand: 'Gold Bond',
@@ -5998,7 +6613,7 @@ const products = [
                     'Date First Available :': 'July 24, 2015',
                     'Manufacturer :': 'Chattem Inc.',
                     'ASIN :': 'B012FUZ8NG',
-                    'Best Sellers Rank:': '#33 in Body Lotions',
+                    'Best Sellers Rank:': '#29 in Body Lotions',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -6018,6 +6633,21 @@ const products = [
                             'https://images-na.ssl-images-amazon.com/images/I/31Enu9tZAVL._AC_.jpg'
                     }
                 ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$4.79',
+                    ounce: '($0.48 / Ounce)',
+                    price_block_savings: '$2.51 (34%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '8,704 ratings'
+                },
                 error: null
             }
         }
@@ -6063,7 +6693,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6082,7 +6712,7 @@ const products = [
                     'Date First Available :': 'March 1, 2021',
                     'Manufacturer :': 'Gold Bond',
                     'ASIN :': 'B08W5FMHGG',
-                    'Best Sellers Rank:': '#894 in Bath & Bathing Accessories',
+                    'Best Sellers Rank:': '#904 in Bath & Bathing Accessories',
                     'Customer Reviews:': ''
                 },
                 error: null
@@ -6133,6 +6763,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.29',
+                    ounce: '($9.29 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '2 ratings'
+                },
+                error: null
             }
         }
     },
@@ -6162,11 +6806,11 @@ const products = [
                 error: null
             },
             sizeName: {
-                value: 'Fresh with Aloe',
+                value: '7 Ounce (Pack of 1)',
                 error: null
             },
             styleName: {
-                value: 'Talc-Free',
+                value: 'Fresh with Aloe (Talc-Free)',
                 error: null
             },
             productDescription: {
@@ -6177,7 +6821,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6246,6 +6890,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.29',
+                    ounce: '($9.29 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '11 ratings'
+                },
+                error: null
             }
         }
     },
@@ -6275,11 +6933,11 @@ const products = [
                 error: null
             },
             sizeName: {
-                value: 'Classic',
+                value: '7 Ounce (Pack of 1)',
                 error: null
             },
             styleName: {
-                value: 'Talc-Free',
+                value: 'Classic (Talc-Free)',
                 error: null
             },
             productDescription: {
@@ -6290,7 +6948,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6359,6 +7017,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$6.97',
+                    ounce: '($6.97 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '11 ratings'
+                },
+                error: null
             }
         }
     },
@@ -6390,12 +7062,12 @@ const products = [
             sizeName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value:
@@ -6405,7 +7077,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6423,7 +7095,7 @@ const products = [
                     'UPC :': '041167019153',
                     'Manufacturer :': 'AmazonUs/CHMZ7',
                     'ASIN :': 'B08R5K6P28',
-                    'Best Sellers Rank:': '#641 in Antiperspirants'
+                    'Best Sellers Rank:': '#277 in Antiperspirants'
                 },
                 error: null
             },
@@ -6473,6 +7145,18 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$16.38',
+                    ounce: '($2.34 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: null,
+                error:
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             }
         }
     },
@@ -6517,7 +7201,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6530,9 +7214,15 @@ const products = [
                 error: null
             },
             productDetails: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    'Package Dimensions :':
+                        '7.2 x 3.98 x 2.2 inches; 13.12 Ounces',
+                    'Manufacturer :': 'Gold Bond',
+                    'ASIN :': 'B08W5DQXW9',
+                    'Best Sellers Rank:': '#3 in Foot Odor Control Powders',
+                    'Customer Reviews:': ''
+                },
+                error: null
             },
             images: {
                 value: [
@@ -6580,6 +7270,21 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$5.94',
+                    ounce: '($5.94 / Count)',
+                    price_block_savings: '$6.35 (52%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '11 ratings'
+                },
+                error: null
             }
         }
     },
@@ -6624,7 +7329,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6693,6 +7398,20 @@ const products = [
                     }
                 ],
                 error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$5.59',
+                    ounce: '($5.59 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '11 ratings'
+                },
+                error: null
             }
         }
     },
@@ -6722,11 +7441,11 @@ const products = [
                 error: null
             },
             sizeName: {
-                value: 'Fresh',
+                value: '7 Ounce (Pack of 1)',
                 error: null
             },
             styleName: {
-                value: 'Talc-Free',
+                value: 'Fresh (Talc-Free)',
                 error: null
             },
             productDescription: {
@@ -6737,7 +7456,7 @@ const products = [
             productOverview: {
                 value: null,
                 error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6805,6 +7524,20 @@ const products = [
                             'https://images-na.ssl-images-amazon.com/images/I/813VwFot6LL._SY355_.jpg'
                     }
                 ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$12.29',
+                    ounce: '($12.29 / Count)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '11 ratings'
+                },
                 error: null
             }
         }
