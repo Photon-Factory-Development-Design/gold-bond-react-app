@@ -27,11 +27,14 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                             item
                             xs={12}
                             md={3}>
-                            <Button
-                                onClick={() => onSelectQuestion(index)}
-                                fullWidth>
-                                {question.question}
-                            </Button>
+                            <Box p={1} height="100%">
+                                <Button
+                                    style={{ height: '100%'}}
+                                    onClick={() => onSelectQuestion(index)}
+                                    fullWidth>
+                                    {question.question}
+                                </Button>
+                            </Box>
                         </Grid>
                     ))}
             </Grid>

@@ -57,6 +57,9 @@ const QuizContainer = React.forwardRef((props, ref) => {
             return newStep;
         });
 
+        setSteps((prev) => prev.slice(0, step + 1));
+        setStepperStep(step);
+
         // clear asins
         setAsins(DefaultAsins);
     };

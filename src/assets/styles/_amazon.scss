@@ -25,3 +25,21 @@ button::active {
 .product-image img {
     max-width: unset !important;
 }
+
+.adt-product-details{
+    width: 100% !important;
+    overflow: auto;
+}
+
+.a-unordered-list li, ul li {
+    list-style: none !important;
+}
+
+.react-multiple-carousel__arrow {
+    background: transparent !important;
+}
+
+.react-multiple-carousel__arrow::before {
+    color: #C49C57 !important;
+    font-size: 20px;
+}

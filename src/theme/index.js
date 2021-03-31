@@ -2,7 +2,9 @@ import { createMuiTheme } from '@material-ui/core';
 import typography from './typography';
 import palette from './palette';
 
-console.log(typography);
+const defaultTheme = createMuiTheme();
+const { breakpoints } = defaultTheme;
+
 const Theme = createMuiTheme({
     typography,
     palette,
@@ -12,6 +14,17 @@ const Theme = createMuiTheme({
         }
     },
     overrides: {
+        MuiTypography: {
+            h1: {
+                fontSize: '5rem',
+                [breakpoints.down('xs')]: {
+                    fontSize: '3rem'
+                },
+                [breakpoints.down('xs')]: {
+                    fontSize: '3rem'
+                }
+            }
+        },
         MuiButton: {
             root: {
                 borderRadius: '0px',

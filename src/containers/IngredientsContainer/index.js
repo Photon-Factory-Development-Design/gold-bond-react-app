@@ -1,7 +1,15 @@
 import React from 'react';
-import { Container, Box } from '@material-ui/core';
+import {
+    Container,
+    Box
+    //IconButton
+} from '@material-ui/core';
 import { BackgroundContainer, Typography } from '../../components';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import ingredients from './ingredients';
+// import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+// import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 
 const IngredientItem = ({ url, label }) => (
     <Box m={2}>
@@ -24,9 +32,43 @@ const IngredientItem = ({ url, label }) => (
         </BackgroundContainer>
     </Box>
 );
-const IngrdientsContainer = () => {
+
+/*
+const CustomRightArrow = ({ onClick }) => {
+    // onMove means if dragging or swiping in progress.
     return (
-        <BackgroundContainer color="primary" vertical="8">
+        <IconButton onClick={() => onClick()} >
+            <ChevronRightIcon size={12} />
+        </IconButton>
+    );
+};
+*/
+
+const responsive = {
+    superLargeDesktop: {
+        breakpoint: {
+            max: 4000,
+            min: 3000
+        },
+        items: 5
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 4
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1
+    }
+};
+const IngrdientsContainer = () => {
+    console.log(ingredients);
+    return (
+        <BackgroundContainer color="primary">
             <Box py={2}>
                 <Typography color="primary" variant="h2" align="center">
                     THE BEST & NATURAL INGREDIENTS
@@ -42,19 +84,17 @@ const IngrdientsContainer = () => {
                     skin.
                 </Typography>
 
-                <Box
-                    display="flex"
-                    flexDirection="row"
-                    width="100%"
-                    flexWrap="wrap"
-                    mt={2}>
+                <Carousel
+                    responsive={responsive}
+                    //customRightArrow={<CustomRightArrow />}
+                >
                     {ingredients.map((ingredient, index) => (
                         <IngredientItem
                             key={`ingredient-item-${index}`}
                             {...ingredient}
                         />
                     ))}
-                </Box>
+                </Carousel>
             </Container>
         </BackgroundContainer>
     );

@@ -24,12 +24,13 @@ const QuestionContainer = ({ onUpdateQuestion }) => {
                     md={3}>
                     <Button
                         onClick={() => onSelectQuestion(question.value)}
-                        fullWidth
-                        color={
-                            selectedQuestion === question.value
-                                ? 'primary'
-                                : 'default'
-                        }>
+                        style={{
+                            width: 50,
+                            height: 50,
+                            border: '2px solid #C49C57',
+                            borderRadius: 5,
+                            background: 'transparent'
+                        }}>
                         {question.label}
                     </Button>
                 </Grid>
