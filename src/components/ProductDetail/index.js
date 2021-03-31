@@ -118,7 +118,7 @@ const ProductDetail = React.forwardRef(
                                     style={{ width: '100%' }}>
                                     <span className="a-button-inner">
                                         <i className="a-icon a-icon-cart"></i>
-                                        <Link 
+                                        <Link
                                             href="123"
                                             asin={asin}
                                             className="a-button-text"

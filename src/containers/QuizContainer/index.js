@@ -2,13 +2,14 @@ import React from 'react';
 import { Container, Box } from '@material-ui/core';
 import { BackgroundContainer, Typography, Stepper, Carousel } from 'components';
 import ProductContainer from './ProductContainer';
-import { getQuestion } from 'common/constant/questions';
+import { getQuestion, checkYesNoQuestion } from 'common/constant/questions';
 import { defaultAsins as DefaultAsins } from 'common/data/products';
 
 const QuizContainer = React.forwardRef((props, ref) => {
     const [questionPath, setQuestionPath] = React.useState([0]);
     const [activeStep, setActiveStep] = React.useState(0);
-    const [steps, setSteps] = React.useState(['TREATS']);
+    const [stepperStep, setStepperStep] = React.useState(0);
+    const [steps, setSteps] = React.useState(['PRODUCTS']);
     const [asins, setAsins] = React.useState(DefaultAsins);
 
     const onSelectQuestion = (index) => {
@@ -16,29 +17,45 @@ const QuizContainer = React.forwardRef((props, ref) => {
             questionPath.slice(0, activeStep + 1),
             index
         );
-        const quesitonItem = getQuestion(newQuestionPath, activeStep + 1);
+        const questionItem = getQuestion(newQuestionPath, activeStep + 1);
 
-        if (quesitonItem.questions) {
+        if (questionItem.questions) {
             setQuestionPath(newQuestionPath);
             setActiveStep((prev) => prev + 1);
+            if (!checkYesNoQuestion(questionItem)) {
+                let newSteps = [];
+                for (var i = 0; i <= activeStep + 1; i++) {
+                    const questionItem = getQuestion(newQuestionPath, i);
+                    if (!checkYesNoQuestion(questionItem)) {
+                        newSteps.push(questionItem.label);
+                    }
+                }
 
-            let newSteps = [];
-            for (var i = 0; i <= activeStep + 1; i++) {
-                const quesitonItem = getQuestion(newQuestionPath, i);
-                newSteps.push(quesitonItem.label);
+                setSteps(newSteps);
+                setStepperStep(newSteps.length - 1);
             }
-
-            setSteps(newSteps);
             // clear up asins
             setAsins(DefaultAsins);
         } else {
             // show asins
-            setAsins(quesitonItem.ASINS);
+            setAsins(questionItem.ASINS);
         }
     };
 
     const onUpdateStep = (step) => {
-        setActiveStep(step);
+        setActiveStep(() => {
+            let i = 0,
+                newStep = 0;
+            while (i < step) {
+                newStep++;
+                const questionItem = getQuestion(questionPath, newStep);
+                if (!checkYesNoQuestion(questionItem)) {
+                    i++;
+                }
+            }
+
+            return newStep;
+        });
 
         // clear asins
         setAsins(DefaultAsins);
@@ -53,7 +70,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
 
                 <Stepper
                     steps={steps}
-                    activeStep={activeStep}
+                    activeStep={stepperStep}
                     onUpdateIndex={onUpdateStep}
                 />
                 <Carousel

@@ -1,7 +1,7 @@
 const questions = {
     questions: [
         {
-            label: 'TREATS',
+            label: 'PRODUCTS',
             questions: [
                 {
                     question: 'Aiging Skin',
@@ -387,6 +387,15 @@ export const getQuestion = (questionPath, index) => {
     }
 
     return currentQuestions;
+};
+
+
+export const checkYesNoQuestion = (question) => {
+    return (
+        question.questions.length === 2 &&
+        question.questions[0].question === 'Yes' &&
+        question.questions[1].question === 'No'
+    );
 };
 
 export default questions;
