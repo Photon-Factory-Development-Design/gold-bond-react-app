@@ -11,26 +11,25 @@ import ingredients from './ingredients';
 // import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 // import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 
-const IngredientItem = ({ url, label }) => (
-    <Box m={2}>
-        <BackgroundContainer color="secondary">
-            <Box
-                width={150}
-                height={170}
-                display="flex"
-                flexDirection="column"
-                justifyContent="center"
-                alignItems="center"
-                p={2}>
-                <img src={url} height="50" alt="ingredient" />
-                <Box py={2}>
-                    <Typography variant="body1" align="center" color="primary">
-                        <Box fontWeight={900}>{label}</Box>
-                    </Typography>
-                </Box>
+export const IngredientItem = ({ url, label, onClick }) => (
+    <BackgroundContainer color="secondary">
+        <Box
+            onClick={onClick}
+            width={150}
+            height={170}
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+            p={2}>
+            <img src={url} height="50" alt="ingredient" />
+            <Box py={2}>
+                <Typography variant="body1" align="center" color="primary">
+                    <Box fontWeight={900}>{label}</Box>
+                </Typography>
             </Box>
-        </BackgroundContainer>
-    </Box>
+        </Box>
+    </BackgroundContainer>
 );
 
 /*

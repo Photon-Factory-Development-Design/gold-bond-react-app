@@ -1,373 +1,445 @@
+import { base_url } from 'common/constant';
+
 const questions = {
     questions: [
         {
-            label: 'PRODUCTS',
             questions: [
                 {
-                    question: 'Aiging Skin',
-                    label: 'Product Category',
+                    label: 'Skin Concern',
+                    icon: `${base_url}/assets/images/skin-concern.svg`,
                     questions: [
                         {
-                            question: 'Body',
-                            label: 'PRODUCT BENEFIT',
+                            question: 'Aiging Skin',
+                            label: 'Product Category',
                             questions: [
                                 {
-                                    question: 'Minimizes Dark Spots',
-                                    ASINS: ['B015HRFXKM']
+                                    question: 'Body',
+                                    label: 'PRODUCT BENEFIT',
+                                    questions: [
+                                        {
+                                            question: 'Minimizes Dark Spots',
+                                            ASINS: ['B015HRFXKM']
+                                        },
+                                        {
+                                            question: 'Firms Skin',
+                                            ASINS: ['B00TZ8TH9I']
+                                        },
+                                        {
+                                            question: 'Improves Crepey Skin',
+                                            ASINS: ['B08CJ74R3S']
+                                        }
+                                    ]
                                 },
                                 {
-                                    question: 'Firms Skin',
-                                    ASINS: ['B00TZ8TH9I']
-                                },
-                                {
-                                    question: 'Improves Crepey Skin',
-                                    ASINS: ['B08CJ74R3S']
+                                    question: 'Neck & Chest',
+                                    label: 'CONTAINS SPF',
+                                    questions: [
+                                        {
+                                            question: 'Yes',
+                                            ASINS: ['B07W8Z1TY7']
+                                        },
+                                        {
+                                            question: 'No',
+                                            ASINS: ['B01B5D3VOC']
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            question: 'Neck & Chest',
-                            label: 'CONTAINS SPF',
-                            questions: [
-                                { question: 'Yes', ASINS: ['B07W8Z1TY7'] },
-                                { question: 'No', ASINS: ['B01B5D3VOC'] }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    question: 'Antiseptic, disinfectant',
-                    ASINS: ['B08NQH1Z66']
-                },
-                {
-                    question: 'Cracked skin',
-                    label: 'Product Category',
-                    questions: [
-                        {
-                            question: 'Hands',
-                            ASINS: ['B07JBLZ62H']
+                            question: 'Antiseptic, disinfectant',
+                            ASINS: ['B08NQH1Z66']
                         },
                         {
-                            question: 'Feet',
-                            ASINS: ['B08TPGYM4L']
-                        }
-                    ]
-                },
-                {
-                    question: 'Daily friction',
-                    ASINS: ['B007VC9DKI']
-                },
-                {
-                    question: 'Dry Skin',
-                    label: 'ARE YOU DIABETIC?',
-                    questions: [
-                        {
-                            question: 'Yes',
-                            label: 'PRODUCT CATEGORY',
+                            question: 'Cracked skin',
+                            label: 'Product Category',
                             questions: [
                                 {
-                                    question: 'Body',
-                                    ASINS: ['B00OCN96FQ']
+                                    question: 'Hands',
+                                    ASINS: ['B07JBLZ62H']
                                 },
-                                { question: 'Feet', ASINS: ['B00AHH00O2'] },
-                                { question: 'Hands', ASINS: ['B00OCN97DW'] }
+                                {
+                                    question: 'Feet',
+                                    ASINS: ['B08TPGYM4L']
+                                }
                             ]
                         },
                         {
-                            question: 'No',
-                            label: 'SPECIALLY FOR MEN',
+                            question: 'Daily friction',
+                            ASINS: ['B007VC9DKI']
+                        },
+                        {
+                            question: 'Dry Skin',
+                            label: 'ARE YOU DIABETIC?',
                             questions: [
                                 {
                                     question: 'Yes',
-                                    label: 'PRODUCT BENEFIT',
+                                    label: 'PRODUCT CATEGORY',
                                     questions: [
                                         {
-                                            question: 'Everyday Hydration',
-                                            ASINS: [
-                                                'B00OW9OTN4',
-                                                'B00AHH00MO',
-                                                'B00AHH00R4'
-                                            ]
+                                            question: 'Body',
+                                            ASINS: ['B00OCN96FQ']
                                         },
                                         {
-                                            question: 'Intensive Therapy',
-                                            ASINS: ['B013KPK71I']
+                                            question: 'Feet',
+                                            ASINS: ['B00AHH00O2']
+                                        },
+                                        {
+                                            question: 'Hands',
+                                            ASINS: ['B00OCN97DW']
                                         }
                                     ]
                                 },
                                 {
                                     question: 'No',
-                                    label: 'PRODUCT CATEGORY',
+                                    label: 'SPECIALLY FOR MEN',
                                     questions: [
                                         {
-                                            question: 'Face, Neck & Chest',
-                                            ASINS: ['B074KM543R']
-                                        },
-                                        {
-                                            question: 'Body',
-                                            label: 'PRODUCT FORM',
+                                            question: 'Yes',
+                                            label: 'PRODUCT BENEFIT',
                                             questions: [
                                                 {
-                                                    question: 'Cream Oil',
-                                                    ASINS: ['B07WLNN8RQ']
+                                                    question:
+                                                        'Everyday Hydration',
+                                                    ASINS: [
+                                                        'B00OW9OTN4',
+                                                        'B00AHH00MO',
+                                                        'B00AHH00R4'
+                                                    ]
                                                 },
                                                 {
-                                                    question: 'Lotion',
-                                                    label: 'PRODUCT BENEFIT',
+                                                    question:
+                                                        'Intensive Therapy',
+                                                    ASINS: ['B013KPK71I']
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            question: 'No',
+                                            label: 'PRODUCT CATEGORY',
+                                            questions: [
+                                                {
+                                                    question:
+                                                        'Face, Neck & Chest',
+                                                    ASINS: ['B074KM543R']
+                                                },
+                                                {
+                                                    question: 'Body',
+                                                    label: 'PRODUCT FORM',
                                                     questions: [
                                                         {
                                                             question:
-                                                                'Exfoilates, hydrates, and locks in moisture',
+                                                                'Cream Oil',
                                                             ASINS: [
-                                                                'B07L9RTWRS',
-                                                                'B074MFDJRG'
+                                                                'B07WLNN8RQ'
                                                             ]
                                                         },
                                                         {
-                                                            question:
-                                                                'Intensely hydrates',
+                                                            question: 'Lotion',
                                                             label:
-                                                                'FRAGANCE FREE',
+                                                                'PRODUCT BENEFIT',
                                                             questions: [
                                                                 {
                                                                     question:
-                                                                        'Yes',
+                                                                        'Exfoilates, hydrates, and locks in moisture',
                                                                     ASINS: [
-                                                                        'B00H35BV2G'
+                                                                        'B07L9RTWRS',
+                                                                        'B074MFDJRG'
                                                                     ]
                                                                 },
                                                                 {
                                                                     question:
-                                                                        'No',
+                                                                        'Intensely hydrates',
+                                                                    label:
+                                                                        'FRAGANCE FREE',
+                                                                    questions: [
+                                                                        {
+                                                                            question:
+                                                                                'Yes',
+                                                                            ASINS: [
+                                                                                'B00H35BV2G'
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            question:
+                                                                                'No',
+                                                                            ASINS: [
+                                                                                'B008B9L6WS',
+                                                                                'B001QFDTWO'
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    question:
+                                                                        'Lightweight hydration',
                                                                     ASINS: [
-                                                                        'B008B9L6WS',
-                                                                        'B001QFDTWO'
+                                                                        'B006TCTAEA'
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    question:
+                                                                        'Overnight hydration',
+                                                                    ASINS: [
+                                                                        'B07GVPCGJK'
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    question:
+                                                                        'Revitalizing',
+                                                                    ASINS: [
+                                                                        'B00182ERTO'
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    question:
+                                                                        'Softening',
+                                                                    ASINS: [
+                                                                        'B00NNIOU48',
+                                                                        'B00OW9OU2O',
+                                                                        'B001G8Y9VG'
                                                                     ]
                                                                 }
                                                             ]
                                                         },
                                                         {
                                                             question:
-                                                                'Lightweight hydration',
+                                                                'Whipped Butter',
                                                             ASINS: [
-                                                                'B006TCTAEA'
-                                                            ]
-                                                        },
-                                                        {
-                                                            question:
-                                                                'Overnight hydration',
-                                                            ASINS: [
-                                                                'B07GVPCGJK'
-                                                            ]
-                                                        },
-                                                        {
-                                                            question:
-                                                                'Revitalizing',
-                                                            ASINS: [
-                                                                'B00182ERTO'
-                                                            ]
-                                                        },
-                                                        {
-                                                            question:
-                                                                'Softening',
-                                                            ASINS: [
-                                                                'B00NNIOU48',
-                                                                'B00OW9OU2O',
-                                                                'B001G8Y9VG'
+                                                                'B074KM543R'
                                                             ]
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    question: 'Whipped Butter',
-                                                    ASINS: ['B074KM543R']
+                                                    question: 'Feet',
+                                                    label: 'PRODUCT BENEFIT',
+                                                    questions: [
+                                                        {
+                                                            question:
+                                                                'Exfoliates & hydrates',
+                                                            ASINS: [
+                                                                'B06VVP4CLP'
+                                                            ]
+                                                        },
+                                                        {
+                                                            question:
+                                                                'Intensely hydrates',
+                                                            ASINS: [
+                                                                'B001MIZMIE'
+                                                            ]
+                                                        },
+                                                        {
+                                                            question: 'Softens',
+                                                            ASINS: [
+                                                                'B0073E7JFK'
+                                                            ]
+                                                        },
+                                                        {
+                                                            question:
+                                                                'Soothes & cools',
+                                                            ASINS: [
+                                                                'B001ET78HY'
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    question: 'Hands',
+                                                    label: 'CONTAINS SPF',
+                                                    questions: [
+                                                        {
+                                                            question: 'Yes',
+                                                            ASINS: [
+                                                                'B08CJ2S9HJ'
+                                                            ]
+                                                        },
+                                                        {
+                                                            question: 'No',
+                                                            ASINS: [
+                                                                'B00A8S6HM4'
+                                                            ]
+                                                        }
+                                                    ]
                                                 }
                                             ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            question: 'Eczema prone skin',
+                            label: 'PRODUCT CATEGORY',
+                            questions: [
+                                {
+                                    question: 'Body',
+                                    label: 'PRODUCT FORM',
+                                    questions: [
+                                        {
+                                            question: 'Cream',
+                                            ASINS: ['B00WVHRE7W']
                                         },
                                         {
-                                            question: 'Feet',
-                                            label: 'PRODUCT BENEFIT',
-                                            questions: [
-                                                {
-                                                    question:
-                                                        'Exfoliates & hydrates',
-                                                    ASINS: ['B06VVP4CLP']
-                                                },
-                                                {
-                                                    question:
-                                                        'Intensely hydrates',
-                                                    ASINS: ['B001MIZMIE']
-                                                },
-                                                {
-                                                    question: 'Softens',
-                                                    ASINS: ['B0073E7JFK']
-                                                },
-                                                {
-                                                    question: 'Soothes & cools',
-                                                    ASINS: ['B001ET78HY']
-                                                }
-                                            ]
-                                        },
+                                            question: 'Lotion',
+                                            ASINS: ['B00OW9OTMK', 'B00GIHMOGW']
+                                        }
+                                    ]
+                                },
+                                {
+                                    question: 'Hands',
+                                    ASINS: ['B015SCP3A6']
+                                }
+                            ]
+                        },
+                        {
+                            question: 'Itchy skin',
+                            label: 'PRODUCT BENEFIT',
+                            questions: [
+                                {
+                                    question: 'Numbs away pain & itch',
+                                    ASINS: ['B00P2V1CDG']
+                                },
+                                {
+                                    question: 'Relieves intense pain & itch',
+                                    ASINS: []
+                                },
+                                {
+                                    question: 'Relieves extra dry, itchy skin',
+                                    ASINS: ['B003QB26MA']
+                                },
+                                {
+                                    question: 'Relieves intense itch',
+                                    ASINS: []
+                                }
+                            ]
+                        },
+                        {
+                            question: 'Psoriasis prone skin',
+                            ASINS: ['B01KVU94VY']
+                        },
+                        {
+                            question: 'Rough & bumpy skin',
+                            ASINS: ['B00MMKAM5E']
+                        },
+                        {
+                            question: 'Sweat & odor',
+                            label: 'PRODUCT CATEGORY',
+                            questions: [
+                                {
+                                    question: 'Body',
+                                    label: 'PRODUCT FORM',
+                                    questions: [
                                         {
-                                            question: 'Hands',
-                                            label: 'CONTAINS SPF',
+                                            question: 'Powder',
+                                            label: 'SPECIFICALLY FOR MEN',
                                             questions: [
                                                 {
                                                     question: 'Yes',
-                                                    ASINS: ['B08CJ2S9HJ']
+                                                    ASINS: ['B08W5GNXBG']
                                                 },
                                                 {
                                                     question: 'No',
-                                                    ASINS: ['B00A8S6HM4']
+                                                    label: 'PRODUCT BENEFIT',
+                                                    questions: [
+                                                        {
+                                                            question:
+                                                                'Baby Powder',
+                                                            ASINS: [
+                                                                'B00126LXNO'
+                                                            ]
+                                                        },
+                                                        {
+                                                            question:
+                                                                'Medicated Extra Strength',
+                                                            ASINS: [
+                                                                'B08W5F5X6Z'
+                                                            ]
+                                                        },
+                                                        {
+                                                            question:
+                                                                'Medicated Original Strength',
+                                                            ASINS: [
+                                                                'B08W5DTJQR',
+                                                                'B08W5DK88Y'
+                                                            ]
+                                                        },
+                                                        {
+                                                            question:
+                                                                'Non-Medicated',
+                                                            ASINS: [
+                                                                'B012FUZ8NG'
+                                                            ]
+                                                        }
+                                                    ]
                                                 }
                                             ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    question: 'Eczema prone skin',
-                    label: 'PRODUCT CATEGORY',
-                    questions: [
-                        {
-                            question: 'Body',
-                            label: 'PRODUCT FORM',
-                            questions: [
-                                {
-                                    question: 'Cream',
-                                    ASINS: ['B00WVHRE7W']
-                                },
-                                {
-                                    question: 'Lotion',
-                                    ASINS: ['B00OW9OTMK', 'B00GIHMOGW']
-                                }
-                            ]
-                        },
-                        {
-                            question: 'Hands',
-                            ASINS: ['B015SCP3A6']
-                        }
-                    ]
-                },
-                {
-                    question: 'Itchy skin',
-                    label: 'PRODUCT BENEFIT',
-                    questions: [
-                        {
-                            question: 'Numbs away pain & itch',
-                            ASINS: ['B00P2V1CDG']
-                        },
-                        {
-                            question: 'Relieves intense pain & itch',
-                            ASINS: []
-                        },
-                        {
-                            question: 'Relieves extra dry, itchy skin',
-                            ASINS: ['B003QB26MA']
-                        },
-                        {
-                            question: 'Relieves intense itch',
-                            ASINS: []
-                        }
-                    ]
-                },
-                {
-                    question: 'Psoriasis prone skin',
-                    ASINS: ['B01KVU94VY']
-                },
-                { question: 'Rough & bumpy skin', ASINS: ['B00MMKAM5E'] },
-                {
-                    question: 'Sweat & odor',
-                    label: 'PRODUCT CATEGORY',
-                    questions: [
-                        {
-                            question: 'Body',
-                            label: 'PRODUCT FORM',
-                            questions: [
-                                {
-                                    question: 'Powder',
-                                    label: 'SPECIFICALLY FOR MEN',
-                                    questions: [
-                                        {
-                                            question: 'Yes',
-                                            ASINS: ['B08W5GNXBG']
                                         },
                                         {
-                                            question: 'No',
-                                            label: 'PRODUCT BENEFIT',
+                                            question: 'Powder Spray',
+                                            label: 'SPECIFICALLY FOR MEN',
                                             questions: [
                                                 {
-                                                    question: 'Baby Powder',
-                                                    ASINS: ['B00126LXNO']
-                                                },
-                                                {
-                                                    question:
-                                                        'Medicated Extra Strength',
-                                                    ASINS: ['B08W5F5X6Z']
-                                                },
-                                                {
-                                                    question:
-                                                        'Medicated Original Strength',
+                                                    question: 'Yes',
                                                     ASINS: [
-                                                        'B08W5DTJQR',
-                                                        'B08W5DK88Y'
+                                                        'B08W5FMHGG',
+                                                        'B08W5DP75X'
                                                     ]
                                                 },
                                                 {
-                                                    question: 'Non-Medicated',
-                                                    ASINS: ['B012FUZ8NG']
+                                                    question: 'No',
+                                                    label: 'PRODUCT BENEFIT',
+                                                    questions: [
+                                                        {
+                                                            question:
+                                                                'No-mess spray',
+                                                            ASINS: [
+                                                                'B08W5F2H15',
+                                                                'B08W5FL1BT'
+                                                            ]
+                                                        },
+                                                        {
+                                                            question:
+                                                                'Sprays on clear',
+                                                            ASINS: [
+                                                                'B08R5K6P28'
+                                                            ]
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         }
                                     ]
                                 },
                                 {
-                                    question: 'Powder Spray',
-                                    label: 'SPECIFICALLY FOR MEN',
+                                    question: 'Foot',
+                                    label: 'PRODUCT FORM',
                                     questions: [
                                         {
-                                            question: 'Yes',
-                                            ASINS: ['B08W5FMHGG', 'B08W5DP75X']
+                                            question: 'Powder',
+                                            ASINS: ['B08W5DQXW9']
                                         },
                                         {
-                                            question: 'No',
-                                            label: 'PRODUCT BENEFIT',
-                                            questions: [
-                                                {
-                                                    question: 'No-mess spray',
-                                                    ASINS: [
-                                                        'B08W5F2H15',
-                                                        'B08W5FL1BT'
-                                                    ]
-                                                },
-                                                {
-                                                    question: 'Sprays on clear',
-                                                    ASINS: ['B08R5K6P28']
-                                                }
-                                            ]
+                                            question: 'Powder Spray',
+                                            ASINS: ['B08W69NCD7']
                                         }
                                     ]
-                                }
-                            ]
-                        },
-                        {
-                            question: 'Foot',
-                            label: 'PRODUCT FORM',
-                            questions: [
-                                {
-                                    question: 'Powder',
-                                    ASINS: ['B08W5DQXW9']
-                                },
-                                {
-                                    question: 'Powder Spray',
-                                    ASINS: ['B08W69NCD7']
                                 }
                             ]
                         }
                     ]
+                },
+                {
+                    label: 'Hand Sanitizer',
+                    icon: `${base_url}/assets/images/hand-sanitizer.svg`
+                },
+                {
+                    label: 'Anti-Chafing',
+                    icon: `${base_url}/assets/images/anti-chafing.svg`
+                },
+                {
+                    label: 'Powder/Spray',
+                    icon: `${base_url}/assets/images/powder-spray.svg`
                 }
             ]
         }
@@ -388,7 +460,6 @@ export const getQuestion = (questionPath, index) => {
 
     return currentQuestions;
 };
-
 
 export const checkYesNoQuestion = (question) => {
     return (

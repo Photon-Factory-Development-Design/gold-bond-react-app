@@ -3,12 +3,15 @@ import { Grid, Button, Box } from '@material-ui/core';
 import MuiCarousel from 'react-material-ui-carousel';
 import { getQuestion, checkYesNoQuestion } from 'common/constant/questions';
 import { Typography } from 'components';
+import { IngredientItem } from 'containers/IngredientsContainer';
 
 const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
     const itemQuestion = React.useMemo(() => getQuestion(questionPath, index), [
         questionPath,
         index
     ]);
+
+    console.log(itemQuestion);
 
     return (
         <Box>
@@ -27,13 +30,26 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                             item
                             xs={12}
                             md={3}>
-                            <Box p={1} height="100%">
-                                <Button
-                                    style={{ height: '100%'}}
-                                    onClick={() => onSelectQuestion(index)}
-                                    fullWidth>
-                                    {question.question}
-                                </Button>
+                            <Box
+                                p={1}
+                                height="100%"
+                                display="flex"
+                                flexDirection="column"
+                                alignItems="center">
+                                {question.icon ? (
+                                    <IngredientItem
+                                        onClick={() => onSelectQuestion(index)}
+                                        url={question.icon}
+                                        label={question.label}
+                                    />
+                                ) : (
+                                    <Button
+                                        style={{ height: '100%' }}
+                                        onClick={() => onSelectQuestion(index)}
+                                        fullWidth>
+                                        {question.question}
+                                    </Button>
+                                )}
                             </Box>
                         </Grid>
                     ))}
