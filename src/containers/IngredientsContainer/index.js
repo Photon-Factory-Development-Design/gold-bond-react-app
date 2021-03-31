@@ -13,20 +13,22 @@ import ingredients from './ingredients';
 
 export const IngredientItem = ({ url, label, onClick }) => (
     <BackgroundContainer color="secondary">
-        <Box
-            onClick={onClick}
-            width={150}
-            height={170}
-            display="flex"
-            flexDirection="column"
-            justifyContent="center"
-            alignItems="center"
-            p={2}>
-            <img src={url} height="50" alt="ingredient" />
-            <Box py={2}>
-                <Typography variant="body1" align="center" color="primary">
-                    <Box fontWeight={900}>{label}</Box>
-                </Typography>
+        <Box display="flex" flexDirection="column" alignItems="center">
+            <Box
+                onClick={onClick}
+                width={150}
+                height={170}
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                p={2}>
+                <img src={url} height="50" alt="ingredient" />
+                <Box py={2}>
+                    <Typography variant="body1" align="center" color="primary">
+                        <Box fontWeight={900}>{label}</Box>
+                    </Typography>
+                </Box>
             </Box>
         </Box>
     </BackgroundContainer>
