@@ -17,21 +17,25 @@ const HeaderContainer = styled(Box)`
     position: relative;
 `;
 
-const HeaderTitleContainer = styled(Box)`
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    position: absolute;
-`;
+const HeaderTitleContainer = styled(Box)``;
 const Header = ({ onClickQuiz }) => (
-    <HeaderContainer>
-        <Box pt={4} display="flex" flexDirection="row" justifyContent="center">
-            <Logo />
-        </Box>
+    <HeaderContainer
+        display="flex"
+        flexDirection="row"
+        justifyContent="flex-end"
+        alignItems="center">
         <HeaderTitleContainer
             display="flex"
             flexDirection="column"
-            alignItems="center">
+            alignItems="center" pr={8} mr={8}>
+            <Box
+                pt={4}
+                pb={1}
+                display="flex"
+                flexDirection="row"
+                justifyContent="center">
+                <Logo />
+            </Box>
             <Typography align="center" variant="h1" color="primary">
                 FIND THE RIGHT GOLD BOND <br />
                 PRODUCT FOR YOU

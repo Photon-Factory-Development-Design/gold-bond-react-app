@@ -31,17 +31,20 @@ export default (link) => {
         case 'tab':
             newNode.setAttribute('target', '_blank');
             newNode.addEventListener('click', async () => {
+                console.log('123');
                 await addDiscount(newNode);
             });
             break;
         case 'window':
             newNode.addEventListener('click', async (event) => {
+                console.log('123');
                 await addDiscount(newNode);
                 addToCartInNewWindow(event, link);
             });
             break;
         case 'background':
             newNode.addEventListener('click', async (event) => {
+                console.log('123');
                 await addDiscount(newNode);
                 addToCartInBackground(event, link);
             });

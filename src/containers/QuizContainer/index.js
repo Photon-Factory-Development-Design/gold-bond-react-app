@@ -1,14 +1,15 @@
 import React from 'react';
-import { Container } from '@material-ui/core';
+import { Container, Box } from '@material-ui/core';
 import { BackgroundContainer, Typography, Stepper, Carousel } from 'components';
 import ProductContainer from './ProductContainer';
 import { getQuestion } from 'common/constant/questions';
+import { defaultAsins as DefaultAsins } from 'common/data/products';
 
 const QuizContainer = React.forwardRef((props, ref) => {
     const [questionPath, setQuestionPath] = React.useState([0]);
     const [activeStep, setActiveStep] = React.useState(0);
     const [steps, setSteps] = React.useState(['TREATS']);
-    const [asins, setAsins] = React.useState([]);
+    const [asins, setAsins] = React.useState(DefaultAsins);
 
     const onSelectQuestion = (index) => {
         const newQuestionPath = [].concat(
@@ -29,7 +30,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
 
             setSteps(newSteps);
             // clear up asins
-            setAsins([]);
+            setAsins(DefaultAsins);
         } else {
             // show asins
             setAsins(quesitonItem.ASINS);
@@ -40,7 +41,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
         setActiveStep(step);
 
         // clear asins
-        setAsins([]);
+        setAsins(DefaultAsins);
     };
 
     return (
@@ -61,9 +62,26 @@ const QuizContainer = React.forwardRef((props, ref) => {
                     activeIndex={activeStep}
                     onSelectQuestion={onSelectQuestion}
                 />
-
-                <ProductContainer asins={asins} />
             </Container>
+
+            <Box
+                className="adt-results"
+                bgcolor="background.primary"
+                mt={2}
+                pb={6}
+                pt={5}>
+                <Box mt={5}>
+                    <Typography variant="h2">RECOMMENDED FOR YOU</Typography>
+                </Box>
+                <Box my={2} mt={4}>
+                    <Container>
+                        <ProductContainer
+                            setDetailProduct={props.setDetailProduct}
+                            asins={asins}
+                        />
+                    </Container>
+                </Box>
+            </Box>
         </BackgroundContainer>
     );
 });

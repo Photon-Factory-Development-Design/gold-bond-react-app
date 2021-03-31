@@ -18,9 +18,11 @@ export default async (link) => {
 
     let newLink = await buildLink(
         link,
-        getCookie('session-id'),
+        getCookie('session-id') || '146-2888386-4482743',
         offerings || []
     );
+
+    console.log('newLink', newLink);
 
     if (newLink !== link.href) {
         link.href = newLink;

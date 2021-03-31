@@ -7544,4 +7544,6 @@ const products = [
     }
 ];
 
+
+export const defaultAsins = products.slice(0, 8).map(obj => obj.data.ASIN.value);
 export default products;

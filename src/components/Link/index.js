@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
 import buildATC from 'common/helpers/buildATC';
 
 const Link = ({ children, ...props }) => {
@@ -19,7 +18,7 @@ const Link = ({ children, ...props }) => {
 
     return (
         <a data-component-type="CustomLink" ref={ref} {...props}>
-            <Button color="primary">{children}</Button>
+            {children}
         </a>
     );
 };

@@ -1,12 +1,15 @@
 import React from 'react';
 import Price from '../Price';
+import Link from '../Link';
 
 const ProductCard = ({
     ASIN: { value: asin } = { value: null },
     mainImage: { value: mainImage } = { value: null },
     productTitle: { value: productTitle } = { value: null },
     ratings: { value: ratings } = { value: {} },
-    priceDetail: { value: priceDetail }
+    priceDetail: { value: priceDetail },
+    setDetailProduct,
+    product
 }) => {
     const {
         priceblock_ourprice: priceBlockOutPrice,
@@ -20,7 +23,7 @@ const ProductCard = ({
             <div className="adt-product-asin a-size-base a-color-secondary">
                 {asin}
             </div>
-            <a href="/Dr-Scholls-Pain-Relief-Orthotics/dp/B01MG68WY1">
+            <a href={product.url}>
                 <div
                     className="adt-product-image"
                     style={{
@@ -42,7 +45,7 @@ const ProductCard = ({
                 </a>
                 <a
                     className="adt-product-title-clamped a-size-base a-link-normal a-color-base"
-                    href="/Dr-Scholls-Pain-Relief-Orthotics/dp/B01MG68WY1">
+                    href={product.url}>
                     <div className="clamp-lines ">
                         <div>{productTitle}</div>
                     </div>
@@ -51,12 +54,12 @@ const ProductCard = ({
             {rateStar && (
                 <div className="adt-product-rating">
                     <span className="aui-average-customer-reviews">
-                        <a href="/product-reviews/B01MG68WY1">
+                        <a href={`${product.url}}#customerReviews`}>
                             <i className={rateStar}></i>
                         </a>
                         <a
                             className="a-size-base a-link-normal a-color-base"
-                            href="/product-reviews/B01MG68WY1">
+                            href={`${product.url}}#customerReviews`}>
                             {acrCustomerReviewText}
                         </a>
                     </span>
@@ -73,7 +76,7 @@ const ProductCard = ({
             <div className="adt-add-to-cart">
                 <div className="aui-add-to-cart " style={{ width: '100%' }}>
                     <div className="aui-add-to-cart-messages">
-                        <div className="aui-spinner   "></div>
+                        <div className="aui-spinner"></div>
                         <span className="aui-added-to-cart-message a-button-text a-color-success">
                             <i className="a-icon a-icon-success" role="img"></i>
                             Added to Cart
@@ -86,15 +89,21 @@ const ProductCard = ({
                             className="a-button a-button-primary add-to-cart "
                             style={{ width: '100%' }}>
                             <span className="a-button-inner">
-                                <a className="a-button-text" aria-hidden="true">
+                                <Link
+                                    href="123"
+                                    asin={asin}
+                                    className="a-button-text"
+                                    aria-hidden="true">
                                     Add to Cart
-                                </a>
+                                </Link>
                             </span>
                         </span>
                     </div>
                 </div>
             </div>
-            <div className="adt-quick-look a-size-base">
+            <div
+                className="adt-quick-look a-size-base"
+                onClick={() => setDetailProduct(product)}>
                 <div className="adt-quick-look-icon a-size-base"></div>
                 Quick Look
             </div>
