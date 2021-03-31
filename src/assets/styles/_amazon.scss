@@ -21,3 +21,7 @@ button::active {
     border: 0 !important;
     outline: 0 !important;
 }
+
+.product-image img {
+    max-width: unset !important;
+}
