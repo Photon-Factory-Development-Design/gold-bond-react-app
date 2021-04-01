@@ -17,6 +17,15 @@ const HeaderContainer = styled(Box)`
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    min-height: 500px;
+
+    @media (max-width: 768px) {
+        height: 80vh;
+    }
+
+    @media (min-width: 768px) {
+        min-height: 400px;
+    }
 `;
 
 const HeaderTitleContainer = styled(Box)``;
