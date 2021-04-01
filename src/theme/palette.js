@@ -14,8 +14,9 @@ const palette = {
 
     background: {
         primary: '#F1EDEC',
+        littleDark: '#E7E0E0',
         secondary: '#fff'
     }
-}
+};
 
 export default palette;

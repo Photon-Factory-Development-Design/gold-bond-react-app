@@ -17,12 +17,15 @@ export const IngredientItem = ({ url, label, onClick }) => (
             <Box
                 onClick={onClick}
                 width={150}
-                height={170}
+                height={150}
                 display="flex"
                 flexDirection="column"
                 justifyContent="center"
                 alignItems="center"
-                p={2}>
+                bgcolor="background.littleDark"
+                borderRadius={5}
+                p={2}
+                m={2}>
                 <img src={url} height="50" alt="ingredient" />
                 <Box py={2}>
                     <Typography variant="body1" align="center" color="primary">
