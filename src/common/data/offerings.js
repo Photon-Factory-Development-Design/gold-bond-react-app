@@ -1,14 +1,14 @@
 /**
- * offerings = [
  * {
  *      asin: "1123",
+ * offerings = [
  *      offeringID,
  *      promo
  * }]
  * 
 https://www.amazon.com/gp/item-dispatch?submit.addToCart&offeringID.1=QM03rVtz1Bfkt9Lk9wXsZg1He7MYjREYkoCGlEJHooOO1m78qiJmB%2F6zZfO6jhTonzBqgH5WRgz7D6SiQBpGmx7P%2FNY4Qaavq%2BZw4xFZoLanANOOBCrCZVwrOHgx931%2Fbapp2x6Ivj2a75CaON3GtA%3D%3D
  */
-const offerings = [
+let offerings = [
     {
         url: 'https://www.amazon.com/gp/product/B015HRFXKM?th=1&psc=1',
         asin: 'B015HRFXKM',
@@ -358,5 +358,11 @@ const offerings = [
             '%2FufRFzpmKC%2F05XclwYBvpvKaXPU7QqgjBhuOGEwgeMfg4fvmR86ompNucrzxVOlxV7g0i7LyyJQVmXnsNVJmibdFniVUoDpSaU5It0VL9UrFtU%2F76z6rBUIOT1PzZgBxI7J5bOoAnrKmDhP2h9C19g%3D%3D'
     }
 ];
+
+export const findOfferingIDFromAsin = (offerings, asin) => {
+    return offerings.find((offering) => offering.asin === asin);
+};
+
+export const setOfferings = (_) => (offerings = _);
 
 export default offerings;

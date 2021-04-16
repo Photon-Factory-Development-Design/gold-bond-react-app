@@ -9,6 +9,8 @@ import {
     ProductDetailDialog
 } from 'containers';
 import './assets/styles/base.scss';
+import { db, firebase_console } from 'common/firebase';
+import { setOfferings } from 'common/data/offerings';
 
 function App() {
     const [open, setOpen] = React.useState(false);
@@ -30,6 +32,35 @@ function App() {
             setOpen(true);
         }
     }, [product]);
+
+    React.useEffect(() => {
+        console.log('App.js', db.ref);
+        firebase_console
+            .auth()
+            .signInWithEmailAndPassword(
+                'phoenix.ts1991@gmail.com',
+                'Samzu777##'
+            )
+            .then(() => {
+                db.ref(`/labvGn2UNma4bJnkLKmhTpjuyzT2/offering`).on(
+                    'value',
+                    (snapshot) => {
+                        const offerings = [];
+                        snapshot.forEach((snap) => {
+                            offerings.push({
+                                ...snap.val()
+                            });
+                        });
+
+                        console.log('offerings', offerings);
+                        setOfferings(offerings);
+                    },
+                    (error) => {
+                        console.log('error', error);
+                    }
+                );
+            });
+    }, []);
 
     return (
         <React.Fragment>

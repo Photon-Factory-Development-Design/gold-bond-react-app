@@ -110,24 +110,13 @@ const ProductDetail = React.forwardRef(
                                     Added to Cart
                                 </span>
                             </div>
-                            <div
-                                className="aui-add-to-cart-button"
-                                style={{ width: '100%;' }}>
-                                <span
-                                    className="a-button a-button-primary add-to-cart a-button-icon"
-                                    style={{ width: '100%' }}>
-                                    <span className="a-button-inner">
-                                        <i className="a-icon a-icon-cart"></i>
-                                        <Link
-                                            href="123"
-                                            asin={asin}
-                                            className="a-button-text"
-                                            aria-hidden="true">
-                                            Add to Cart
-                                        </Link>
-                                    </span>
-                                </span>
-                            </div>
+                            <Link
+                                href="123"
+                                asin={asin}
+                                className="a-button-text"
+                                aria-hidden="true">
+                                Add to Cart
+                            </Link>
                         </div>
                     </div>
                     <div className="adt-product-features">

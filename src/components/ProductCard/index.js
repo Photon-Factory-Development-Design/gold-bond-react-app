@@ -82,23 +82,13 @@ const ProductCard = ({
                             Added to Cart
                         </span>
                     </div>
-                    <div
-                        className="aui-add-to-cart-button"
-                        style={{ width: '100%' }}>
-                        <span
-                            className="a-button a-button-primary add-to-cart "
-                            style={{ width: '100%' }}>
-                            <span className="a-button-inner">
-                                <Link
-                                    href="123"
-                                    asin={asin}
-                                    className="a-button-text"
-                                    aria-hidden="true">
-                                    Add to Cart
-                                </Link>
-                            </span>
-                        </span>
-                    </div>
+                    <Link
+                        href="123"
+                        asin={asin}
+                        className="a-button-text"
+                        aria-hidden="true">
+                        Add to Cart
+                    </Link>
                 </div>
             </div>
             <div
