@@ -9,7 +9,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
     const [questionPath, setQuestionPath] = React.useState([0]);
     const [activeStep, setActiveStep] = React.useState(0);
     const [stepperStep, setStepperStep] = React.useState(0);
-    const [steps, setSteps] = React.useState(['PRODUCTS']);
+    const [steps, setSteps] = React.useState(['']);
     const [asins, setAsins] = React.useState(DefaultAsins);
 
     const onSelectQuestion = (index) => {
@@ -65,12 +65,8 @@ const QuizContainer = React.forwardRef((props, ref) => {
     };
 
     return (
-        <BackgroundContainer ref={ref} color="secondary" vertical={8}>
+        <BackgroundContainer ref={ref} color="lightDark" vertical={8}>
             <Container>
-                <Typography variant="h1" color="primary" align="center">
-                    What are you looking for?
-                </Typography>
-
                 <Stepper
                     steps={steps}
                     activeStep={stepperStep}
@@ -90,8 +86,8 @@ const QuizContainer = React.forwardRef((props, ref) => {
                 mt={2}
                 pb={6}
                 pt={5}>
-                <Box mt={5}>
-                    <Typography variant="h2">RECOMMENDED FOR YOU</Typography>
+                <Box mt={5} py={2}>
+                    <Typography variant="h3" color="darkBlue">RECOMMENDED FOR YOU</Typography>
                 </Box>
                 <Box my={2} mt={4}>
                     <Container>

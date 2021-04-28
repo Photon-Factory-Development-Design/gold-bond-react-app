@@ -16,9 +16,9 @@ const QuestionContainer = ({ onUpdateQuestion }) => {
     };
     return (
         <Grid container direction="row">
-            {questions.map((question) => (
+            {questions.map((question, index) => (
                 <Grid
-                    key={`question-item-${question.value}`}
+                    key={`question-item-${question.value || index}`}
                     item
                     xs={12}
                     md={3}>

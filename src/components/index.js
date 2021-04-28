@@ -5,3 +5,4 @@ export { default as Stepper } from './Stepper';
 export { default as Carousel } from './Carousel';
 export { default as ProductImage } from './ProductImage';
 export { default as ProductDetail } from './ProductDetail';
+export { default as QuestionItemContainer } from './QuestionItemContainer';

@@ -14,6 +14,27 @@ const Theme = createMuiTheme({
         }
     },
     overrides: {
+        MuiStepConnector: {
+            root: {
+                left: 'calc(-50% + 30px) !important',
+                right: 'calc(50% + 30px) !important'
+            }
+        },
+        MuiStepLabel: {
+            active: {
+                color: '#003D54 !important'
+            }
+        },
+        MuiStepIcon: {
+            active: {
+                color: '#003D54 !important'
+            },
+        },
+        MuiSvgIcon: {
+            root: {
+                fontSize: '60px !important'
+            }
+        },
         MuiTypography: {
             h1: {
                 fontSize: '5rem',

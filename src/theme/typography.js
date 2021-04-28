@@ -19,10 +19,14 @@ const typography = {
         fontFamily: 'ChampionFeatherweight',
         fontSize: '60px'
     },
+    h3: {
+        fontFamily: 'GothamBook',
+        fontSize: '50px'
+    },
     body1: {
         fontFamily: 'GothamBook',
         fontSize: '14px'
     }
-}
+};
 
 export default typography;

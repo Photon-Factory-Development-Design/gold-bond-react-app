@@ -1,9 +1,8 @@
 import React from 'react';
-import { Grid, Button, Box } from '@material-ui/core';
+import { Grid, Box } from '@material-ui/core';
 import MuiCarousel from 'react-material-ui-carousel';
 import { getQuestion, checkYesNoQuestion } from 'common/constant/questions';
-import { Typography } from 'components';
-import { IngredientItem } from 'containers/IngredientsContainer';
+import { Typography, QuestionItemContainer } from 'components';
 
 const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
     const itemQuestion = React.useMemo(() => getQuestion(questionPath, index), [
@@ -11,13 +10,16 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
         index
     ]);
 
-    console.log(itemQuestion);
-
     return (
         <Box>
+            <Box py={1}>
+                <Typography variant="h3" color="darkBlue" align="center">
+                    {itemQuestion.description}
+                </Typography>
+            </Box>
             {checkYesNoQuestion(itemQuestion) && (
                 <Box my={1}>
-                    <Typography align="center" variant="h2">
+                    <Typography align="center" variant="h3" color="darkBlue">
                         {itemQuestion.label}
                     </Typography>
                 </Box>
@@ -26,7 +28,7 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                 {itemQuestion &&
                     itemQuestion.questions.map((question, index) => (
                         <Grid
-                            key={`question-item-${question.question}`}
+                            key={`question-item-${question.question || index}`}
                             item
                             xs={12}
                             md={3}>
@@ -36,20 +38,15 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                                 display="flex"
                                 flexDirection="column"
                                 alignItems="center">
-                                {question.icon ? (
-                                    <IngredientItem
-                                        onClick={() => onSelectQuestion(index)}
-                                        url={question.icon}
-                                        label={question.label}
-                                    />
-                                ) : (
-                                    <Button
-                                        style={{ height: '100%' }}
-                                        onClick={() => onSelectQuestion(index)}
-                                        fullWidth>
-                                        {question.question}
-                                    </Button>
-                                )}
+                                <QuestionItemContainer
+                                    onClick={() => onSelectQuestion(index)}
+                                    url={question.icon}
+                                    label={
+                                        question.icon
+                                            ? question.label
+                                            : question.question
+                                    }
+                                />
                             </Box>
                         </Grid>
                     ))}

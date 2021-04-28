@@ -26,12 +26,13 @@ button::active {
     max-width: unset !important;
 }
 
-.adt-product-details{
+.adt-product-details {
     width: 100% !important;
     overflow: auto;
 }
 
-.a-unordered-list li, ul li {
+.a-unordered-list li,
+ul li {
     list-style: none !important;
 }
 
@@ -42,4 +43,35 @@ button::active {
 .react-multiple-carousel__arrow::before {
     color: #C49C57 !important;
     font-size: 20px;
+}
+
+.carousel-right-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+    cursor: pointer;
+}
+
+.carousel-left-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(0% - 60px);
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .carousel-right-arrow {
+        left: 80%;
+    }
+
+    .carousel-left-arrow {
+        left: 10%;
+    }
+}
+
+.react-multi-carousel-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
 }

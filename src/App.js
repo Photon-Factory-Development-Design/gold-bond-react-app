@@ -6,7 +6,8 @@ import {
     Header,
     QuizContainer,
     IngrdientsContainer,
-    ProductDetailDialog
+    ProductDetailDialog,
+    IngredientDetailDialog
 } from 'containers';
 import './assets/styles/base.scss';
 import { db, firebase_console } from 'common/firebase';
@@ -14,7 +15,9 @@ import { setOfferings } from 'common/data/offerings';
 
 function App() {
     const [open, setOpen] = React.useState(false);
+    const [ingredientOpen, setIngredientOpen] = React.useState(false);
     const [product, setDetailProduct] = React.useState(null);
+    const [ingredient, setIngredient] = React.useState(null);
 
     const quizRef = React.useRef(null);
 
@@ -34,7 +37,13 @@ function App() {
     }, [product]);
 
     React.useEffect(() => {
-        console.log('App.js', db.ref);
+        console.log(ingredient);
+        if (ingredient) {
+            setIngredientOpen(true);
+        }
+    }, [ingredient]);
+
+    React.useEffect(() => {
         firebase_console
             .auth()
             .signInWithEmailAndPassword(
@@ -72,12 +81,18 @@ function App() {
                     ref={quizRef}
                     setDetailProduct={setDetailProduct}
                 />
-                <IngrdientsContainer />
+                <IngrdientsContainer setIngredient={setIngredient} />
 
                 <ProductDetailDialog
                     open={open}
                     setOpen={setOpen}
                     product={product}
+                />
+
+                <IngredientDetailDialog
+                    open={ingredientOpen}
+                    setOpen={setIngredientOpen}
+                    ingredient={ingredient}
                 />
             </ThemeProvider>
         </React.Fragment>

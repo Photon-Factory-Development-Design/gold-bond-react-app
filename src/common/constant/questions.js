@@ -3,13 +3,14 @@ import { base_url } from 'common/constant';
 const questions = {
     questions: [
         {
+            description: 'I NEED PRODUCTS SUITED FOR:',
             questions: [
                 {
                     label: 'Skin Concern',
                     icon: `${base_url}/assets/images/skin-concern.svg`,
                     questions: [
                         {
-                            question: 'Aiging Skin',
+                            question: 'Aging Skin',
                             label: 'Product Category',
                             questions: [
                                 {
@@ -46,10 +47,7 @@ const questions = {
                                 }
                             ]
                         },
-                        {
-                            question: 'Antiseptic, disinfectant',
-                            ASINS: ['B08NQH1Z66']
-                        },
+
                         {
                             question: 'Cracked skin',
                             label: 'Product Category',
@@ -64,10 +62,7 @@ const questions = {
                                 }
                             ]
                         },
-                        {
-                            question: 'Daily friction',
-                            ASINS: ['B007VC9DKI']
-                        },
+
                         {
                             question: 'Dry Skin',
                             label: 'ARE YOU DIABETIC?',
@@ -321,125 +316,108 @@ const questions = {
                         {
                             question: 'Rough & bumpy skin',
                             ASINS: ['B00MMKAM5E']
-                        },
+                        }
+                    ]
+                },
+                {
+                    label: 'Hand Sanitizer',
+                    icon: `${base_url}/assets/images/hand-sanitizer.svg`,
+                    ASINS: ['B08NQH1Z66']
+                },
+                {
+                    label: 'Anti-Chafing',
+                    icon: `${base_url}/assets/images/anti-chafing.svg`,
+                    ASINS: ['B007VC9DKI']
+                },
+                {
+                    label: 'Powder/Spray',
+                    icon: `${base_url}/assets/images/powder-spray.svg`,
+                    questions: [
                         {
-                            question: 'Sweat & odor',
-                            label: 'PRODUCT CATEGORY',
+                            question: 'Body',
+                            label: 'PRODUCT FORM',
                             questions: [
                                 {
-                                    question: 'Body',
-                                    label: 'PRODUCT FORM',
+                                    question: 'Powder',
+                                    label: 'SPECIFICALLY FOR MEN',
                                     questions: [
                                         {
-                                            question: 'Powder',
-                                            label: 'SPECIFICALLY FOR MEN',
-                                            questions: [
-                                                {
-                                                    question: 'Yes',
-                                                    ASINS: ['B08W5GNXBG']
-                                                },
-                                                {
-                                                    question: 'No',
-                                                    label: 'PRODUCT BENEFIT',
-                                                    questions: [
-                                                        {
-                                                            question:
-                                                                'Baby Powder',
-                                                            ASINS: [
-                                                                'B00126LXNO'
-                                                            ]
-                                                        },
-                                                        {
-                                                            question:
-                                                                'Medicated Extra Strength',
-                                                            ASINS: [
-                                                                'B08W5F5X6Z'
-                                                            ]
-                                                        },
-                                                        {
-                                                            question:
-                                                                'Medicated Original Strength',
-                                                            ASINS: [
-                                                                'B08W5DTJQR',
-                                                                'B08W5DK88Y'
-                                                            ]
-                                                        },
-                                                        {
-                                                            question:
-                                                                'Non-Medicated',
-                                                            ASINS: [
-                                                                'B012FUZ8NG'
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
+                                            question: 'Yes',
+                                            ASINS: ['B08W5GNXBG']
                                         },
                                         {
-                                            question: 'Powder Spray',
-                                            label: 'SPECIFICALLY FOR MEN',
+                                            question: 'No',
+                                            label: 'PRODUCT BENEFIT',
                                             questions: [
                                                 {
-                                                    question: 'Yes',
+                                                    question: 'Baby Powder',
+                                                    ASINS: ['B00126LXNO']
+                                                },
+                                                {
+                                                    question:
+                                                        'Medicated Extra Strength',
+                                                    ASINS: ['B08W5F5X6Z']
+                                                },
+                                                {
+                                                    question:
+                                                        'Medicated Original Strength',
                                                     ASINS: [
-                                                        'B08W5FMHGG',
-                                                        'B08W5DP75X'
+                                                        'B08W5DTJQR',
+                                                        'B08W5DK88Y'
                                                     ]
                                                 },
                                                 {
-                                                    question: 'No',
-                                                    label: 'PRODUCT BENEFIT',
-                                                    questions: [
-                                                        {
-                                                            question:
-                                                                'No-mess spray',
-                                                            ASINS: [
-                                                                'B08W5F2H15',
-                                                                'B08W5FL1BT'
-                                                            ]
-                                                        },
-                                                        {
-                                                            question:
-                                                                'Sprays on clear',
-                                                            ASINS: [
-                                                                'B08R5K6P28'
-                                                            ]
-                                                        }
-                                                    ]
+                                                    question: 'Non-Medicated',
+                                                    ASINS: ['B012FUZ8NG']
                                                 }
                                             ]
                                         }
                                     ]
                                 },
                                 {
-                                    question: 'Foot',
-                                    label: 'PRODUCT FORM',
+                                    question: 'Powder Spray',
+                                    label: 'SPECIFICALLY FOR MEN',
                                     questions: [
                                         {
-                                            question: 'Powder',
-                                            ASINS: ['B08W5DQXW9']
+                                            question: 'Yes',
+                                            ASINS: ['B08W5FMHGG', 'B08W5DP75X']
                                         },
                                         {
-                                            question: 'Powder Spray',
-                                            ASINS: ['B08W69NCD7']
+                                            question: 'No',
+                                            label: 'PRODUCT BENEFIT',
+                                            questions: [
+                                                {
+                                                    question: 'No-mess spray',
+                                                    ASINS: [
+                                                        'B08W5F2H15',
+                                                        'B08W5FL1BT'
+                                                    ]
+                                                },
+                                                {
+                                                    question: 'Sprays on clear',
+                                                    ASINS: ['B08R5K6P28']
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            question: 'Foot',
+                            label: 'PRODUCT FORM',
+                            questions: [
+                                {
+                                    question: 'Powder',
+                                    ASINS: ['B08W5DQXW9']
+                                },
+                                {
+                                    question: 'Powder Spray',
+                                    ASINS: ['B08W69NCD7']
+                                }
+                            ]
                         }
                     ]
-                },
-                {
-                    label: 'Hand Sanitizer',
-                    icon: `${base_url}/assets/images/hand-sanitizer.svg`
-                },
-                {
-                    label: 'Anti-Chafing',
-                    icon: `${base_url}/assets/images/anti-chafing.svg`
-                },
-                {
-                    label: 'Powder/Spray',
-                    icon: `${base_url}/assets/images/powder-spray.svg`
                 }
             ]
         }
