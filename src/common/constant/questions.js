@@ -8,6 +8,7 @@ const questions = {
                 {
                     label: 'Skin Concern',
                     icon: `${base_url}/assets/images/skin-concern.svg`,
+                    hoverIcon: `${base_url}/assets/images/skin-blue.svg`,
                     questions: [
                         {
                             question: 'Aging Skin',
@@ -322,16 +323,19 @@ const questions = {
                 {
                     label: 'Hand Sanitizer',
                     icon: `${base_url}/assets/images/hand-sanitizer.svg`,
+                    hoverIcon: `${base_url}/assets/images/sanitizer-blue.svg`,
                     ASINS: ['B08NQH1Z66']
                 },
                 {
                     label: 'Anti-Chafing',
-                    icon: `${base_url}/assets/images/anti-chafing.svg`,
+                    icon: `${base_url}/assets/images/chafing-yellow.svg`,
+                    hoverIcon: `${base_url}/assets/images/chafing-blue.svg`,
                     ASINS: ['B007VC9DKI']
                 },
                 {
                     label: 'Powder/Spray',
                     icon: `${base_url}/assets/images/powder-spray.svg`,
+                    hoverIcon: `${base_url}/assets/images/powder-blue.svg`,
                     questions: [
                         {
                             question: 'Body',

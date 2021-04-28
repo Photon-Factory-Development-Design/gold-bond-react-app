@@ -16,8 +16,9 @@ const Theme = createMuiTheme({
     overrides: {
         MuiStepConnector: {
             root: {
-                left: 'calc(-50% + 30px) !important',
-                right: 'calc(50% + 30px) !important'
+                left: 'calc(-50% + 40px) !important',
+                right: 'calc(50% + 40px) !important',
+                top: '30px !important'
             }
         },
         MuiStepLabel: {

@@ -41,6 +41,7 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                                 <QuestionItemContainer
                                     onClick={() => onSelectQuestion(index)}
                                     url={question.icon}
+                                    hoverURL={question.hoverIcon}
                                     label={
                                         question.icon
                                             ? question.label

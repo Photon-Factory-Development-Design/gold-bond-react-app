@@ -103,7 +103,6 @@ const IngrdientsContainer = ({ setIngredient }) => {
         setCurentSlide(Math.max(carouselRef.current.state.currentSlide - 1, 0));
     }, []);
 
-    console.log(carouselRef.current);
     return (
         <BackgroundContainer color="primary">
             <Box py={2}>
@@ -133,7 +132,7 @@ const IngrdientsContainer = ({ setIngredient }) => {
                                 key={`ingredient-item-${index}`}
                                 onClick={() => {
                                     console.log(ingredient);
-                                    setIngredient(ingredient)
+                                    setIngredient(ingredient);
                                 }}
                                 {...ingredient}
                             />
