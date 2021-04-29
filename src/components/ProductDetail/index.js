@@ -26,7 +26,9 @@ const ProductDetail = React.forwardRef(
             (productImages || [])[0]
         );
 
-        console.log(productImages);
+        React.useEffect(() => {
+            setSelectedImage((productImages || [])[0]);
+        }, [productImages]);
 
         return (
             <div className="adt-product-details" ref={ref}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box } from '@material-ui/core';
+import { Box } from '@material-ui/core';
 import MuiCarousel from 'react-material-ui-carousel';
 import { getQuestion, checkYesNoQuestion } from 'common/constant/questions';
 import { Typography, QuestionItemContainer } from 'components';
@@ -24,14 +24,15 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                     </Typography>
                 </Box>
             )}
-            <Grid container direction="row" justify="center">
+            <Box
+                display="flex"
+                flexDirection="row"
+                justifyContent="center"
+                flexWrap="wrap">
                 {itemQuestion &&
                     itemQuestion.questions.map((question, index) => (
-                        <Grid
-                            key={`question-item-${question.question || index}`}
-                            item
-                            xs={12}
-                            md={3}>
+                        <Box
+                            key={`question-item-${question.question || index}`}>
                             <Box
                                 p={1}
                                 height="100%"
@@ -49,9 +50,9 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                                     }
                                 />
                             </Box>
-                        </Grid>
+                        </Box>
                     ))}
-            </Grid>
+            </Box>
         </Box>
     );
 };

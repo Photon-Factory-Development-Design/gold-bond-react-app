@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Grid } from '@material-ui/core';
+import { Button, Grid, Box } from '@material-ui/core';
 import questions from './questions';
 
 const QuestionContainer = ({ onUpdateQuestion }) => {
@@ -15,13 +15,9 @@ const QuestionContainer = ({ onUpdateQuestion }) => {
         }
     };
     return (
-        <Grid container direction="row">
+        <Box display="flex" flexDirection="row">
             {questions.map((question, index) => (
-                <Grid
-                    key={`question-item-${question.value || index}`}
-                    item
-                    xs={12}
-                    md={3}>
+                <Box key={`question-item-${question.value || index}`} m={2}>
                     <Button
                         onClick={() => onSelectQuestion(question.value)}
                         style={{
@@ -33,9 +29,9 @@ const QuestionContainer = ({ onUpdateQuestion }) => {
                         }}>
                         {question.label}
                     </Button>
-                </Grid>
+                </Box>
             ))}
-        </Grid>
+        </Box>
     );
 };
 

@@ -36,7 +36,7 @@ const QuestionItemContainer = ({ url, hoverURL, label, onClick }) => {
             bgcolor="background.littleDark"
             borderRadius={5}
             p={2}
-            m={2}
+            m={1}
             className={classes.ingredientItem}
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}>
