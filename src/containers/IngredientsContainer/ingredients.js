@@ -27,7 +27,7 @@ const ingredients = [
     },
     {
         label: 'Hydroxy Acids',
-        url: `${base_url}/assets/images/ingredients/Hydroxy_Acids.svg`
+        url: `${base_url}/assets/images/ingredients/hydroxy-acids.svg`
     },
     {
         label: 'Advanced Hydration Blend',
