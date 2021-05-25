@@ -106,18 +106,20 @@ const IngrdientsContainer = ({ setIngredient }) => {
     return (
         <BackgroundContainer color="primary">
             <Box py={2}>
-                <Typography color="primary" variant="h2" align="center">
-                    THE BEST & NATURAL INGREDIENTS
+                <Typography color="darkBlue" variant="h2" align="center">
+                    CHAMPION YOUR SKIN
                 </Typography>
             </Box>
 
             <Container maxWidth="md">
                 <Typography color="secondary" variant="body1" align="center">
-                    We use the very best, research-backed ingredients chosen by
-                    dermatologists. But far more importantly, we use them in
-                    just the right formula for you. You need to use just the
-                    right ones at the amount that is safe and effective for your
-                    skin.
+                    Gold Bond ultimate's 7 penetrating moisturizers and 3
+                    nourishing vitamins work 10 surface layers deep for up to 24
+                    hours, hydrating and preparing your skin for the
+                    extraordinary stresses of an extraordinary life. That means
+                    skin that looks - and feels - noticeably healthier no matter
+                    what you throw at it. Champion your skin with Gold Bond. And
+                    your skin will champion you.
                 </Typography>
 
                 <Box position="relative">

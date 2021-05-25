@@ -6,3 +6,4 @@ export { default as Carousel } from './Carousel';
 export { default as ProductImage } from './ProductImage';
 export { default as ProductDetail } from './ProductDetail';
 export { default as QuestionItemContainer } from './QuestionItemContainer';
+export { default as Hero } from './Hero/Hero.jsx';

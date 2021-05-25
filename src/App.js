@@ -12,6 +12,7 @@ import {
 import './assets/styles/base.scss';
 import { db, firebase_console } from 'common/firebase';
 import { setOfferings } from 'common/data/offerings';
+import { Hero } from 'components';
 
 function App() {
     const [open, setOpen] = React.useState(false);
@@ -94,6 +95,7 @@ function App() {
                     setOpen={setIngredientOpen}
                     ingredient={ingredient}
                 />
+                <Hero />
             </ThemeProvider>
         </React.Fragment>
     );
