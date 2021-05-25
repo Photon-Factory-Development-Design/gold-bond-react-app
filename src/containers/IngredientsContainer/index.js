@@ -111,56 +111,64 @@ const IngrdientsContainer = ({ setIngredient }) => {
                 </Typography>
             </Box>
 
-            <Container maxWidth="md">
-                <Typography color="secondary" variant="body1" align="center">
-                    Gold Bond ultimate's 7 penetrating moisturizers and 3
-                    nourishing vitamins work 10 surface layers deep for up to 24
-                    hours, hydrating and preparing your skin for the
-                    extraordinary stresses of an extraordinary life. That means
-                    skin that looks - and feels - noticeably healthier no matter
-                    what you throw at it. Champion your skin with Gold Bond. And
-                    your skin will champion you.
-                </Typography>
+            <Box pb={3}>
+                <Container maxWidth="md">
+                    <Typography
+                        color="secondary"
+                        variant="body1"
+                        align="center">
+                        Gold Bond ultimate's 7 penetrating moisturizers and 3
+                        nourishing vitamins work 10 surface layers deep for up
+                        to 24 hours, hydrating and preparing your skin for the
+                        extraordinary stresses of an extraordinary life. That
+                        means skin that looks - and feels - noticeably healthier
+                        no matter what you throw at it. Champion your skin with
+                        Gold Bond. And your skin will champion you.
+                    </Typography>
+                </Container>
+            </Box>
+            <Container maxWidth="lg">
+                <Box pb={5}>
+                    <Box position="relative" pb={7}>
+                        <Carousel
+                            ref={carouselRef}
+                            arrows={false}
+                            responsive={responsive}
+                            //customRightArrow={<CustomRightArrow />}
+                        >
+                            {ingredients.map((ingredient, index) => (
+                                <IngredientItem
+                                    key={`ingredient-item-${index}`}
+                                    onClick={() => {
+                                        console.log(ingredient);
+                                        setIngredient(ingredient);
+                                    }}
+                                    {...ingredient}
+                                />
+                            ))}
+                        </Carousel>
 
-                <Box position="relative">
-                    <Carousel
-                        ref={carouselRef}
-                        arrows={false}
-                        responsive={responsive}
-                        //customRightArrow={<CustomRightArrow />}
-                    >
-                        {ingredients.map((ingredient, index) => (
-                            <IngredientItem
-                                key={`ingredient-item-${index}`}
-                                onClick={() => {
-                                    console.log(ingredient);
-                                    setIngredient(ingredient);
-                                }}
-                                {...ingredient}
-                            />
-                        ))}
-                    </Carousel>
-
-                    {currentSlide +
-                        (carouselRef.current?.state.slidesToShow || 0) <
-                        ingredients.length - 1 && (
-                        <Box
-                            className="carousel-right-arrow"
-                            fontSize={20}
-                            position="absolute"
-                            onClick={onNext}>
-                            <ChevronRightIcon color={'primary'} />
-                        </Box>
-                    )}
-                    {currentSlide > 0 && (
-                        <Box
-                            className="carousel-left-arrow"
-                            fontSize={20}
-                            position="absolute"
-                            onClick={onPrev}>
-                            <ChevronLeftIcon color={'primary'} />
-                        </Box>
-                    )}
+                        {currentSlide +
+                            (carouselRef.current?.state.slidesToShow || 0) <
+                            ingredients.length - 1 && (
+                            <Box
+                                className="carousel-right-arrow"
+                                fontSize={20}
+                                position="absolute"
+                                onClick={onNext}>
+                                <ChevronRightIcon color={'primary'} />
+                            </Box>
+                        )}
+                        {currentSlide > 0 && (
+                            <Box
+                                className="carousel-left-arrow"
+                                fontSize={20}
+                                position="absolute"
+                                onClick={onPrev}>
+                                <ChevronLeftIcon color={'primary'} />
+                            </Box>
+                        )}
+                    </Box>
                 </Box>
             </Container>
         </BackgroundContainer>
