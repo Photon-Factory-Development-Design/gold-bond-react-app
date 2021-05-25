@@ -14,7 +14,7 @@ const ingredients = [
         url: `${base_url}/assets/images/ingredients/Shea_Butter.svg`
     },
     {
-        label: 'COQ10',
+        label: 'CoQ10',
         url: `${base_url}/assets/images/ingredients/COQ10.svg`
     },
     {

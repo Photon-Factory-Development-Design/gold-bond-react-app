@@ -22,6 +22,9 @@ const Theme = createMuiTheme({
             }
         },
         MuiStepLabel: {
+            root: {
+                textTransform: 'uppercase'
+            },
             active: {
                 color: '#003D54 !important'
             }
@@ -29,7 +32,7 @@ const Theme = createMuiTheme({
         MuiStepIcon: {
             active: {
                 color: '#003D54 !important'
-            },
+            }
         },
         MuiSvgIcon: {
             root: {
