@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="248" height="204" viewBox="0 0 248 204">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="248" height="204" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Vector_Smart_Object" data-name="Vector Smart Object" transform="translate(-869 -2950)">
+    <g id="Vector_Smart_Object-2" data-name="Vector Smart Object" transform="translate(869 2950)">
+      <path id="Path_17" data-name="Path 17" d="M180.083,133.363,147.621,77.035H82.7L50.234,133.363" fill="none" stroke="#ba8841" stroke-miterlimit="10" stroke-width="9.098"/>
+      <line id="Line_3" data-name="Line 3" y1="36.81" x2="43.366" transform="translate(151.444 40.225)" fill="none" stroke="#ba8841" stroke-miterlimit="10" stroke-width="9.098"/>
+      <line id="Line_4" data-name="Line 4" y1="40.511" x2="47.726" transform="translate(157.425 52.752)" fill="none" stroke="#ba8841" stroke-miterlimit="10" stroke-width="9.098"/>
+      <g id="Group_6" data-name="Group 6">
+        <g id="Group_5" data-name="Group 5" clip-path="url(#clip-path)">
+          <text id="O" transform="translate(203.852 44.228)" fill="#ba8841" font-size="52" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">O</tspan></text>
+          <text id="HO" transform="translate(-0.011 189.714)" fill="#ba8841" font-size="52" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">HO</tspan></text>
+          <text id="OH" transform="translate(148.38 189.714)" fill="#ba8841" font-size="52" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">OH</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
