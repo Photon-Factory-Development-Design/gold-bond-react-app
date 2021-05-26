@@ -19,7 +19,7 @@ const IngredientDetailDialog = ({ open, setOpen, ingredient }) => {
                 </Box>
 
                 <Box py={3}>
-                    <Typography variant="body1" color="darkBlue">
+                    <Typography variant="body1" color="darkBlue" align="center">
                         {ingredient && ingredientDetails[ingredient.label]}
                     </Typography>
                 </Box>

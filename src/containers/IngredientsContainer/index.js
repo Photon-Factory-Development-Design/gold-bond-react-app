@@ -74,11 +74,11 @@ const responsive = {
     },
     tablet: {
         breakpoint: { max: 1024, min: 768 },
-        items: 2
+        items: 4
     },
     mobile: {
-        breakpoint: { max: 768, min: 0 },
-        items: 1
+        breakpoint: { max: 767, min: 0 },
+        items: 2
     }
 };
 const IngrdientsContainer = ({ setIngredient }) => {
@@ -129,45 +129,47 @@ const IngrdientsContainer = ({ setIngredient }) => {
             </Box>
             <Container maxWidth="lg">
                 <Box pb={5}>
-                    <Box position="relative" pb={7}>
-                        <Carousel
-                            ref={carouselRef}
-                            arrows={false}
-                            responsive={responsive}
-                            //customRightArrow={<CustomRightArrow />}
-                        >
-                            {ingredients.map((ingredient, index) => (
-                                <IngredientItem
-                                    key={`ingredient-item-${index}`}
-                                    onClick={() => {
-                                        console.log(ingredient);
-                                        setIngredient(ingredient);
-                                    }}
-                                    {...ingredient}
-                                />
-                            ))}
-                        </Carousel>
+                    <Box pb={7}>
+                        <Box position="relative">
+                            <Carousel
+                                ref={carouselRef}
+                                arrows={false}
+                                responsive={responsive}
+                                //customRightArrow={<CustomRightArrow />}
+                            >
+                                {ingredients.map((ingredient, index) => (
+                                    <IngredientItem
+                                        key={`ingredient-item-${index}`}
+                                        onClick={() => {
+                                            console.log(ingredient);
+                                            setIngredient(ingredient);
+                                        }}
+                                        {...ingredient}
+                                    />
+                                ))}
+                            </Carousel>
 
-                        {currentSlide +
-                            (carouselRef.current?.state.slidesToShow || 0) <
-                            ingredients.length - 1 && (
-                            <Box
-                                className="carousel-right-arrow"
-                                fontSize={20}
-                                position="absolute"
-                                onClick={onNext}>
-                                <ChevronRightIcon color={'primary'} />
-                            </Box>
-                        )}
-                        {currentSlide > 0 && (
-                            <Box
-                                className="carousel-left-arrow"
-                                fontSize={20}
-                                position="absolute"
-                                onClick={onPrev}>
-                                <ChevronLeftIcon color={'primary'} />
-                            </Box>
-                        )}
+                            {currentSlide +
+                                (carouselRef.current?.state.slidesToShow || 0) <
+                                ingredients.length - 1 && (
+                                <Box
+                                    className="carousel-right-arrow"
+                                    fontSize={20}
+                                    position="absolute"
+                                    onClick={onNext}>
+                                    <ChevronRightIcon color={'primary'} />
+                                </Box>
+                            )}
+                            {currentSlide > 0 && (
+                                <Box
+                                    className="carousel-left-arrow"
+                                    fontSize={20}
+                                    position="absolute"
+                                    onClick={onPrev}>
+                                    <ChevronLeftIcon color={'primary'} />
+                                </Box>
+                            )}
+                        </Box>
                     </Box>
                 </Box>
             </Container>

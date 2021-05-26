@@ -6,7 +6,7 @@ const ingredientsDetails = {
         'Shea Butter works well for very dry, stressed, and aging skin due to its excellent moisturization and soothing properties.',
     CoQ10: 'CoQ10 works well for aging and stressed skin.',
     'Colloidal Oatmeal':
-        'Colloidal Oatmeal is ideal for sensitive and eczema-prone skin',
+        'Colloidal Oatmeal is ideal for sensitive and eczema-prone skin.',
     'Stress Response Proteins':
         'Stress Response Protein traps moisture in the skin, and works well for very dry skin as well as aging and mature skin.',
     'Hydroxy Acids':

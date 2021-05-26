@@ -47,7 +47,7 @@ ul li {
 
 .carousel-right-arrow {
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(-100%);
     left: 100%;
     cursor: pointer;
 }
@@ -55,17 +55,17 @@ ul li {
 .carousel-left-arrow {
     top: 50%;
     transform: translateY(-50%);
-    left: calc(0% - 60px);
+    left: 0%;
     cursor: pointer;
 }
 
 @media (max-width: 1024px) {
     .carousel-right-arrow {
-        left: 80%;
+        // left: 80%;
     }
 
     .carousel-left-arrow {
-        left: 10%;
+        // left: 10%;
     }
 }
 
