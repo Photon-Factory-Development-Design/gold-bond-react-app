@@ -78,7 +78,8 @@ const Header = () => {
                 </Typography>
                 <Box py={2}>
                     <Typography align="center" variant="body1" color="black">
-                        Not a medical diagonals. Tool is for information only.
+                        Was it meant to say Diagnosis? Tool is for information
+                        only.
                     </Typography>
                 </Box>
             </HeaderTitleContainer>

@@ -3,8 +3,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B015HRFXKM?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Dark Spot Minimizing Cream, White, Fragrance Free, 2 Ounce',
+                value: 'Gold Bond Dark Spot Minimizing Cream, White, Fragrance Free, 2 Ounce',
                 error: null
             },
             ASIN: {
@@ -20,29 +19,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81ZYSkU9zHL._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81ZYSkU9zHL._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Gold Bond Dark Spot Moisturizing Cream helps to exfoliate and moisturize to give you a more even-looking skin tone and minimize the appearance of dark spots from sun damage or age. Does not contain bleaching agents. Gold Bond Dark Spot Minimizing cream is a body lotion that intensely hydrates your skin, helping diminish the appearance of dark spots on your arms, chest, hands, and neck. This cream is fragrance-free and gentle enough for daily use. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: "Gold Bond Dark Spot Moisturizing Cream helps to exfoliate and moisturize to give you a more even-looking skin tone and minimize the appearance of dark spots from sun damage or age. Does not contain bleaching agents. Gold Bond Dark Spot Minimizing cream is a body lotion that intensely hydrates your skin, helping diminish the appearance of dark spots on your arms, chest, hands, and neck. This cream is fragrance-free and gentle enough for daily use. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -140,8 +134,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00TZ8TH9I?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Strength & Resilience Skin Therapy Lotion, Fresh, 13 Ounce',
+                value: 'Gold Bond Ultimate Strength & Resilience Skin Therapy Lotion, Fresh, 13 Ounce',
                 error: null
             },
             ASIN: {
@@ -157,8 +150,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/719XVyaKMJL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/719XVyaKMJL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -167,18 +159,15 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Skin Therapy Lotion, Strength and Resilience, Formulated with a blend of vital nutrients to help replenish moisture. Improves the overall appearance of aging skin. Helps the skin to look stronger, feel more resilient. Fragrance free.',
+                value: 'Gold Bond Ultimate Skin Therapy Lotion, Strength and Resilience, Formulated with a blend of vital nutrients to help replenish moisture. Improves the overall appearance of aging skin. Helps the skin to look stronger, feel more resilient. Fragrance free.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -276,8 +265,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08CJ74R3S?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Crepe Corrector 8 oz Age Defense Smoothing Concentrate Skin Therapy Lotion, 1 Count, (Pack of 24)',
+                value: 'Gold Bond Ultimate Crepe Corrector 8 oz Age Defense Smoothing Concentrate Skin Therapy Lotion, 1 Count, (Pack of 24)',
                 error: null
             },
             ASIN: {
@@ -286,27 +274,22 @@ const products = [
             },
             basePrice: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/61MjqR0DpDL._SY606_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/61MjqR0DpDL._SY606_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "As we age, skin can lose its ability to retain moisture. The result is skin that looks finely wrinkled, thin and dry, like crepe paper. That's why there's Gold Bond Crepe Corrector Age Defense Smoothing Concentrate Skin Therapy Lotion. Formulated with 7 moisturizers and 3 vitamins, this lotion for crepey skin is clinically shown to improve skin firmness and elasticity in 2 weeks. In fact, 82% had visible improvement in crepey skin on back of hands and arms in just 2 days. Gold Bond Crepe Corrector lotion features a unique smoothing concentrate made with nourishing omega-fatty acids, powerful botanicals and protective anti-oxidants. It also provides lasting hydration for 24 hours to help visibly firm and plump dry, aging skin. Gold Bond Crepe Corrector Lotion is suitable for all skin types. Best of all, it's hypoallergenic, fragrance-free and dermatologist tested. Enjoy skin as young as you feel in just 2 days* with Gold Bond Age Defense Crepe Corrector lotion. *Refers to improvement in crepey skin",
+                value: "As we age, skin can lose its ability to retain moisture. The result is skin that looks finely wrinkled, thin and dry, like crepe paper. That's why there's Gold Bond Crepe Corrector Age Defense Smoothing Concentrate Skin Therapy Lotion. Formulated with 7 moisturizers and 3 vitamins, this lotion for crepey skin is clinically shown to improve skin firmness and elasticity in 2 weeks. In fact, 82% had visible improvement in crepey skin on back of hands and arms in just 2 days. Gold Bond Crepe Corrector lotion features a unique smoothing concentrate made with nourishing omega-fatty acids, powerful botanicals and protective anti-oxidants. It also provides lasting hydration for 24 hours to help visibly firm and plump dry, aging skin. Gold Bond Crepe Corrector Lotion is suitable for all skin types. Best of all, it's hypoallergenic, fragrance-free and dermatologist tested. Enjoy skin as young as you feel in just 2 days* with Gold Bond Age Defense Crepe Corrector lotion. *Refers to improvement in crepey skin",
                 error: null
             },
             productOverview: {
@@ -359,8 +342,7 @@ const products = [
             },
             priceDetail: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             ratings: {
                 value: {
@@ -375,8 +357,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B07W8Z1TY7?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Neck and Chest Age Defense Cream 1.7 oz, With Broad Spectrum SPF 20 Sunscreen',
+                value: 'Gold Bond Neck and Chest Age Defense Cream 1.7 oz, With Broad Spectrum SPF 20 Sunscreen',
                 error: null
             },
             ASIN: {
@@ -392,8 +373,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81rmixf%2BbwL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81rmixf%2BbwL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -402,18 +382,15 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'The skin on your neck and chest is more delicate than other areas. Help give it the care and nourishment it needs to look its best with Gold Bond. Gold Bond Neck & Chest Age Defense Cream with Broad Spectrum SPF 20 sunscreen to help protect against visible signs of premature aging from daily sun exposure*. Made with seven moisturizers and three vitamins, plus hyaluronic acid and Broad Spectrum SPF 20, this Gold Bond Body Treatment Cream contains a high-performing firming complex and stress response proteins to support moisture retention and improve skin’s texture. 80% of users had improved appearance of lines and wrinkles on neck and chest skin. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *When used as directed with other sun protection measures.',
+                value: 'The skin on your neck and chest is more delicate than other areas. Help give it the care and nourishment it needs to look its best with Gold Bond. Gold Bond Neck & Chest Age Defense Cream with Broad Spectrum SPF 20 sunscreen to help protect against visible signs of premature aging from daily sun exposure*. Made with seven moisturizers and three vitamins, plus hyaluronic acid and Broad Spectrum SPF 20, this Gold Bond Body Treatment Cream contains a high-performing firming complex and stress response proteins to support moisture retention and improve skin’s texture. 80% of users had improved appearance of lines and wrinkles on neck and chest skin. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *When used as directed with other sun protection measures.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -515,8 +492,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/815uGNK9suL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/815uGNK9suL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -525,12 +501,10 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate 7 Intensive Moisturizers Firming Neck and Chest Cream, Uniquely formulated with a blend of key ingredients to deliver intense, long-lasting hydration. Improves the appearance of skins firmness, texture and elasticity for suppler, youthful-looking skin. High-Performance Firming Complex combines Salicylic Acid (BHA), Stress Response Proteins and an Advance Hydration Blend. Helps exfoliate, boost moisture retention and draw moisture to the delicate skin on the neck and chest. Provides 24 hour moisture. Visibly improves firmness and texture of the delicate skin on the neck and chest. Reveals suppler, youthful-looking skin.',
+                value: 'Gold Bond Ultimate 7 Intensive Moisturizers Firming Neck and Chest Cream, Uniquely formulated with a blend of key ingredients to deliver intense, long-lasting hydration. Improves the appearance of skins firmness, texture and elasticity for suppler, youthful-looking skin. High-Performance Firming Complex combines Salicylic Acid (BHA), Stress Response Proteins and an Advance Hydration Blend. Helps exfoliate, boost moisture retention and draw moisture to the delicate skin on the neck and chest. Provides 24 hour moisture. Visibly improves firmness and texture of the delicate skin on the neck and chest. Reveals suppler, youthful-looking skin.',
                 error: null
             },
             productOverview: {
@@ -627,8 +601,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B07BRQ2JZF?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Cracked Skin Fill & Protect, 0.75 Ounce (Pack of 1)',
+                value: 'Gold Bond Cracked Skin Fill & Protect, 0.75 Ounce (Pack of 1)',
                 error: null
             },
             ASIN: {
@@ -644,29 +617,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81NYXLk7r0L._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81NYXLk7r0L._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Cracked Skin Fill & Protect, 0.75 oz (Pack of 1)',
+                value: 'Gold Bond Cracked Skin Fill & Protect, 0.75 oz (Pack of 1)',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -758,8 +726,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B07JBLZ62H?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Cracked Skin Relief Fill & Protect Cream, Precision Tip, 0.75 Oz',
+                value: 'Gold Bond Ultimate Cracked Skin Relief Fill & Protect Cream, Precision Tip, 0.75 Oz',
                 error: null
             },
             ASIN: {
@@ -775,29 +742,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81iRL%2BeRybL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81iRL%2BeRybL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate cracked skin relief fill and protect cream, precision tip, its targeted tip applicator precisely fills in dry cracks. Nourishing skin protectant cream. Help skin look and feel healthier. Protects skin to help promote skin healing. Non greasy, fast acting formula.',
+                value: 'Gold Bond Ultimate cracked skin relief fill and protect cream, precision tip, its targeted tip applicator precisely fills in dry cracks. Nourishing skin protectant cream. Help skin look and feel healthier. Protects skin to help promote skin healing. Non greasy, fast acting formula.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -886,8 +848,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08TPGYM4L?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Cracked Foot Skin Relief Ointment, 0.75 oz, pack of 24',
+                value: 'Gold Bond Medicated Cracked Foot Skin Relief Ointment, 0.75 oz, pack of 24',
                 error: null
             },
             ASIN: {
@@ -903,23 +864,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/51vSYGMOZfL._AC_SY606_PIbundle-24,TopRight,0,0_SH20_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/51vSYGMOZfL._AC_SY606_PIbundle-24,TopRight,0,0_SH20_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Help heal and soothe chapped and cracked skin on your feet with Gold Bond Medicated Cracked Foot Skin Relief Ointment. This skin protectant ointment contains 30% petrolatum to help temporarily relieve and protect dry, cracked skin on heels and toes. In fact, 94% immediately felt soothing relief of cracked skin. Gold Bond Cracked Foot Skin Relief is formulated with lipids and ceramides to help repair and restore the skin barrier, jojoba and shea to condition and soften, plus aloe and glycerin to soothe and comfort. Best of all, the precision tip helps you to fill skin cracks. Clinically tested to help restore smoother, healthier-looking skin, Gold Bond Cracked Skin Relief is a must-have for your medicine cabinet. Gold Bond. Champion your skin.',
+                value: 'Help heal and soothe chapped and cracked skin on your feet with Gold Bond Medicated Cracked Foot Skin Relief Ointment. This skin protectant ointment contains 30% petrolatum to help temporarily relieve and protect dry, cracked skin on heels and toes. In fact, 94% immediately felt soothing relief of cracked skin. Gold Bond Cracked Foot Skin Relief is formulated with lipids and ceramides to help repair and restore the skin barrier, jojoba and shea to condition and soften, plus aloe and glycerin to soothe and comfort. Best of all, the precision tip helps you to fill skin cracks. Clinically tested to help restore smoother, healthier-looking skin, Gold Bond Cracked Skin Relief is a must-have for your medicine cabinet. Gold Bond. Champion your skin.',
                 error: null
             },
             productOverview: {
@@ -1008,8 +965,7 @@ const products = [
             },
             ratings: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             }
         }
     },
@@ -1017,8 +973,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00OCN96FQ?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Diabetics Dry Skin Relief, Fragrance Free, 4.5 Ounce',
+                value: 'Gold Bond Ultimate Diabetics Dry Skin Relief, Fragrance Free, 4.5 Ounce',
                 error: null
             },
             ASIN: {
@@ -1034,28 +989,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81bFvYH9udL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81bFvYH9udL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Hydrating Lotion',
                 error: null
             },
             productDescription: {
-                value:
-                    "When you're living with diabetes your skin can often be cracked, rough and uncomfortable. With Gold Bond Ultimate Diabetics' Dry Skin Relief Rehydrating Lotion. This stuff really works!",
+                value: "When you're living with diabetes your skin can often be cracked, rough and uncomfortable. With Gold Bond Ultimate Diabetics' Dry Skin Relief Rehydrating Lotion. This stuff really works!",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1146,8 +1097,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00AHH00O2?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Diabetic Skin Relief Foot Cream, Fragrance Free, 3.4 Ounce',
+                value: 'Gold Bond Ultimate Diabetic Skin Relief Foot Cream, Fragrance Free, 3.4 Ounce',
                 error: null
             },
             ASIN: {
@@ -1163,29 +1113,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71509HoSC5L._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71509HoSC5L._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate diabetic skin relief foot cream, ultimate skin Therapy. Reduces skin discomfort, irritation and dryness. 7 intensive moisturizers. Non-greasy. 9 out of 10 diabetics saw significant skin improvement in 1 hour. Diabetes can affect the skin by drying it out and by making it harder for the body to heal itself. Fortunately, most skin conditions can be prevented or treated with moisturizing formulas that are designed for the skin care needs of people with diabetes. With a blend of moisturizers, vitamins and skin protectants, specially selected for diabetic skin needs, diabetic skin relief from Gold Bond Ultimate is proven safe and effective at replenishing vital moisture and soothing problem skin.',
+                value: 'Gold Bond Ultimate diabetic skin relief foot cream, ultimate skin Therapy. Reduces skin discomfort, irritation and dryness. 7 intensive moisturizers. Non-greasy. 9 out of 10 diabetics saw significant skin improvement in 1 hour. Diabetes can affect the skin by drying it out and by making it harder for the body to heal itself. Fortunately, most skin conditions can be prevented or treated with moisturizing formulas that are designed for the skin care needs of people with diabetes. With a blend of moisturizers, vitamins and skin protectants, specially selected for diabetic skin needs, diabetic skin relief from Gold Bond Ultimate is proven safe and effective at replenishing vital moisture and soothing problem skin.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1278,8 +1223,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00OCN97DW?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream - 2.4 oz",
+                value: "Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream - 2.4 oz",
                 error: null
             },
             ASIN: {
@@ -1295,28 +1239,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71BzSJElrDL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71BzSJElrDL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Hand Cream',
                 error: null
             },
             productDescription: {
-                value:
-                    "Diabetics' skin can become dry, rough and generally uncomfortable, especially on hands. Get soothing relief for rough, dry hands with Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream, the #1 lotion brand for diabetics dry skin*. Specially formulated for diabetics' dry skin, this hand cream goes to work quickly to moisturize and hydrate feet. It contains seven intensive moisturizers and aloe to hydrate and soothe hands. In fact, nine out of 10 people with diabetes saw noticeable skin improvement within one hour* of using Gold Bond Hand Cream for Diabetics' Skin. This hand cream not only adds a layer of moisture to skin that lasts for 24 hours, but it's also dermatologist-tested, hypoallergenic, and fragrance-free. Best of all, it doesn't contain harsh alpha hydroxy acids, which can irritate skin. Give your hands the soothing moisture they deserve. Stock up on 3.4-oz. bottles of Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream. *Source: Nielsen xAOC L52 Hand and Body Lotion WE 7.11.2",
+                value: "Diabetics' skin can become dry, rough and generally uncomfortable, especially on hands. Get soothing relief for rough, dry hands with Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream, the #1 lotion brand for diabetics dry skin*. Specially formulated for diabetics' dry skin, this hand cream goes to work quickly to moisturize and hydrate feet. It contains seven intensive moisturizers and aloe to hydrate and soothe hands. In fact, nine out of 10 people with diabetes saw noticeable skin improvement within one hour* of using Gold Bond Hand Cream for Diabetics' Skin. This hand cream not only adds a layer of moisture to skin that lasts for 24 hours, but it's also dermatologist-tested, hypoallergenic, and fragrance-free. Best of all, it doesn't contain harsh alpha hydroxy acids, which can irritate skin. Give your hands the soothing moisture they deserve. Stock up on 3.4-oz. bottles of Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream. *Source: Nielsen xAOC L52 Hand and Body Lotion WE 7.11.2",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1409,8 +1349,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00OW9OTN4?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Ultimate Men's Everyday Hydrating Lotion, 21 Ounce",
+                value: "Gold Bond Ultimate Men's Everyday Hydrating Lotion, 21 Ounce",
                 error: null
             },
             ASIN: {
@@ -1426,29 +1365,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81TttmWKtDL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81TttmWKtDL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Gold Bond recognizes that men's skin has unique needs. That's why there's Gold Bond Ultimate Men's Essentials Hydrating Lotion, Everyday Moisture for Dry Skin. The seven moisturizers and skin-strengthening proteins replenish and hydrate dry skin. This everyday moisturizing formula also contains vitamin C to bring antioxidant benefits to replenish and moisturize dry skin, making it perfect for use on the body and hands. You can feel confident using this lotion on all of these areas as the lotion has a light, fresh scent.",
+                value: "Gold Bond recognizes that men's skin has unique needs. That's why there's Gold Bond Ultimate Men's Essentials Hydrating Lotion, Everyday Moisture for Dry Skin. The seven moisturizers and skin-strengthening proteins replenish and hydrate dry skin. This everyday moisturizing formula also contains vitamin C to bring antioxidant benefits to replenish and moisturize dry skin, making it perfect for use on the body and hands. You can feel confident using this lotion on all of these areas as the lotion has a light, fresh scent.",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1462,8 +1396,7 @@ const products = [
             },
             productDetails: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             images: {
                 value: [
@@ -1533,8 +1466,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00AHH00MO?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Men's Everyday Essentials Lotion, Fresh Scent, 14.5 Ounce, (Pack of 1)",
+                value: "Gold Bond Men's Everyday Essentials Lotion, Fresh Scent, 14.5 Ounce, (Pack of 1)",
                 error: null
             },
             ASIN: {
@@ -1550,22 +1482,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81XVG4Ja2xL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81XVG4Ja2xL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Lotion',
                 error: null
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Mens Essentials Everyday Hydrating Lotion. Specifically formulated for mens skin. Hydrates multiple skin types 15-second absorption. Fast acting and non-greasy. 24-hour lasting hydration apply just once a day, 7 essential moisturizers. Light fresh scent.',
+                value: 'Gold Bond Ultimate Mens Essentials Everyday Hydrating Lotion. Specifically formulated for mens skin. Hydrates multiple skin types 15-second absorption. Fast acting and non-greasy. 24-hour lasting hydration apply just once a day, 7 essential moisturizers. Light fresh scent.',
                 error: null
             },
             productOverview: {
@@ -1670,8 +1599,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00AHH00R4?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Men's Everyday Essentials, Cream, Fresh scent, 6.5 Ounce",
+                value: "Gold Bond Men's Everyday Essentials, Cream, Fresh scent, 6.5 Ounce",
                 error: null
             },
             ASIN: {
@@ -1687,8 +1615,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81OinJpp2YL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81OinJpp2YL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -1700,14 +1627,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Men's Essentials offers everyday moisturizing for Body, Hands and Face. Replenishes and hydrates dry skin for daily preventative maintenance. A formula that Men want and is appropriate for daily use - non greasy and long lasting. Men's Essentials is a multi purpose lotion with it's 3-in-1 everyday formula for Body, Face and Hands. It has a light, neutral fresh scent that.",
+                value: "Men's Essentials offers everyday moisturizing for Body, Hands and Face. Replenishes and hydrates dry skin for daily preventative maintenance. A formula that Men want and is appropriate for daily use - non greasy and long lasting. Men's Essentials is a multi purpose lotion with it's 3-in-1 everyday formula for Body, Face and Hands. It has a light, neutral fresh scent that.",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1803,8 +1728,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B013KPK71I?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Men's Essentials Intensive Therapy Lotion Basic clean 13 Ounce",
+                value: "Gold Bond Men's Essentials Intensive Therapy Lotion Basic clean 13 Ounce",
                 error: null
             },
             ASIN: {
@@ -1820,29 +1744,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81tjVV6O0VL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81tjVV6O0VL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Gold Bond Ultimate Men's Intensive Therapy is a skin lotion that's rich, thick, and nourishing for very dry, problem skin. Moisturizers, vitamins, and skin-strengthening proteins leave your skin looking smooth. Suitable for all over body use. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: "Gold Bond Ultimate Men's Intensive Therapy is a skin lotion that's rich, thick, and nourishing for very dry, problem skin. Moisturizers, vitamins, and skin-strengthening proteins leave your skin looking smooth. Suitable for all over body use. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -1939,8 +1858,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B074KM543R?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Ultimate Men's Essentials 5-in-1 Face Lotion, Fragrance free, 3.3 Ounce",
+                value: "Gold Bond Ultimate Men's Essentials 5-in-1 Face Lotion, Fragrance free, 3.3 Ounce",
                 error: null
             },
             ASIN: {
@@ -1956,8 +1874,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81jXb2lw%2BvL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81jXb2lw%2BvL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -1966,12 +1883,10 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ulimate Essentials Mens 5 in 1 Face Lotion SPF 15, Deliver 5 essential benefits in one everyday formula: soothing, moisturizing, repairing, strengthening, and protecting, Light weight and quick-absorbing. Delivers 7 moisturizers to hydrate and replenish skin without clogging pores, Skin-strengthening proteins, vitamins, and anti-oxidants work, Non-irritating and contains calming agents, leaves skin soothed and refreshed.',
+                value: 'Gold Bond Ulimate Essentials Mens 5 in 1 Face Lotion SPF 15, Deliver 5 essential benefits in one everyday formula: soothing, moisturizing, repairing, strengthening, and protecting, Light weight and quick-absorbing. Delivers 7 moisturizers to hydrate and replenish skin without clogging pores, Skin-strengthening proteins, vitamins, and anti-oxidants work, Non-irritating and contains calming agents, leaves skin soothed and refreshed.',
                 error: null
             },
             productOverview: {
@@ -1996,8 +1911,7 @@ const products = [
             },
             productDetails: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             images: {
                 value: [
@@ -2066,8 +1980,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B07WLNN8RQ?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Radiance Renewal Oil-Infused Cream with Essential Oils, 10 Oz',
+                value: 'Gold Bond Radiance Renewal Oil-Infused Cream with Essential Oils, 10 Oz',
                 error: null
             },
             ASIN: {
@@ -2083,23 +1996,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71tdtP9rk0L._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71tdtP9rk0L._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Hydrate visibly dry skin with Gold Bond Radiance Renewal Oil-Infused Cream featuring coconut oil, almond oil and mango butter. This skin-smoothing cream delivers ultra-rich moisture, and the blend of ingredients imparts an indulgent scent. It penetrates skin 10 surface layers deep. Gold Bond Radiance Renewal Oil-Infused Cream moisturizes dry skin for a full 24 hours with seven nourishing moisturizers and three vitamins. Best of all, it absorbs quickly and is non-greasy. Pamper your senses with a luxurious scent. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best.',
+                value: 'Hydrate visibly dry skin with Gold Bond Radiance Renewal Oil-Infused Cream featuring coconut oil, almond oil and mango butter. This skin-smoothing cream delivers ultra-rich moisture, and the blend of ingredients imparts an indulgent scent. It penetrates skin 10 surface layers deep. Gold Bond Radiance Renewal Oil-Infused Cream moisturizes dry skin for a full 24 hours with seven nourishing moisturizers and three vitamins. Best of all, it absorbs quickly and is non-greasy. Pamper your senses with a luxurious scent. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best.',
                 error: null
             },
             productOverview: {
@@ -2200,8 +2109,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B07L9RTWRS?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Radiance Renewal Hydrating Lotion, for Visibly Dry Skin, Family Size, 20 oz',
+                value: 'Gold Bond Radiance Renewal Hydrating Lotion, for Visibly Dry Skin, Family Size, 20 oz',
                 error: null
             },
             ASIN: {
@@ -2217,23 +2125,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81zrUD974TL._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81zrUD974TL._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Get healthy-looking, radiant skin with Gold Bond Radiance Renewal Hydrating Lotion for visibly dry skin. This pack of Gold Bond lotion comes conveniently bundled in a set of three 5.5-ounce tubes. Put one in the car, one in the bathroom, and one in the living room to always have moisturizing care at hand. Its triple action formula gently exfoliates, hydrates, and locks in moisture for 24 hours. You won't even know it's there while it nurtures your skin with seven nourishing moisturizers and three vitamins. Containing coconut oil, cocoa butter and African shea butter, this moisturizing lotion nourishes visibly dry skin for a healthy-looking glow. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best.",
+                value: "Get healthy-looking, radiant skin with Gold Bond Radiance Renewal Hydrating Lotion for visibly dry skin. This pack of Gold Bond lotion comes conveniently bundled in a set of three 5.5-ounce tubes. Put one in the car, one in the bathroom, and one in the living room to always have moisturizing care at hand. Its triple action formula gently exfoliates, hydrates, and locks in moisture for 24 hours. You won't even know it's there while it nurtures your skin with seven nourishing moisturizers and three vitamins. Containing coconut oil, cocoa butter and African shea butter, this moisturizing lotion nourishes visibly dry skin for a healthy-looking glow. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best.",
                 error: null
             },
             productOverview: {
@@ -2334,8 +2238,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B074MFDJRG?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate 1 Count Radiance Renewal, COCONUT OIL, SHEA BUTTER & COCOA BUTTER, 14 Oz',
+                value: 'Gold Bond Ultimate 1 Count Radiance Renewal, COCONUT OIL, SHEA BUTTER & COCOA BUTTER, 14 Oz',
                 error: null
             },
             ASIN: {
@@ -2351,8 +2254,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81lWkhHqzQL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81lWkhHqzQL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -2364,14 +2266,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    'New Gold Bond Ultimate Radiance Renewal. A rich, hydrating cream-oil that helps prevent visibly dry, ashy skin from coming back for healthy-looking, radiant skin.',
+                value: 'New Gold Bond Ultimate Radiance Renewal. A rich, hydrating cream-oil that helps prevent visibly dry, ashy skin from coming back for healthy-looking, radiant skin.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -2463,8 +2363,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00H35BV2G?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Healing Skin Therapy Lotion with Aloe, Fragrance Free 14 Ounce',
+                value: 'Gold Bond Ultimate Healing Skin Therapy Lotion with Aloe, Fragrance Free 14 Ounce',
                 error: null
             },
             ASIN: {
@@ -2480,22 +2379,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71SQJ4wlOjL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71SQJ4wlOjL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Fragrance Free - 14 Ounce',
                 error: null
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Healing Skin Therapy Lotion, Ultimate healing lotion is clinically tested to moisturize for up to 24 hours, Reveal nourished, healed and healthy-looking skin, Keep moisture attached to skin allowing it to work even after wash hands With 7 moisturizers and 3 vitamins. Dermatologist tested.',
+                value: 'Gold Bond Ultimate Healing Skin Therapy Lotion, Ultimate healing lotion is clinically tested to moisturize for up to 24 hours, Reveal nourished, healed and healthy-looking skin, Keep moisture attached to skin allowing it to work even after wash hands With 7 moisturizers and 3 vitamins. Dermatologist tested.',
                 error: null
             },
             productOverview: {
@@ -2600,8 +2496,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B008B9L6WS?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Healing Skin Therapy Lotion with Aloe, Family Size, Gold Fresh, 20 Ounce',
+                value: 'Gold Bond Ultimate Healing Skin Therapy Lotion with Aloe, Family Size, Gold Fresh, 20 Ounce',
                 error: null
             },
             ASIN: {
@@ -2617,8 +2512,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/718iQOcozlL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/718iQOcozlL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -2627,18 +2521,15 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Skin Therapy Lotion Healing with Aloe, Gold bond ultimate healing lotion is specially formulated to help heal extremely dry, rough and problem skin. With seven intensive moisturizers and three essential skin-nurturing vitamins, plus the natural healing power of aloe, gold bond ultimate healing lotion is clinically tested to moisturize for up to 24 hours. Dermatologist tested and hypoallergenic, gold bond ultimate healing lotion has the power to get skin back to healthy, yet is still gentle enough to use on face. It absorbs quickly and is non-greasy, yet can actually feel it working even after wash hands.',
+                value: 'Gold Bond Ultimate Skin Therapy Lotion Healing with Aloe, Gold bond ultimate healing lotion is specially formulated to help heal extremely dry, rough and problem skin. With seven intensive moisturizers and three essential skin-nurturing vitamins, plus the natural healing power of aloe, gold bond ultimate healing lotion is clinically tested to moisturize for up to 24 hours. Dermatologist tested and hypoallergenic, gold bond ultimate healing lotion has the power to get skin back to healthy, yet is still gentle enough to use on face. It absorbs quickly and is non-greasy, yet can actually feel it working even after wash hands.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -2730,8 +2621,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B001QFDTWO?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Lotion oz, Healing Skin Therapy, Aloe Vera, 14 Ounce',
+                value: 'Gold Bond Ultimate Lotion oz, Healing Skin Therapy, Aloe Vera, 14 Ounce',
                 error: null
             },
             ASIN: {
@@ -2747,8 +2637,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71tXZ7%2BceaL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71tXZ7%2BceaL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -2757,12 +2646,10 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'As the lotion is applied to dry, problem skin it adds a protective layer of moisture. Positive ions keep moisture attached to the skin, so you can feel it working even after you wash your hands. Unique blend of HYRDALAST(TM) emollients and humectants draw moisture throughout the day, for 24 hour moisturization.',
+                value: 'As the lotion is applied to dry, problem skin it adds a protective layer of moisture. Positive ions keep moisture attached to the skin, so you can feel it working even after you wash your hands. Unique blend of HYRDALAST(TM) emollients and humectants draw moisture throughout the day, for 24 hour moisturization.',
                 error: null
             },
             productOverview: {
@@ -2875,8 +2762,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B006TCTAEA?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Daily Moisturizing Skin Therapy Lotion Vitamin E, Hydrates & Nourishes, 14.5 oz',
+                value: 'Gold Bond Ultimate Daily Moisturizing Skin Therapy Lotion Vitamin E, Hydrates & Nourishes, 14.5 oz',
                 error: null
             },
             ASIN: {
@@ -2892,8 +2778,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71x%2Bm4k3bxL._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71x%2Bm4k3bxL._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
@@ -2902,12 +2787,10 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'This Gold Bond Ultimate Daily Moisturizing Lotion With Vitamin E is a hydrating formula that nourishes the skin to help repair, replenish, and fortify the dermis by creating a protective layer of moisture on your skin. The trademarked Hydralast emollients and humectants draw moisture throughout the day, for 24-hour moisturization to nourish and hydrate when used as part of a daily skin care regimen. This product has a fresh clean scent and is hypoallergenic and safe for every day use.',
+                value: 'This Gold Bond Ultimate Daily Moisturizing Lotion With Vitamin E is a hydrating formula that nourishes the skin to help repair, replenish, and fortify the dermis by creating a protective layer of moisture on your skin. The trademarked Hydralast emollients and humectants draw moisture throughout the day, for 24-hour moisturization to nourish and hydrate when used as part of a daily skin care regimen. This product has a fresh clean scent and is hypoallergenic and safe for every day use.',
                 error: null
             },
             productOverview: {
@@ -3015,8 +2898,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B07GVPCGJK?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Overnight Deep Moisturizing Lotion, 8 Oz Tube',
+                value: 'Gold Bond Ultimate Overnight Deep Moisturizing Lotion, 8 Oz Tube',
                 error: null
             },
             ASIN: {
@@ -3032,8 +2914,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81UawAiqmdL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81UawAiqmdL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -3042,8 +2923,7 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value: 'Directions: apply liberally before going to bed.',
@@ -3148,8 +3028,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00182ERTO?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Restoring & Vitamin C, Green Tea 13 Ounce',
+                value: 'Gold Bond Ultimate Restoring & Vitamin C, Green Tea 13 Ounce',
                 error: null
             },
             ASIN: {
@@ -3165,8 +3044,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81dbgMlcyZL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81dbgMlcyZL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -3178,8 +3056,7 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "With green tea and vitamins A, C, and E, Gold Bond Ultimate Restoring Green Tea and Vitamin C Lotion helps visibly improve five signs of healthy skin with nourishing moisturizers, restoring vitamins, and soothing green tea extract. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration while helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: "With green tea and vitamins A, C, and E, Gold Bond Ultimate Restoring Green Tea and Vitamin C Lotion helps visibly improve five signs of healthy skin with nourishing moisturizers, restoring vitamins, and soothing green tea extract. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration while helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
                 error: null
             },
             productOverview: {
@@ -3290,8 +3167,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00NNIOU48?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Skin Therapy LotionWith Shea Butter, Softening, 42 Ounce, (Pack of 3)',
+                value: 'Gold Bond Ultimate Skin Therapy LotionWith Shea Butter, Softening, 42 Ounce, (Pack of 3)',
                 error: null
             },
             ASIN: {
@@ -3307,23 +3183,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81d4Yk2c6tL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81d4Yk2c6tL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Gold Bond Ultimate Softening Lotion is a non-greasy, rich lotion with essential moisturizers, vitamins, shea butter, plus coconut butter and cocoa butter, that will help even the roughest, driest skin feel soft and smooth. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration to helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: "Gold Bond Ultimate Softening Lotion is a non-greasy, rich lotion with essential moisturizers, vitamins, shea butter, plus coconut butter and cocoa butter, that will help even the roughest, driest skin feel soft and smooth. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration to helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
                 error: null
             },
             productOverview: {
@@ -3426,8 +3298,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00OW9OU2O?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Softening Skin Therapy Lotion With Shea Butter for Rough & Dry Skin, 20 oz.',
+                value: 'Gold Bond Ultimate Softening Skin Therapy Lotion With Shea Butter for Rough & Dry Skin, 20 oz.',
                 error: null
             },
             ASIN: {
@@ -3443,8 +3314,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71qwfilejBL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71qwfilejBL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -3456,14 +3326,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    'This Gold Bond Softening Skin Therapy Lotion comes in a family-size bottle with 20 ounces of soft shea butter comfort. The seven essential moisturizers plus vitamins A, C, and E combine to increase and maintain moisture in your skin with a non-greasy formula for dry skin relief. Shea butter comes from the seeds of the fruit of the shea (karite) tree, provides skin with essential fatty acids, and it’s naturally rich in vitamins A, K, E, and F. All that shea butter softness with a fresh scent makes this a great option for dry skin relief that leaves you feeling soft and comfortable.',
+                value: 'This Gold Bond Softening Skin Therapy Lotion comes in a family-size bottle with 20 ounces of soft shea butter comfort. The seven essential moisturizers plus vitamins A, C, and E combine to increase and maintain moisture in your skin with a non-greasy formula for dry skin relief. Shea butter comes from the seeds of the fruit of the shea (karite) tree, provides skin with essential fatty acids, and it’s naturally rich in vitamins A, K, E, and F. All that shea butter softness with a fresh scent makes this a great option for dry skin relief that leaves you feeling soft and comfortable.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -3561,8 +3429,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B001G8Y9VG?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Softening Lotion, 5.5 OZ (Pack of 4)',
+                value: 'Gold Bond Ultimate Softening Lotion, 5.5 OZ (Pack of 4)',
                 error: null
             },
             ASIN: {
@@ -3578,29 +3445,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/815KEGMNnVL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/815KEGMNnVL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Gold Bond Ultimate Softening Lotion is a non-greasy, rich lotion with essential moisturizers, vitamins, shea butter, plus coconut butter and cocoa butter, that will help even the roughest, driest skin feel soft and smooth. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration to helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: "Gold Bond Ultimate Softening Lotion is a non-greasy, rich lotion with essential moisturizers, vitamins, shea butter, plus coconut butter and cocoa butter, that will help even the roughest, driest skin feel soft and smooth. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration to helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -3695,8 +3557,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B074KM543R?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Ultimate Men's Essentials 5-in-1 Face Lotion, Fragrance free, 3.3 Ounce",
+                value: "Gold Bond Ultimate Men's Essentials 5-in-1 Face Lotion, Fragrance free, 3.3 Ounce",
                 error: null
             },
             ASIN: {
@@ -3712,8 +3573,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81jXb2lw%2BvL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81jXb2lw%2BvL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -3722,12 +3582,10 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ulimate Essentials Mens 5 in 1 Face Lotion SPF 15, Deliver 5 essential benefits in one everyday formula: soothing, moisturizing, repairing, strengthening, and protecting, Light weight and quick-absorbing. Delivers 7 moisturizers to hydrate and replenish skin without clogging pores, Skin-strengthening proteins, vitamins, and anti-oxidants work, Non-irritating and contains calming agents, leaves skin soothed and refreshed.',
+                value: 'Gold Bond Ulimate Essentials Mens 5 in 1 Face Lotion SPF 15, Deliver 5 essential benefits in one everyday formula: soothing, moisturizing, repairing, strengthening, and protecting, Light weight and quick-absorbing. Delivers 7 moisturizers to hydrate and replenish skin without clogging pores, Skin-strengthening proteins, vitamins, and anti-oxidants work, Non-irritating and contains calming agents, leaves skin soothed and refreshed.',
                 error: null
             },
             productOverview: {
@@ -3847,8 +3705,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71NVGIvwyNL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71NVGIvwyNL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -3860,8 +3717,7 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    'GOLD BOND Ultimate Pedi smooth foot cream, Formulated with 7 moisturizers and 4 exfoliators. Exfoliates and smoothes feet. Maintains that soft, smooth pedicure feeling. Spa fresh scent. Keeps that soft, smooth pedicure feeling lasting up to 2 weeks longer. 2-In-1 formula combines an exfoliating complex with 7 intensive moisturizers to prevent build up of rough dead skin and recondition feet.',
+                value: 'GOLD BOND Ultimate Pedi smooth foot cream, Formulated with 7 moisturizers and 4 exfoliators. Exfoliates and smoothes feet. Maintains that soft, smooth pedicure feeling. Spa fresh scent. Keeps that soft, smooth pedicure feeling lasting up to 2 weeks longer. 2-In-1 formula combines an exfoliating complex with 7 intensive moisturizers to prevent build up of rough dead skin and recondition feet.',
                 error: null
             },
             productOverview: {
@@ -3884,8 +3740,7 @@ const products = [
             },
             productDetails: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             images: {
                 value: [
@@ -3954,8 +3809,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B001MIZMIE?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Healing Foot Cream with Aloe 4 oz. (Pack of 4), Heals Dry, Rough Heels',
+                value: 'Gold Bond Ultimate Healing Foot Cream with Aloe 4 oz. (Pack of 4), Heals Dry, Rough Heels',
                 error: null
             },
             ASIN: {
@@ -3964,12 +3818,10 @@ const products = [
             },
             basePrice: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71RHDjRkclL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71RHDjRkclL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -3981,8 +3833,7 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Rough, dry or cracked feet and heels? You need Gold Bond Ultimate Healing Foot Cream with aloe. Formulated with seven intensive moisturizers and three vitamins, this foot cream is designed to hydrate and nourish rough skin. In fact, it's been clinically tested to give you much-needed moisture for 24 hours. Gold Bond Ultimate Healing Foot Cream also contains aloe to soothe rough, dry skin, and it even helps stop dry skin before it starts. The result is noticeably healthier looking skin. Best of all, Gold Bond Ultimate Healing Foot Cream is hypoallergenic, comes in a fresh, clean scent, and is a non-greasy formula. Treat your feet to soothing relief. Stock up on 4-oz. bottles of Gold Bond Healing Foot Cream with Aloe so you always have soothing relief for dry, rough or cracked feet and heels. DIRECTIONS FOR USE: Apply liberally as often as needed. Reapply to rough, dry heels to increase level of moisturization.",
+                value: "Rough, dry or cracked feet and heels? You need Gold Bond Ultimate Healing Foot Cream with aloe. Formulated with seven intensive moisturizers and three vitamins, this foot cream is designed to hydrate and nourish rough skin. In fact, it's been clinically tested to give you much-needed moisture for 24 hours. Gold Bond Ultimate Healing Foot Cream also contains aloe to soothe rough, dry skin, and it even helps stop dry skin before it starts. The result is noticeably healthier looking skin. Best of all, Gold Bond Ultimate Healing Foot Cream is hypoallergenic, comes in a fresh, clean scent, and is a non-greasy formula. Treat your feet to soothing relief. Stock up on 4-oz. bottles of Gold Bond Healing Foot Cream with Aloe so you always have soothing relief for dry, rough or cracked feet and heels. DIRECTIONS FOR USE: Apply liberally as often as needed. Reapply to rough, dry heels to increase level of moisturization.",
                 error: null
             },
             productOverview: {
@@ -4068,8 +3919,7 @@ const products = [
             },
             priceDetail: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             ratings: {
                 value: {
@@ -4084,8 +3934,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B0073E7JFK?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Softening Foot Cream With Shea Butter to Soften Rough & Calloused Feet, 4 oz.',
+                value: 'Gold Bond Ultimate Softening Foot Cream With Shea Butter to Soften Rough & Calloused Feet, 4 oz.',
                 error: null
             },
             ASIN: {
@@ -4101,8 +3950,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81xOpoeqjgL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81xOpoeqjgL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -4114,14 +3962,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Treat your feet to the Gold Bond Ultimate Softening Foot Cream With Shea Butter to soften calloused feet. Restore and maintain your skin's youthful appearance with the unique silk peptide matrix, formulated with vitamins and shea butter to soften and revitalize your feet when life leaves them rough and dry. The combination of vitamins A, C, and E nourish the skin and soften callouses with the softness of shea butter, leaving a fresh scent on your revitalized skin. The rich cream moisturizes skin quickly for soft, velvety-feeling feet.",
+                value: "Treat your feet to the Gold Bond Ultimate Softening Foot Cream With Shea Butter to soften calloused feet. Restore and maintain your skin's youthful appearance with the unique silk peptide matrix, formulated with vitamins and shea butter to soften and revitalize your feet when life leaves them rough and dry. The combination of vitamins A, C, and E nourish the skin and soften callouses with the softness of shea butter, leaving a fresh scent on your revitalized skin. The rich cream moisturizes skin quickly for soft, velvety-feeling feet.",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -4225,33 +4071,27 @@ const products = [
             },
             basePrice: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81QhbVpH9ML._AC_SX425_PIbundle-3,TopRight,0,0_SH20_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81QhbVpH9ML._AC_SX425_PIbundle-3,TopRight,0,0_SH20_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'For dry, rough and cracked heels. Therapeutic. Healing since 1908. Relieves dry, irritated skin. Soothes & softens. Cools & revitalizes. Helps heal dry, rough and cracked feet and heels. The unique formula delivers 7 intensive moisturizers plus the healing power of essential skin nurturing Vitamins A, C and E. Used daily, it works to condition and repair even the toughest skin to keep feet from becoming dry, rough and cracked. Lightly scented, penetrates fast, non-greasy. Heals. Moisturizes. Softens. Refreshes. Deodorizes.',
+                value: 'For dry, rough and cracked heels. Therapeutic. Healing since 1908. Relieves dry, irritated skin. Soothes & softens. Cools & revitalizes. Helps heal dry, rough and cracked feet and heels. The unique formula delivers 7 intensive moisturizers plus the healing power of essential skin nurturing Vitamins A, C and E. Used daily, it works to condition and repair even the toughest skin to keep feet from becoming dry, rough and cracked. Lightly scented, penetrates fast, non-greasy. Heals. Moisturizes. Softens. Refreshes. Deodorizes.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -4325,8 +4165,7 @@ const products = [
             },
             priceDetail: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             ratings: {
                 value: {
@@ -4341,8 +4180,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08CJ2S9HJ?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Hand Cream 3 oz. with Broad Spectrum SPF 20 Sunscreen, Age Defense (Pack of 24)',
+                value: 'Gold Bond Ultimate Hand Cream 3 oz. with Broad Spectrum SPF 20 Sunscreen, Age Defense (Pack of 24)',
                 error: null
             },
             ASIN: {
@@ -4351,27 +4189,22 @@ const products = [
             },
             basePrice: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/7181yOKCT4L._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/7181yOKCT4L._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Your hands deserve a round of applause. They work hard every day. But, over time the skin on your hands can lose its ability to retain moisture. Replenish vital hydration to your hands with Gold Bond Ultimate Age Defense Hand Cream with Broad Spectrum SPF 20 Sunscreen. Formulated with seven moisturizers and three vitamins, this hand cream nourishes and revitalizes to reveal noticeably healthier-looking skin. It replenishes and protects immediately*. Gold Bond Age Defense Hand Cream is also formulated with broad spectrum SPF 20 sunscreen to help protect against damaging effects of daily sun exposure†. Best of all, Gold Bond Ultimate Age Defense Hand Cream is hypoallergenic, non-greasy, and doesn't leave a white sunscreen residue. Stock up on 3-oz. bottles of Gold Bond Ultimate Age Defense Hand Cream with Broad Spectrum SPF 20 Sunscreen to keep nourishing moisture on hand for whenever your hands need it. *refers to 15 minutes after application † if used as directed with other sun protection measures (use another symbol)",
+                value: "Your hands deserve a round of applause. They work hard every day. But, over time the skin on your hands can lose its ability to retain moisture. Replenish vital hydration to your hands with Gold Bond Ultimate Age Defense Hand Cream with Broad Spectrum SPF 20 Sunscreen. Formulated with seven moisturizers and three vitamins, this hand cream nourishes and revitalizes to reveal noticeably healthier-looking skin. It replenishes and protects immediately*. Gold Bond Age Defense Hand Cream is also formulated with broad spectrum SPF 20 sunscreen to help protect against damaging effects of daily sun exposure†. Best of all, Gold Bond Ultimate Age Defense Hand Cream is hypoallergenic, non-greasy, and doesn't leave a white sunscreen residue. Stock up on 3-oz. bottles of Gold Bond Ultimate Age Defense Hand Cream with Broad Spectrum SPF 20 Sunscreen to keep nourishing moisture on hand for whenever your hands need it. *refers to 15 minutes after application † if used as directed with other sun protection measures (use another symbol)",
                 error: null
             },
             productOverview: {
@@ -4454,8 +4287,7 @@ const products = [
             },
             priceDetail: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             ratings: {
                 value: {
@@ -4486,8 +4318,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81RcD6Ate7L._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81RcD6Ate7L._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -4496,12 +4327,10 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Skin on the hands is exposed to the relentless wear and tear of sun, cold, heat, and abrasion. GOLD BOND Ultimate Healing Hand Cream nourishes and repairs dry, problem hands by adding a protective layer of moisture to restore smooth, healthy-looking skin. Positive ions in the formula keep moisture attached to skin, so you can feel it working even after hand washing.',
+                value: 'Skin on the hands is exposed to the relentless wear and tear of sun, cold, heat, and abrasion. GOLD BOND Ultimate Healing Hand Cream nourishes and repairs dry, problem hands by adding a protective layer of moisture to restore smooth, healthy-looking skin. Positive ions in the formula keep moisture attached to skin, so you can feel it working even after hand washing.',
                 error: null
             },
             productOverview: {
@@ -4605,8 +4434,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08NQH1Z66?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Hydrating Hand Sanitizer Gel - Kills 99.99% of Germs, White, 75% Alcohol, 5 Fl Oz – Rosemary Mint Scent (Pack of 4)',
+                value: 'Gold Bond Hydrating Hand Sanitizer Gel - Kills 99.99% of Germs, White, 75% Alcohol, 5 Fl Oz – Rosemary Mint Scent (Pack of 4)',
                 error: null
             },
             ASIN: {
@@ -4622,29 +4450,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81z3eejoMBL._AC_SX425_PIbundle-4,TopRight,0,0_SH20_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81z3eejoMBL._AC_SX425_PIbundle-4,TopRight,0,0_SH20_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Challenge everything you know about hand sanitizing gels. Gold Bond Hydrating hand Sanitizer gel starts working on contact to kill germs. In fact, in laboratory testing, this hand Sanitizer is shown to kill 99.99% of germs. Best of all, it's formulated to help your hands feel hydarted while protecting hands from germs. That's because Gold Bond Hand Sanitizer gel is infused with moisture-rich essential oils, which help skin better retain moisture. It's also formulated with hydrating ingredients, such as glycerin and vitamin E, to help keep hands soft. But we think you'll like the refreshing rosemary Mint scent best. Say goodbye to the harsh smell of Alcohol. Gold Bond Hydrating hand Sanitizer is also designed to dry quickly and won't leave a sticky residue. Stock up on 5 fl. Oz. Bottles of Gold Bond Hand Sanitizer so you always have hydrating germ-killing power at your fingertips. Pack one in your backpack or purse, and keep a second bottle in your desktop. Based on lab testing\"",
+                value: "Challenge everything you know about hand sanitizing gels. Gold Bond Hydrating hand Sanitizer gel starts working on contact to kill germs. In fact, in laboratory testing, this hand Sanitizer is shown to kill 99.99% of germs. Best of all, it's formulated to help your hands feel hydarted while protecting hands from germs. That's because Gold Bond Hand Sanitizer gel is infused with moisture-rich essential oils, which help skin better retain moisture. It's also formulated with hydrating ingredients, such as glycerin and vitamin E, to help keep hands soft. But we think you'll like the refreshing rosemary Mint scent best. Say goodbye to the harsh smell of Alcohol. Gold Bond Hydrating hand Sanitizer is also designed to dry quickly and won't leave a sticky residue. Stock up on 5 fl. Oz. Bottles of Gold Bond Hand Sanitizer so you always have hydrating germ-killing power at your fingertips. Pack one in your backpack or purse, and keep a second bottle in your desktop. Based on lab testing\"",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -4735,8 +4558,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B007VC9DKI?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Friction Defense Stick, Unscented, 1.75 Ounces',
+                value: 'Gold Bond Friction Defense Stick, Unscented, 1.75 Ounces',
                 error: null
             },
             ASIN: {
@@ -4752,8 +4574,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71%2BtX8hYLGL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71%2BtX8hYLGL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -4762,12 +4583,10 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Friction Defense has a soothing formula that is perfect for daily use. It reduces friction while it soothes and moisturizes your skin. Plus, Gold Bond Friction Defense is non-irritating and gentle enough for even sensitive skin. Designed to provide comfort and relief to skin that is irritated by friction, Gold Bond Friction Defense is long lasting, non-greasy, and unscented. So donât let the discomfort of friction keep you down. Count on Gold Bond Friction Defense. 1.75 oz.',
+                value: 'Gold Bond Friction Defense has a soothing formula that is perfect for daily use. It reduces friction while it soothes and moisturizes your skin. Plus, Gold Bond Friction Defense is non-irritating and gentle enough for even sensitive skin. Designed to provide comfort and relief to skin that is irritated by friction, Gold Bond Friction Defense is long lasting, non-greasy, and unscented. So donât let the discomfort of friction keep you down. Count on Gold Bond Friction Defense. 1.75 oz.',
                 error: null
             },
             productOverview: {
@@ -4897,29 +4716,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71d68ydv8AL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71d68ydv8AL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'GOLD BOND Medicated Eczema Relief Cream helps protect and relieve minor skin irritation and itching due to eczema and rashes. Backed by the National Eczema Association, it provides fast, effective relief from 5 miserable symptoms of eczema flare-ups. Plus it’s steroid free, fragrance-free and gentle enough to use daily.',
+                value: 'GOLD BOND Medicated Eczema Relief Cream helps protect and relieve minor skin irritation and itching due to eczema and rashes. Backed by the National Eczema Association, it provides fast, effective relief from 5 miserable symptoms of eczema flare-ups. Plus it’s steroid free, fragrance-free and gentle enough to use daily.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -5027,23 +4841,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71r8NZ1toGL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71r8NZ1toGL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Gold Bond Eczema Relief is formulated specifically to help break the itch-scratch cycle of eczema. Gold Bond lotion and creams have colloidal oatmeal, moisturizers, and vitamins to help relieve the itch, dryness, scaling, roughness, and redness of eczema. Not all eczema creams and lotions are equal and Gold Bond Eczema Relief goes beyond other leading eczema products with 2% colloidal oatmeal. Made with colloidal oatmeal, 7 moisturizers & 3 vitamins, Gold Bond Eczema Relief is also steroid-free. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: "Gold Bond Eczema Relief is formulated specifically to help break the itch-scratch cycle of eczema. Gold Bond lotion and creams have colloidal oatmeal, moisturizers, and vitamins to help relieve the itch, dryness, scaling, roughness, and redness of eczema. Not all eczema creams and lotions are equal and Gold Bond Eczema Relief goes beyond other leading eczema products with 2% colloidal oatmeal. Made with colloidal oatmeal, 7 moisturizers & 3 vitamins, Gold Bond Eczema Relief is also steroid-free. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
                 error: null
             },
             productOverview: {
@@ -5146,8 +4956,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00GIHMOGW?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Eczema Relief Skin Protectant Cream, 8 Ounce',
+                value: 'Gold Bond Ultimate Eczema Relief Skin Protectant Cream, 8 Ounce',
                 error: null
             },
             ASIN: {
@@ -5163,22 +4972,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71yXPQ9uP5L._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71yXPQ9uP5L._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Skin Protectant Cream',
                 error: null
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Skin Therapy Cream Eczema Relief, Soothing relief for the symptoms of eczema: Itch, Dryness, Scaling or Peeling, Roughness and Redness or IrritationGives fast itch relief, while Vitamin E, aloe and a combination of 7 moisturizers and 3 vitamins, soothe eczema discomfort. Steroid free, dye free and fragrance free cream fights back against the five symptoms of eczema.',
+                value: 'Gold Bond Ultimate Skin Therapy Cream Eczema Relief, Soothing relief for the symptoms of eczema: Itch, Dryness, Scaling or Peeling, Roughness and Redness or IrritationGives fast itch relief, while Vitamin E, aloe and a combination of 7 moisturizers and 3 vitamins, soothe eczema discomfort. Steroid free, dye free and fragrance free cream fights back against the five symptoms of eczema.',
                 error: null
             },
             productOverview: {
@@ -5298,22 +5104,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71JM8yKkCpL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71JM8yKkCpL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Hand Cream',
                 error: null
             },
             productDescription: {
-                value:
-                    'INDICATIONS: Gold Bond Ultimate Eczema Relief Hand Cream gives you fast itch relief, while Vitamin E, aloe and a combination of 7 moisturizers and 3 vitamins, soothe your eczema discomfort. Formulated for daily use, steroid-free, dye-free and fragrance-free Gold Bond Eczema Relief Hand Cream fights back against the five symptoms of eczema. Formulated for daily use, our steroid-free, dye-free and fragrance-free cream fights back against the five symptoms of eczema.',
+                value: 'INDICATIONS: Gold Bond Ultimate Eczema Relief Hand Cream gives you fast itch relief, while Vitamin E, aloe and a combination of 7 moisturizers and 3 vitamins, soothe your eczema discomfort. Formulated for daily use, steroid-free, dye-free and fragrance-free Gold Bond Eczema Relief Hand Cream fights back against the five symptoms of eczema. Formulated for daily use, our steroid-free, dye-free and fragrance-free cream fights back against the five symptoms of eczema.',
                 error: null
             },
             productOverview: {
@@ -5416,8 +5219,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B00P2V1CDG?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Pain & Itch Relief Cream with Lidocaine, gold, 1.75 Ounce',
+                value: 'Gold Bond Pain & Itch Relief Cream with Lidocaine, gold, 1.75 Ounce',
                 error: null
             },
             ASIN: {
@@ -5433,19 +5235,16 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81Ey0YvXCyL._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81Ey0YvXCyL._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
                 value: 'Health and Personal Care',
@@ -5453,8 +5252,7 @@ const products = [
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -5547,8 +5345,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B003QB26MA?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Body Lotion Extra Strength, Aloe Vera, 14 Ounce',
+                value: 'Gold Bond Medicated Body Lotion Extra Strength, Aloe Vera, 14 Ounce',
                 error: null
             },
             ASIN: {
@@ -5564,22 +5361,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71lndvAeeyL._AC_SY879_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71lndvAeeyL._AC_SY879_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: 'Extra Strength',
                 error: null
             },
             productDescription: {
-                value:
-                    'Gold Bond Extra Strength Medicated Moisturizing Body Lotion, A unique blend of emollients, lipids, aloe and Vitamin E clinically proven to moisturize, soothe and protect for hours. Plus, unlike ordinary moisturizers, Triple Action Extra Strength Gold Bond Lotion is medicated to provide prompt, effective itch relief. For the temporary relief of itching associated with dry skin.',
+                value: 'Gold Bond Extra Strength Medicated Moisturizing Body Lotion, A unique blend of emollients, lipids, aloe and Vitamin E clinically proven to moisturize, soothe and protect for hours. Plus, unlike ordinary moisturizers, Triple Action Extra Strength Gold Bond Lotion is medicated to provide prompt, effective itch relief. For the temporary relief of itching associated with dry skin.',
                 error: null
             },
             productOverview: {
@@ -5669,23 +5463,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81cSxO2zkzL._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81cSxO2zkzL._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "Psoriasis symptoms such as skin that is itching, irritated, or scaling can be uncomfortable. Gold Bond Multi-Symptom Psoriasis Relief provides soothing, temporary relief from skin irritation due to psoriasis and seborrheic dermatitis. Our Multi-Symptom Psoriasis Relief helps hydrate and soothe skin to provide relief from itching, irritation, and scaling associated with psoriasis, while salicylic acid helps prevent the recurrence of psoriasis symptoms. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: "Psoriasis symptoms such as skin that is itching, irritated, or scaling can be uncomfortable. Gold Bond Multi-Symptom Psoriasis Relief provides soothing, temporary relief from skin irritation due to psoriasis and seborrheic dermatitis. Our Multi-Symptom Psoriasis Relief helps hydrate and soothe skin to provide relief from itching, irritation, and scaling associated with psoriasis, while salicylic acid helps prevent the recurrence of psoriasis symptoms. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
                 error: null
             },
             productOverview: {
@@ -5811,8 +5601,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71kxToKRjSL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71kxToKRjSL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -5821,18 +5610,15 @@ const products = [
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Rough and Bumpy Skin Cream, Contains a gentle yet effective combination of AHA, BHA, and PHA plus 8 intensive moisturizers. Help to exfoliate and condition even the roughest, bumpy dry skin. Fragrance free, Sens skin safe. Triple Action AHA BHA LHA helps bumy skin and scaly skin conditions.',
+                value: 'Gold Bond Ultimate Rough and Bumpy Skin Cream, Contains a gentle yet effective combination of AHA, BHA, and PHA plus 8 intensive moisturizers. Help to exfoliate and condition even the roughest, bumpy dry skin. Fragrance free, Sens skin safe. Triple Action AHA BHA LHA helps bumy skin and scaly skin conditions.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -5844,8 +5630,7 @@ const products = [
             },
             productDetails: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             images: {
                 value: [
@@ -5908,8 +5693,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5GNXBG?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Men's Essentials Talc-Free Body Powder 10 oz, Refresh 360 Scent, Wetness Protection",
+                value: "Gold Bond Men's Essentials Talc-Free Body Powder 10 oz, Refresh 360 Scent, Wetness Protection",
                 error: null
             },
             ASIN: {
@@ -5925,8 +5709,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/61Vk1YOgrzL._AC_SY741_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/61Vk1YOgrzL._AC_SY741_.jpg',
                 error: null
             },
             sizeName: {
@@ -5938,14 +5721,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Take control of wetness and odor caused by everyday activities. Try Gold Bond Men's Essentials Talc-Free Body Powder in Refresh 360 Scent. This body powder for men has a unique triple action formula that absorbs moisture, cools skin, and refreshes. Best of all, Gold Bond Men's Essentials Body Powder provides all over odor* and wetness control. You won't be the only one who likes the crisp, irresistible scent. Feel confident using this men's body powder before exercising or heading out for the night. For best results, apply just after showering once skin is dry. Stock up on 10-oz. bottles of Gold Bond Men's Essentials Body Powder in Refresh 360 Scent so you always have that fresh and cool feeling on hand when you need it most. Now talc-free and formulated without parabens and preservatives. *absorbs odor-causing sweat DIRECTIONS FOR USE: Apply liberally on body, feet, or undergarments after shower or bath, or as often as needed to help you feel dry, fresh, and comfortable all day.",
+                value: "Take control of wetness and odor caused by everyday activities. Try Gold Bond Men's Essentials Talc-Free Body Powder in Refresh 360 Scent. This body powder for men has a unique triple action formula that absorbs moisture, cools skin, and refreshes. Best of all, Gold Bond Men's Essentials Body Powder provides all over odor* and wetness control. You won't be the only one who likes the crisp, irresistible scent. Feel confident using this men's body powder before exercising or heading out for the night. For best results, apply just after showering once skin is dry. Stock up on 10-oz. bottles of Gold Bond Men's Essentials Body Powder in Refresh 360 Scent so you always have that fresh and cool feeling on hand when you need it most. Now talc-free and formulated without parabens and preservatives. *absorbs odor-causing sweat DIRECTIONS FOR USE: Apply liberally on body, feet, or undergarments after shower or bath, or as often as needed to help you feel dry, fresh, and comfortable all day.",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6045,27 +5826,22 @@ const products = [
             },
             basePrice: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/716tiYgsa9L._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/716tiYgsa9L._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    "How do you make baby the freshest on the block? By keeping them dry and comfortable! Gold Bond Medicated Cornstarch Plus Baby Powder provides the same moisture control you trust for the older kids and adults in your family, but in a special formula for baby's skin. This baby powder with cornstarch helps treat and prevent diaper rash by protecting against wetness. Gold Bond Baby Powder also helps protect and soothe minor skin irritations associated with diaper rash. Although the bottle says baby powder, adults can also use this body powder to protect against wetness and temporarily protects chafed skin and helps relieve minor skin irritations. DIRECTIONS FOR USE: Children under 2 years: Change wet and soiled diapers promptly, cleansing the diaper area and allowing it to dry. Apply the baby powder liberally as often as necessary, with each diaper change, and especially at bedtime, or anytime when exposure to wet diapers may be prolonged. Apply the baby powder close to the body and away from child’s face. Carefully shake the powder into the diaper or into the hand and apply to the diaper area. Adults and children 2 years and older: Apply freely up to 3 or 4 times daily. Dry skin thoroughly before applying for best results.",
+                value: "How do you make baby the freshest on the block? By keeping them dry and comfortable! Gold Bond Medicated Cornstarch Plus Baby Powder provides the same moisture control you trust for the older kids and adults in your family, but in a special formula for baby's skin. This baby powder with cornstarch helps treat and prevent diaper rash by protecting against wetness. Gold Bond Baby Powder also helps protect and soothe minor skin irritations associated with diaper rash. Although the bottle says baby powder, adults can also use this body powder to protect against wetness and temporarily protects chafed skin and helps relieve minor skin irritations. DIRECTIONS FOR USE: Children under 2 years: Change wet and soiled diapers promptly, cleansing the diaper area and allowing it to dry. Apply the baby powder liberally as often as necessary, with each diaper change, and especially at bedtime, or anytime when exposure to wet diapers may be prolonged. Apply the baby powder close to the body and away from child’s face. Carefully shake the powder into the diaper or into the hand and apply to the diaper area. Adults and children 2 years and older: Apply freely up to 3 or 4 times daily. Dry skin thoroughly before applying for best results.",
                 error: null
             },
             productOverview: {
@@ -6151,8 +5927,7 @@ const products = [
             },
             priceDetail: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             ratings: {
                 value: {
@@ -6167,8 +5942,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5F5X6Z?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Extra Strength Body Powder 10 oz, Cooling, Absorbing & Itch Relief',
+                value: 'Gold Bond Medicated Talc-Free Extra Strength Body Powder 10 oz, Cooling, Absorbing & Itch Relief',
                 error: null
             },
             ASIN: {
@@ -6184,8 +5958,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81ewbskMKSL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81ewbskMKSL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -6197,14 +5970,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Skin that's sweaty and itchy deserves extra-strength relief. Gold Bond Extra Strength Medicated Talc-Free Body Powder's unique triple action formula not only controls odor* and absorbs moisture with a cooling sensation, but it also has 5X the concentration of menthol compared to Gold Bond Original Strength Body Powder. Best of all, this extra-strength cooling and itch relieving powder is gentle enough to use daily when used as directed. Stock up on 10-oz. bottles of Extra Strength Gold Bond Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
+                value: "Skin that's sweaty and itchy deserves extra-strength relief. Gold Bond Extra Strength Medicated Talc-Free Body Powder's unique triple action formula not only controls odor* and absorbs moisture with a cooling sensation, but it also has 5X the concentration of menthol compared to Gold Bond Original Strength Body Powder. Best of all, this extra-strength cooling and itch relieving powder is gentle enough to use daily when used as directed. Stock up on 10-oz. bottles of Extra Strength Gold Bond Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6295,8 +6066,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5DTJQR?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Original Strength Body Powder, 1-Ounce',
+                value: 'Gold Bond Medicated Talc-Free Original Strength Body Powder, 1-Ounce',
                 error: null
             },
             ASIN: {
@@ -6312,8 +6082,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71a0VEFEXrL._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71a0VEFEXrL._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
@@ -6325,14 +6094,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Skin that's sweaty and itchy deserves cooling relief. Gold Bond Medicated Talc-Free Body Powder's unique triple action formula absorbs moisture, controls odor* and is formulated with 0.15% menthol to help relieve itch. This original-strength body powder provides cooling relief and is ideal for itch associated with minor skin irritations, including sunburn, insect bites, scrapes, and minor cuts and burns. Best of all, this Gold Bond(R) Powder is gentle enough to use daily when used as directed. Stock up on 1-oz. bottles of Gold Bond Original Strength Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
+                value: "Skin that's sweaty and itchy deserves cooling relief. Gold Bond Medicated Talc-Free Body Powder's unique triple action formula absorbs moisture, controls odor* and is formulated with 0.15% menthol to help relieve itch. This original-strength body powder provides cooling relief and is ideal for itch associated with minor skin irritations, including sunburn, insect bites, scrapes, and minor cuts and burns. Best of all, this Gold Bond(R) Powder is gentle enough to use daily when used as directed. Stock up on 1-oz. bottles of Gold Bond Original Strength Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6422,8 +6189,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5DK88Y?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Original Strength Body Powder',
+                value: 'Gold Bond Medicated Talc-Free Original Strength Body Powder',
                 error: null
             },
             ASIN: {
@@ -6439,8 +6205,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/812Wcq9OpPL._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/812Wcq9OpPL._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
@@ -6452,14 +6217,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Skin that's sweaty and itchy deserves cooling relief. Gold Bond Medicated Talc-Free Body Powder unique triple action formula absorbs moisture, controls odor* and is formulated with 0.15% menthol to relieve itch. This original-strength body powder provides cooling relief and is ideal for itch associated with minor skin irritations, including sunburn, insect bites, scrapes, and minor cuts and burns. Best of all, this Gold Bond(R) Powder is gentle enough to use daily when used as directed. Stock up on 10-oz. bottles of Gold Bond Original Strength Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
+                value: "Skin that's sweaty and itchy deserves cooling relief. Gold Bond Medicated Talc-Free Body Powder unique triple action formula absorbs moisture, controls odor* and is formulated with 0.15% menthol to relieve itch. This original-strength body powder provides cooling relief and is ideal for itch associated with minor skin irritations, including sunburn, insect bites, scrapes, and minor cuts and burns. Best of all, this Gold Bond(R) Powder is gentle enough to use daily when used as directed. Stock up on 10-oz. bottles of Gold Bond Original Strength Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6550,8 +6313,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B012FUZ8NG?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Comfort Body Powder Aloe, White Fresh, 10 Ounce',
+                value: 'Gold Bond Ultimate Comfort Body Powder Aloe, White Fresh, 10 Ounce',
                 error: null
             },
             ASIN: {
@@ -6567,23 +6329,19 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71n42lxVqWL._AC_SY879_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71n42lxVqWL._AC_SY879_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Comfort Body Powder, Charmomile, Specially formulated to provide the ultimate in freshness, odor protection and moisture control. Gold Bond Ultimate Comfort Body Powder is a light, talc-free powder that works to help keep you dry to protect against chafing while it leaves your skin feeling fresh and silky-soft all day. In fact, Gold Bond Ultimate goes beyond ordinary body powders because it is enriched with Aloe and skin-nurturing vitamins A, C and E. It also contains natural botanicals like Chamomile and Lavender to help soothe and comfort. 100% Talc-free formula is safe and effective for the entire family. Provides total body freshness and comfort: torso, back, arms, legs, feet. All day odor and moisture protection. Enhances sleeping comfort. Fresh clean scent.',
+                value: 'Gold Bond Ultimate Comfort Body Powder, Charmomile, Specially formulated to provide the ultimate in freshness, odor protection and moisture control. Gold Bond Ultimate Comfort Body Powder is a light, talc-free powder that works to help keep you dry to protect against chafing while it leaves your skin feeling fresh and silky-soft all day. In fact, Gold Bond Ultimate goes beyond ordinary body powders because it is enriched with Aloe and skin-nurturing vitamins A, C and E. It also contains natural botanicals like Chamomile and Lavender to help soothe and comfort. 100% Talc-free formula is safe and effective for the entire family. Provides total body freshness and comfort: torso, back, arms, legs, feet. All day odor and moisture protection. Enhances sleeping comfort. Fresh clean scent.',
                 error: null
             },
             productOverview: {
@@ -6656,8 +6414,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5FMHGG?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Men's Essentials Talc-Free Body Powder Spray 7 oz Nightfall Scent Wetness Protection",
+                value: "Gold Bond Men's Essentials Talc-Free Body Powder Spray 7 oz Nightfall Scent Wetness Protection",
                 error: null
             },
             ASIN: {
@@ -6673,8 +6430,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71bQUPb%2BQwL._AC_SX425_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71bQUPb%2BQwL._AC_SX425_.jpg',
                 error: null
             },
             sizeName: {
@@ -6686,14 +6442,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Meet irresistible-smelling odor* and wetness control in a convenient, no-mess spray bottle. Gold Bond Men's Essentials Talc-Free Body Powder Spray's unique triple action formula keeps things feeling fresh while protecting against wetness. Simply point and spray wherever you need to feel refreshed. No loose powder, no mess. Best of all, this body powder for men provides a cooling sensation when you apply it. Gold Bond Body Powder Spray for Men comes in two irresistible scents: Recharge and Nightfall. Try them both to stay fresh and keep things interesting. Stock up on 7-oz. spray bottles of Gold Bond Men's Essentials Body Powder Spray so you always have that cool, fresh feeling on hand for whenever you need it. Pack one in your gym bag and keep a bottle in your bathroom to use after showering. Now talc-free and formulated without parabens and preservatives. *absorbs odor-causing sweat DIRECTIONS FOR USE: Shake well before each use. Hold can approximately 6”-8” from skin and spray evenly for 2-3 seconds. Do not spray directly on clothes.",
+                value: "Meet irresistible-smelling odor* and wetness control in a convenient, no-mess spray bottle. Gold Bond Men's Essentials Talc-Free Body Powder Spray's unique triple action formula keeps things feeling fresh while protecting against wetness. Simply point and spray wherever you need to feel refreshed. No loose powder, no mess. Best of all, this body powder for men provides a cooling sensation when you apply it. Gold Bond Body Powder Spray for Men comes in two irresistible scents: Recharge and Nightfall. Try them both to stay fresh and keep things interesting. Stock up on 7-oz. spray bottles of Gold Bond Men's Essentials Body Powder Spray so you always have that cool, fresh feeling on hand for whenever you need it. Pack one in your gym bag and keep a bottle in your bathroom to use after showering. Now talc-free and formulated without parabens and preservatives. *absorbs odor-causing sweat DIRECTIONS FOR USE: Shake well before each use. Hold can approximately 6”-8” from skin and spray evenly for 2-3 seconds. Do not spray directly on clothes.",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6784,8 +6538,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5F2H15?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond No Mess Talc-Free Body Powder Spray 7 oz, Fresh Scent',
+                value: 'Gold Bond No Mess Talc-Free Body Powder Spray 7 oz, Fresh Scent',
                 error: null
             },
             ASIN: {
@@ -6801,8 +6554,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71K2wHyOhdL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71K2wHyOhdL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -6814,14 +6566,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    'Experience a blast of full-body coolness at the touch of a button. Gold Bond No Mess Talc-Free Body Powder Spray with fresh scent has a unique triple action formula for your whole body and targeted hot spots: It cools on contact, absorbs moisture and controls odor*. The 360-degree valve allows you to spray at any angle, even upside down. Best of all, Gold Bond Powder Spray keeps hands clean. Use Gold Bond No Mess Spray right before a workout or right after showering to keep cool, dry and comfortable. Stock up on an on-demand cooling sensation. Gold Bond No Mess Powder Spray also comes in Classic Scent. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
+                value: 'Experience a blast of full-body coolness at the touch of a button. Gold Bond No Mess Talc-Free Body Powder Spray with fresh scent has a unique triple action formula for your whole body and targeted hot spots: It cools on contact, absorbs moisture and controls odor*. The 360-degree valve allows you to spray at any angle, even upside down. Best of all, Gold Bond Powder Spray keeps hands clean. Use Gold Bond No Mess Spray right before a workout or right after showering to keep cool, dry and comfortable. Stock up on an on-demand cooling sensation. Gold Bond No Mess Powder Spray also comes in Classic Scent. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -6911,8 +6661,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5FL1BT?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond No Mess Talc-Free Body Powder Spray, 7 oz, Classic Scent',
+                value: 'Gold Bond No Mess Talc-Free Body Powder Spray, 7 oz, Classic Scent',
                 error: null
             },
             ASIN: {
@@ -6928,8 +6677,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71elmdZOGoL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71elmdZOGoL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -6941,14 +6689,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    'Experience a blast of full-body coolness at the touch of a button. Gold Bond No Mess Talc-Free Body Powder Spray with classic scent has a unique triple action formula for your whole body and targeted hot spots: It cools on contact, absorbs moisture and controls odor*. The 360-degree valve allows you to spray at any angle, even upside down. Best of all, Gold Bond Powder Spray keeps hands clean. Use Gold Bond No Mess Spray right before a workout or right after showering to keep cool, dry and comfortable. Stock up on an on-demand cooling sensation. Gold Bond No Mess Powder Spray also comes in Fresh Scent. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
+                value: 'Experience a blast of full-body coolness at the touch of a button. Gold Bond No Mess Talc-Free Body Powder Spray with classic scent has a unique triple action formula for your whole body and targeted hot spots: It cools on contact, absorbs moisture and controls odor*. The 360-degree valve allows you to spray at any angle, even upside down. Best of all, Gold Bond Powder Spray keeps hands clean. Use Gold Bond No Mess Spray right before a workout or right after showering to keep cool, dry and comfortable. Stock up on an on-demand cooling sensation. Gold Bond No Mess Powder Spray also comes in Fresh Scent. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -7038,8 +6784,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08R5K6P28?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond No Mess Invisible Clear Body Powder Spray, 7 Ounce, 7 ounces',
+                value: 'Gold Bond No Mess Invisible Clear Body Powder Spray, 7 Ounce, 7 ounces',
                 error: null
             },
             ASIN: {
@@ -7055,29 +6800,24 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81uX7%2BYMHiL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81uX7%2BYMHiL._SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Clear Body Invisible Spray it delivers the odor and wetness protection of Gold Bond Powder in a convenient spray. Application is quick and easy. The continuous, focused Spray delivers powder right where you want it and the 360 Degree valve lets you spray It any direction - even upside down. Use the spray before work, physical activity or after showering to keep you cool, dry and comfortable.',
+                value: 'Gold Bond Clear Body Invisible Spray it delivers the odor and wetness protection of Gold Bond Powder in a convenient spray. Application is quick and easy. The continuous, focused Spray delivers powder right where you want it and the 360 Degree valve lets you spray It any direction - even upside down. Use the spray before work, physical activity or after showering to keep you cool, dry and comfortable.',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -7155,8 +6895,7 @@ const products = [
             },
             ratings: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             }
         }
     },
@@ -7164,8 +6903,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5DQXW9?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Foot Powder 10 oz, Maximum Strength Odor Control & Itch Relief',
+                value: 'Gold Bond Medicated Talc-Free Foot Powder 10 oz, Maximum Strength Odor Control & Itch Relief',
                 error: null
             },
             ASIN: {
@@ -7181,8 +6919,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81XqQOtlNCL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81XqQOtlNCL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -7194,14 +6931,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Get relief with Gold Bond Medicated Talc-Free Foot Powder's unique triple action formula. This maximum-strength medicated powder absorbs moisture, relieves itch, and provides a cooling sensation to help keep feet feeling dry and comfortable. This foot powder also helps control foot odor* to help keep feet smelling happy. You can't argue with happy feet! Use Gold Bond Medicated Foot Powder after showering, before exercising or any time you're putting on shoes. Stock up on 10-ounce bottles of Gold Bond Foot Powder so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
+                value: "Get relief with Gold Bond Medicated Talc-Free Foot Powder's unique triple action formula. This maximum-strength medicated powder absorbs moisture, relieves itch, and provides a cooling sensation to help keep feet feeling dry and comfortable. This foot powder also helps control foot odor* to help keep feet smelling happy. You can't argue with happy feet! Use Gold Bond Medicated Foot Powder after showering, before exercising or any time you're putting on shoes. Stock up on 10-ounce bottles of Gold Bond Foot Powder so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -7292,8 +7027,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W5GLXWT?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Foot Powder 4 oz, Maximum Strength Odor Control & Itch Relief',
+                value: 'Gold Bond Medicated Talc-Free Foot Powder 4 oz, Maximum Strength Odor Control & Itch Relief',
                 error: null
             },
             ASIN: {
@@ -7309,8 +7043,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81L-0zMrHlL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81L-0zMrHlL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -7322,14 +7055,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    "Get relief with Gold Bond Medicated Talc-Free Foot Powder's unique triple action formula. This maximum-strength medicated powder absorbs moisture, relieves itch, and provides a cooling sensation to help keep feet feeling dry and comfortable. This foot powder also helps control foot odor* to help keep feet smelling happy. You can't argue with happy feet! Use Gold Bond Medicated Foot Powder after showering, before exercising or any time you're putting on shoes. Stock up on 4-ounce bottles of Gold Bond Foot Powder so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
+                value: "Get relief with Gold Bond Medicated Talc-Free Foot Powder's unique triple action formula. This maximum-strength medicated powder absorbs moisture, relieves itch, and provides a cooling sensation to help keep feet feeling dry and comfortable. This foot powder also helps control foot odor* to help keep feet smelling happy. You can't argue with happy feet! Use Gold Bond Medicated Foot Powder after showering, before exercising or any time you're putting on shoes. Stock up on 4-ounce bottles of Gold Bond Foot Powder so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -7419,8 +7150,7 @@ const products = [
         url: 'https://www.amazon.com/gp/product/B08W69NCD7?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond No Mess Talc-Free Foot Powder Spray 7 oz, Fresh Scent',
+                value: 'Gold Bond No Mess Talc-Free Foot Powder Spray 7 oz, Fresh Scent',
                 error: null
             },
             ASIN: {
@@ -7436,8 +7166,7 @@ const products = [
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71DZmaMkSwL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71DZmaMkSwL._SY355_.jpg',
                 error: null
             },
             sizeName: {
@@ -7449,14 +7178,12 @@ const products = [
                 error: null
             },
             productDescription: {
-                value:
-                    'Give your feet a blast of coolness with the touch of a button. Gold Bond No Mess Foot Talc-Free Powder Spray with Fresh Scent absorbs moisture and cools on contact for no-mess relief from sweaty and stinky feet. This foot spray comes in a fresh scent to help control odor. Best of all, this Gold Bond Foot Spray has a 360-degree valve so you can spray in any direction, even upside down. Stay cool and keep hands clean with Gold Bond Foot Spray. Stock up on 7-oz. bottles of Gold Bond Foot Powder Spray so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
+                value: 'Give your feet a blast of coolness with the touch of a button. Gold Bond No Mess Foot Talc-Free Powder Spray with Fresh Scent absorbs moisture and cools on contact for no-mess relief from sweaty and stinky feet. This foot spray comes in a fresh scent to help control odor. Best of all, this Gold Bond Foot Spray has a 360-degree valve so you can spray in any direction, even upside down. Stay cool and keep hands clean with Gold Bond Foot Spray. Stock up on 7-oz. bottles of Gold Bond Foot Powder Spray so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
                 error: null
             },
             productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
             },
             productAbout: {
                 value: [
@@ -7544,6 +7271,14 @@ const products = [
     }
 ];
 
-
-export const defaultAsins = products.slice(0, 8).map(obj => obj.data.ASIN.value);
+export const defaultAsins = [
+    'B008B9L6WS',
+    'B07GVPCGJK',
+    'B01B5D3VOC',
+    'B00A8S6HM4',
+    'B07L9RTWRS',
+    'B08YQX3SKH',
+    'B0073E7JFK',
+    'B012FUZ8NG'
+];
 export default products;

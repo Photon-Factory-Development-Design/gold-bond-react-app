@@ -45,7 +45,7 @@ const ProductCard = ({
                 </a>
                 <a
                     className="adt-product-title-clamped a-size-base a-link-normal a-color-base"
-                    href={product.url}>
+                    href={product.url} target="blank">
                     <div className="clamp-lines ">
                         <div>{productTitle}</div>
                     </div>

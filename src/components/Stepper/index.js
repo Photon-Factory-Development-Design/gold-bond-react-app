@@ -4,7 +4,8 @@ import {
     Step,
     StepButton,
     makeStyles,
-    StepLabel
+    StepLabel,
+    Button
 } from '@material-ui/core';
 
 const useStyles = makeStyles({
@@ -19,11 +20,22 @@ const useStyles = makeStyles({
     }
 });
 
-const Stepper = ({ steps, activeStep, onUpdateIndex }) => {
+const Stepper = ({ steps, activeStep, onUpdateIndex, onGoBack: propsOnGoBack }) => {
     const classes = useStyles();
 
+    const onGoBack = (e) => { 
+        e.preventDefault();
+        e.stopPropagation();
+
+        propsOnGoBack();
+    }
+
     return (
-        <MuiStepper alternativeLabel nonLinear activeStep={activeStep} classes={{ root: classes.root }}>
+        <MuiStepper
+            alternativeLabel
+            nonLinear
+            activeStep={activeStep}
+            classes={{ root: classes.root }}>
             {steps.map((label, index) => {
                 const stepProps = {};
                 const buttonProps = {};
@@ -37,7 +49,10 @@ const Stepper = ({ steps, activeStep, onUpdateIndex }) => {
                                     iconContainer: classes.iconContainer,
                                     labelContainer: classes.labelContainer
                                 }}>
-                                {label}
+                                <div>{label}</div>
+                                {steps.length > 1 && steps.length === index + 1 && (
+                                    <Button onClick={onGoBack}>Go Back</Button>
+                                )}
                             </StepLabel>
                         </StepButton>
                     </Step>

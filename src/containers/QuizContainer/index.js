@@ -9,8 +9,10 @@ const QuizContainer = React.forwardRef((props, ref) => {
     const [questionPath, setQuestionPath] = React.useState([0]);
     const [activeStep, setActiveStep] = React.useState(0);
     const [stepperStep, setStepperStep] = React.useState(0);
-    const [steps, setSteps] = React.useState(['']);
+    const [steps, setSteps] = React.useState(['Categories']);
     const [asins, setAsins] = React.useState(DefaultAsins);
+
+    const resultsRef = React.useRef(null);
 
     const onSelectQuestion = (index) => {
         const newQuestionPath = [].concat(
@@ -23,8 +25,8 @@ const QuizContainer = React.forwardRef((props, ref) => {
             setQuestionPath(newQuestionPath);
             setActiveStep((prev) => prev + 1);
             if (!checkYesNoQuestion(questionItem)) {
-                let newSteps = [];
-                for (var i = 0; i <= activeStep + 1; i++) {
+                let newSteps = ['Categories'];
+                for (var i = 1; i <= activeStep + 1; i++) {
                     const questionItem = getQuestion(newQuestionPath, i);
                     if (!checkYesNoQuestion(questionItem)) {
                         newSteps.push(questionItem.label);
@@ -64,6 +66,17 @@ const QuizContainer = React.forwardRef((props, ref) => {
         setAsins(DefaultAsins);
     };
 
+    const onGoBack = () => {
+        onUpdateStep(steps.length - 2);
+    };
+
+    const onMoveDetailSection = React.useCallback(() => {
+        resultsRef.current.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }, []);
+
     return (
         <BackgroundContainer ref={ref} color="lightDark" vertical={8}>
             <Container>
@@ -71,6 +84,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
                     steps={steps}
                     activeStep={stepperStep}
                     onUpdateIndex={onUpdateStep}
+                    onGoBack={onGoBack}
                 />
                 <Carousel
                     items={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
@@ -85,15 +99,19 @@ const QuizContainer = React.forwardRef((props, ref) => {
                 bgcolor="background.primary"
                 mt={2}
                 pb={6}
-                pt={5}>
+                pt={5}
+                ref={resultsRef}>
                 <Box mt={5} py={2}>
-                    <Typography variant="h3" color="darkBlue">RECOMMENDED FOR YOU</Typography>
+                    <Typography variant="h3" color="darkBlue">
+                        RECOMMENDED FOR YOU
+                    </Typography>
                 </Box>
                 <Box my={2} mt={4}>
                     <Container>
                         <ProductContainer
                             setDetailProduct={props.setDetailProduct}
                             asins={asins}
+                            onMoveDetailSection={onMoveDetailSection}
                         />
                     </Container>
                 </Box>

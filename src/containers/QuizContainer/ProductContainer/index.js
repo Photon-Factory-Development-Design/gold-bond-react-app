@@ -11,7 +11,7 @@ import { ProductDetail } from 'components';
 const getProducts = (asins) =>
     products.filter((product) => asins.includes(product.data.ASIN.value));
 
-const ProductContainer = ({ asins, setDetailProduct }) => {
+const ProductContainer = ({ asins, setDetailProduct, onMoveDetailSection }) => {
     const [products, setProducts] = React.useState([]);
     const productDetailRef = React.useRef(null);
     const theme = useTheme();
@@ -25,10 +25,7 @@ const ProductContainer = ({ asins, setDetailProduct }) => {
 
     React.useEffect(() => {
         if (products.length === 1) {
-            productDetailRef.current.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
+            onMoveDetailSection();
         }
     }, [products]);
 
