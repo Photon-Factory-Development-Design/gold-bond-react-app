@@ -28,7 +28,7 @@ const questions = {
                                         },
                                         {
                                             question: 'Improves Crepey Skin',
-                                            ASINS: ['B08CJ74R3S']
+                                            ASINS: ['B08YQX3SKH']
                                         }
                                     ]
                                 },
@@ -54,8 +54,13 @@ const questions = {
                             label: 'Product Category',
                             questions: [
                                 {
-                                    question: 'Hands',
-                                    ASINS: ['B07JBLZ62H']
+                                    question: 'Body, Hands & Feet',
+                                    ASINS: [
+                                        'B07JBLZ62H',
+                                        'B09BXGL4G9',
+                                        'B09BWQZ68V',
+                                        'B07BRQ2JZF'
+                                    ]
                                 },
                                 {
                                     question: 'Feet',
@@ -73,8 +78,8 @@ const questions = {
                                     label: 'PRODUCT CATEGORY',
                                     questions: [
                                         {
-                                            question: 'Body',
-                                            ASINS: ['B00OCN96FQ']
+                                            question: 'Body & Hands',
+                                            ASINS: ['B00OCN96FQ', 'B00AHH00TC']
                                         },
                                         {
                                             question: 'Feet',
@@ -95,8 +100,7 @@ const questions = {
                                             label: 'PRODUCT BENEFIT',
                                             questions: [
                                                 {
-                                                    question:
-                                                        'Everyday Hydration',
+                                                    question: 'Body & Hands',
                                                     ASINS: [
                                                         'B00OW9OTN4',
                                                         'B00AHH00MO',
@@ -104,8 +108,7 @@ const questions = {
                                                     ]
                                                 },
                                                 {
-                                                    question:
-                                                        'Intensive Therapy',
+                                                    question: 'Face',
                                                     ASINS: ['B013KPK71I']
                                                 }
                                             ]
@@ -114,11 +117,6 @@ const questions = {
                                             question: 'No',
                                             label: 'PRODUCT CATEGORY',
                                             questions: [
-                                                {
-                                                    question:
-                                                        'Face, Neck & Chest',
-                                                    ASINS: ['B074KM543R']
-                                                },
                                                 {
                                                     question: 'Body',
                                                     label: 'PRODUCT FORM',
@@ -132,8 +130,7 @@ const questions = {
                                                         },
                                                         {
                                                             question: 'Lotion',
-                                                            label:
-                                                                'PRODUCT BENEFIT',
+                                                            label: 'PRODUCT BENEFIT',
                                                             questions: [
                                                                 {
                                                                     question:
@@ -146,8 +143,7 @@ const questions = {
                                                                 {
                                                                     question:
                                                                         'Intensely hydrates',
-                                                                    label:
-                                                                        'FRAGANCE FREE',
+                                                                    label: 'FRAGANCE FREE',
                                                                     questions: [
                                                                         {
                                                                             question:
@@ -202,7 +198,7 @@ const questions = {
                                                             question:
                                                                 'Whipped Butter',
                                                             ASINS: [
-                                                                'B074KM543R'
+                                                                'B07W7VNRKN'
                                                             ]
                                                         }
                                                     ]
@@ -270,16 +266,10 @@ const questions = {
                             questions: [
                                 {
                                     question: 'Body',
-                                    label: 'PRODUCT FORM',
-                                    questions: [
-                                        {
-                                            question: 'Cream',
-                                            ASINS: ['B00WVHRE7W']
-                                        },
-                                        {
-                                            question: 'Lotion',
-                                            ASINS: ['B00OW9OTMK', 'B00GIHMOGW']
-                                        }
+                                    ASINS: [
+                                        'B00WVHRE7W',
+                                        'B00OW9OTMK',
+                                        'B00GIHMOGW'
                                     ]
                                 },
                                 {
@@ -297,16 +287,12 @@ const questions = {
                                     ASINS: ['B00P2V1CDG']
                                 },
                                 {
-                                    question: 'Relieves intense pain & itch',
-                                    ASINS: []
-                                },
-                                {
                                     question: 'Relieves extra dry, itchy skin',
                                     ASINS: ['B003QB26MA']
                                 },
                                 {
                                     question: 'Relieves intense itch',
-                                    ASINS: []
+                                    ASINS: ['B004X8KMU8']
                                 }
                             ]
                         },

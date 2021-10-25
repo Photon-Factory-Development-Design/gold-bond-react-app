@@ -59,8 +59,8 @@ const Theme = createMuiTheme({
                 }
             },
             label: {
-                fontFamily: 'GothamMedium',
-                fontSize: '18px'
+                fontFamily: 'ChampionLiteweight',
+                fontSize: '12px'
             }
         }
     }

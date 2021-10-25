@@ -1,4 +1,5 @@
 import React from 'react';
+import cn from 'clsx';
 import {
     Box,
     makeStyles
@@ -16,14 +17,26 @@ const useStyles = makeStyles({
             }
         },
         cursor: 'pointer'
+    },
+    selected: {
+        backgroundColor: '#F2EDEB !important',
+        '& .MuiTypography-root': {
+            color: '#003D54 !important'
+        }
     }
 });
 
-const QuestionItemContainer = ({ url, hoverURL, label, onClick }) => {
+const QuestionItemContainer = ({
+    url,
+    hoverURL,
+    label,
+    selected = false,
+    onClick
+}) => {
     const [hover, setHover] = React.useState(false);
     const classes = useStyles();
 
-    console.log('hoverURL', hoverURL);
+    const isHighlight = hover || selected;
     return (
         <Box
             onClick={onClick}
@@ -37,18 +50,20 @@ const QuestionItemContainer = ({ url, hoverURL, label, onClick }) => {
             borderRadius={5}
             p={2}
             m={1}
-            className={classes.ingredientItem}
+            className={cn(classes.ingredientItem, {
+                [classes.selected]: isHighlight
+            })}
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}>
             {url && (
                 <Box>
                     {url && (
-                        <div hidden={hover}>
+                        <div hidden={isHighlight}>
                             <img src={url} height="50" alt="ingredient" />
                         </div>
                     )}
                     {hover && hoverURL && (
-                        <div hidden={!hover}>
+                        <div hidden={!isHighlight}>
                             <img src={hoverURL} height="50" alt="ingredient" />
                         </div>
                     )}

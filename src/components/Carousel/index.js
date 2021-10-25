@@ -5,10 +5,19 @@ import { getQuestion, checkYesNoQuestion } from 'common/constant/questions';
 import { Typography, QuestionItemContainer } from 'components';
 
 const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
-    const itemQuestion = React.useMemo(() => getQuestion(questionPath, index), [
-        questionPath,
-        index
-    ]);
+    const [selectedQuestion, setQuestion] = React.useState(null);
+    const itemQuestion = React.useMemo(
+        () => getQuestion(questionPath, index),
+        [questionPath, index]
+    );
+
+    const _onSelectQuestion = React.useCallback(
+        (question, index) => {
+            setQuestion(question.question);
+            onSelectQuestion(index);
+        },
+        [onSelectQuestion]
+    );
 
     return (
         <Box>
@@ -40,9 +49,12 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                                 flexDirection="column"
                                 alignItems="center">
                                 <QuestionItemContainer
-                                    onClick={() => onSelectQuestion(index)}
+                                    onClick={() => _onSelectQuestion(question, index)}
                                     url={question.icon}
                                     hoverURL={question.hoverIcon}
+                                    selected={
+                                        selectedQuestion === question.question
+                                    }
                                     label={
                                         question.icon
                                             ? question.label

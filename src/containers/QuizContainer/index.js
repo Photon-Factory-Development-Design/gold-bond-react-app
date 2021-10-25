@@ -71,14 +71,14 @@ const QuizContainer = React.forwardRef((props, ref) => {
     };
 
     const onMoveDetailSection = React.useCallback(() => {
-        resultsRef.current.scrollIntoView({
+        ref.current.scrollIntoView({
             behavior: 'smooth',
             block: 'start'
         });
     }, []);
 
     return (
-        <BackgroundContainer ref={ref} color="lightDark" vertical={8}>
+        <BackgroundContainer ref={ref} color="lightDark" vertical={4}>
             <Container>
                 <Stepper
                     steps={steps}

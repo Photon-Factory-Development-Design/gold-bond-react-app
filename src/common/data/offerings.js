@@ -24,8 +24,7 @@ let offerings = [
     {
         url: 'https://www.amazon.com/gp/product/B08CJ74R3S?th=1&psc=1',
         asin: 'B08CJ74R3S',
-        error:
-            'no such element: Unable to locate element: {"method":"css selector","selector":"input#add-to-cart-button"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+        error: 'no such element: Unable to locate element: {"method":"css selector","selector":"input#add-to-cart-button"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
     },
     {
         url: 'https://www.amazon.com/gp/product/B07W8Z1TY7?th=1&psc=1',
@@ -210,8 +209,7 @@ let offerings = [
     {
         url: 'https://www.amazon.com/gp/product/B08CJ2S9HJ?th=1&psc=1',
         asin: 'B08CJ2S9HJ',
-        error:
-            'no such element: Unable to locate element: {"method":"css selector","selector":"input#add-to-cart-button"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+        error: 'no such element: Unable to locate element: {"method":"css selector","selector":"input#add-to-cart-button"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
     },
     {
         url: 'https://www.amazon.com/gp/product/B00A8S6HM4?th=1&psc=1',
@@ -282,14 +280,12 @@ let offerings = [
     {
         url: 'https://www.amazon.com/gp/product/B08W5GNXBG?th=1&psc=1',
         asin: 'B08W5GNXBG',
-        error:
-            'no such element: Unable to locate element: {"method":"css selector","selector":"input#add-to-cart-button"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+        error: 'no such element: Unable to locate element: {"method":"css selector","selector":"input#add-to-cart-button"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
     },
     {
         url: 'https://www.amazon.com/gp/product/B00126LXNO?th=1&psc=1',
         asin: 'B00126LXNO',
-        error:
-            'no such element: Unable to locate element: {"method":"css selector","selector":"input#add-to-cart-button"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+        error: 'no such element: Unable to locate element: {"method":"css selector","selector":"input#add-to-cart-button"}\n  (Session info: headless chrome=90.0.4430.30)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
     },
     {
         url: 'https://www.amazon.com/gp/product/B08W5F5X6Z?th=1&psc=1',
@@ -356,6 +352,36 @@ let offerings = [
         asin: 'B08W69NCD7',
         offeringID:
             '%2FufRFzpmKC%2F05XclwYBvpvKaXPU7QqgjBhuOGEwgeMfg4fvmR86ompNucrzxVOlxV7g0i7LyyJQVmXnsNVJmibdFniVUoDpSaU5It0VL9UrFtU%2F76z6rBUIOT1PzZgBxI7J5bOoAnrKmDhP2h9C19g%3D%3D'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08YQX3SKH?th=1&psc=1',
+        asin: 'B08YQX3SKH',
+        offeringID:
+            'qSSvF3skpDQAZx3IM8kMaLqo7IuDOjSpyYFEifInqc37S4nXaVmgRKx%2BIHfwC3bc%2B2RQph7pQlfBEWP7hcB95YnjEeMd45tOl1KQWb14E5utZWqnod2unxkJIMrqe8B9utRB3dmMVGCnrHtsip8D8w%3D%3D'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B09BXGL4G9?th=1&psc=1',
+        asin: 'B09BXGL4G9',
+        offeringID:
+            'dR19KT4t1VIj%2F2Xvy9UQn7me9gSVaP35%2BfJ4FZ8GM0bJPs2mB55okZkJpOjvhTwQqCzknOCVZazfmA2NThDBrKXyEghx2QsuNq22ixj47WRaP9wX5%2FaZ%2Bjw6i4QKXV4Gp5zACwMVp5nnh2afqICIKA%3D%3D'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B09BWQZ68V?th=1&psc=1',
+        asin: 'B09BWQZ68V',
+        offeringID:
+            'XsMSbTHZ7n%2Fx7HlD8HwPPdkArFoJv8eC6tnxXPn0G1yQYoZealLI45c3SQCav8X3Rirgu5I%2Bq7AsJLi4YC2BFy8PNOV0h5VUESLrUcAvHESjiWh5EPl4EX%2Btte8BGFLBdQTNhvzbflFveFjC%2BEvtCA%3D%3D'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B00AHH00TC?th=1&psc=1',
+        asin: 'B00AHH00TC',
+        offeringID:
+            'wxbPiqnR%2FRNz7lElJX%2FIi%2Fp6sVU%2FBBZNPUnQ5d4DNn5CHfDnjRP1Qtu1k%2FLrRrkKsHd%2Bk2egUFQoYWzrIggTtBsSr8CvHeuAYmqssq9bElymNEKX13c5aDRbQP4aa%2FH932Mq56EaZH5pGASPDrE%2B2Q%3D%3D'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B07W7VNRKN?th=1&psc=1',
+        asin: 'B07W7VNRKN',
+        offeringID:
+            'H7gBvvFtxVkvznGkrNMmt%2F1SEoE42hDTgvyqwbQg%2BgUzbsKxIHEqNFzICJGcogDVoD1kt6a1xUTnB7mUN182GajebMEvR%2FcBYflq%2FLxfmOF3NI5NPqFyomydsro5nGgodxxNlfsQs61xSi9IIQLoqKr8D5gCVLlfUwkmVwGPljg%2FLIZq%2F7bW6sfdIdNnS0G2'
     }
 ];
 

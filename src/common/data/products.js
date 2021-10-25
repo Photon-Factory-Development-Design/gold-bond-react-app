@@ -1,5 +1,131 @@
 const products = [
     {
+        url: 'https://www.amazon.com/gp/product/B08YQX3SKH?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'Gold Bond, Ultimate Crepe Corrector 8 oz Age Defense Smoothing Concentrate Skin Therapy Lotion',
+                error: null
+            },
+            ASIN: {
+                value: 'B08YQX3SKH',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 9.97
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71muTelm1wL._SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=95.0.4638.54)\n  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=95.0.4638.54)\n  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            productDescription: {
+                value: "As we age, skin can lose its ability to retain moisture. The result is skin that looks finely wrinkled, thin and dry, like crepe paper. That's why there's Gold Bond Crepe Corrector Age Defense Smoothing Concentrate Skin Therapy Lotion. Formulated with 7 moisturizers and 3 vitamins, this lotion for crepey skin is clinically shown to improve skin firmness and elasticity in 2 weeks. In fact, 82% had visible improvement in crepey skin on back of hands and arms in just 2 days. Gold Bond Crepe Corrector lotion features a unique smoothing concentrate made with nourishing omega-fatty acids, powerful botanicals and protective anti-oxidants. It also provides lasting hydration for 24 hours to help visibly firm and plump dry, aging skin. Gold Bond Crepe Corrector Lotion is suitable for all skin types. Best of all, it's hypoallergenic, fragrance-free and dermatologist tested. Enjoy skin as young as you feel in just 2 days* with Gold Bond Age Defense Crepe Corrector lotion. *Refers to improvement in crepey skin",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Item Form': 'Lotion',
+                    Brand: 'Gold Bond',
+                    'Skin Type': 'Dry',
+                    'Age Range (Description)': 'Adult',
+                    Scent: 'Fragrance free'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    'Contains one (1) 8-oz. bottle of Gold Bond Ultimate Crepe Corrector Age Defense Smoothing Concentrate',
+                    'Gold Bond Crepe Corrector Lotion helps diminish visible signs of crepey skin, such as fine, thin wrinkles',
+                    'This unique smoothing concentrate features protective anti-oxidants, powerful botanicals and nourishing omega-fatty acids',
+                    'Gold Bond Lotion for Crepey Skin moisturizes skin for 24 hours for lasting hydration',
+                    'This lightweight lotion is fragrance free, fast absorbing, non-greasy and tested by dermatologists'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: {
+                    'Product Dimensions :':
+                        '3 x 1.88 x 7.63 inches; 8.48 Ounces',
+                    'UPC :': '041167043653',
+                    'Manufacturer :': 'Gold Bond',
+                    'ASIN :': 'B08YQX3SKH',
+                    'Country of Origin :': 'USA',
+                    'Best Sellers Rank:': '#8 in Body Lotions',
+                    'Customer Reviews:': ''
+                },
+                error: null
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41NzBz8NC3L._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71muTelm1wL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51P02L5yywL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81PE-XVvsKL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41QWrCr5aGL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71jCxbrQsrL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51WRRG2-zfL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81FPagCN18L._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/510Oa41qimL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81pxIW7CJ1L._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/518kAzZuU6L._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81+GLY8nQvL._SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.97',
+                    ounce: '($9.97 / Count)',
+                    price_block_savings: '$0.82 (8%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '3,439 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
         url: 'https://www.amazon.com/gp/product/B015HRFXKM?th=1&psc=1',
         data: {
             productTitle: {
@@ -7264,6 +7390,523 @@ const products = [
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
                     acrCustomerReviewText: '11 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B09BXGL4G9?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'Gold Bond Medicated Advanced Healing Ointment, 1.75 oz., Hydrates and Protects Dry, Cracked Skin',
+                error: null
+            },
+            ASIN: {
+                value: 'B09BXGL4G9',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 6.29
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71OMQxFrS-L._SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=95.0.4638.54)\n  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=95.0.4638.54)\n  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            productDescription: {
+                value: "Hard work, cold, dry weather and demanding physical activity can be tough on skin. When your skin needs some extra care, try Gold Bond Medicated Advanced Healing Ointment. This medicated ointment hydrates, restores and protects dry, cracked skin. Fortified with a triple-action complex of shea butter, ceramides and white petrolatum, this multi-benefit formula provides healing relief* while restoring healthy skin. Gold Bond Medicated Advanced Healing Ointment is free of preservatives, fragrances and dyes, and it's dermatologist-tested. Best of all, this healing formula provides nourishing hydration for sensitive skin. Stock up on Gold Bond Medicated Advanced Healing Ointment to keep skin looking and feeling its best, especially in harsh conditions. *Refers to relief of chafed, chapped or cracked skin",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Special Ingredients': 'Shea Butter',
+                    'Item Form': 'Cream',
+                    Brand: 'Gold Bond',
+                    'Use for': 'Whole Body',
+                    'Skin Type': 'Dry'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    'Includes one (1) 1.75-ounce tube of Gold Bond Medicated Advanced Healing Ointment',
+                    'Hydrates, restores and protects dry, cracked skin',
+                    'Made with a triple-action complex of shea butter, ceramides and white petrolatum for nourishing hydration',
+                    'This dermatologist-tested ointment is hypoallergenic and suitable for sensitive skin',
+                    'Multi-benefit formula is made free from preservatives, fragrances and dyes'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: {
+                    'Product Dimensions :':
+                        '2.19 x 1.31 x 4.19 inches; 2.4 Ounces',
+                    'UPC :': '041167039236',
+                    'Manufacturer :': 'Sanofi',
+                    'ASIN :': 'B09BXGL4G9',
+                    'Country of Origin :': 'USA',
+                    'Best Sellers Rank:': '#892 in Body Lotions',
+                    'Customer Reviews:': ''
+                },
+                error: null
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41MN5wLpn+L._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71OMQxFrS-L._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41voDSHj5aL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71gbGBBFp+L._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41F+qUYMJbL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81Tk4yGmF+L._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51I-mCKt0tL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81NhsrPp7gL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31KuJ-VlKfL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61aPv+9w5kL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51MdFrX26UL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/7139bZSGOnL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41w7NDWAZxL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71juJrvha0L._SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$6.29',
+                    ounce: '($0.13 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '2 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B09BWQZ68V?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'Gold Bond Medicated Advanced Healing Ointment, 7 oz., Hydrates and Protects Dry, Cracked Skin',
+                error: null
+            },
+            ASIN: {
+                value: 'B09BWQZ68V',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 9.97
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71mKsifY9qL._SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=95.0.4638.54)\n  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=95.0.4638.54)\n  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            productDescription: {
+                value: "Hard work, cold, dry weather and demanding physical activity can be tough on skin. When your skin needs some extra care, try Gold Bond Medicated Advanced Healing Ointment. This medicated ointment hydrates, restores and protects dry, cracked skin. Fortified with a triple-action complex of shea butter, ceramides and white petrolatum, this multi-benefit formula provides healing relief* while restoring healthy skin. Gold Bond Medicated Advanced Healing Ointment is free of preservatives, fragrances and dyes, and it's dermatologist-tested. Best of all, this healing formula provides nourishing hydration for sensitive skin. Stock up on Gold Bond Medicated Advanced Healing Ointment to keep skin looking and feeling its best, especially in harsh conditions. *Refers to relief of chafed, chapped or cracked skin",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Special Ingredients': 'Shea Butter',
+                    'Item Form': 'Cream',
+                    Brand: 'Gold Bond',
+                    'Use for': 'Whole Body',
+                    'Skin Type': 'Dry'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    'Includes one (1) 7-ounce jar of Gold Bond Medicated Advanced Healing Ointment',
+                    'Hydrates, restores and protects dry, cracked skin',
+                    'Made with a triple-action complex of shea butter, ceramides and white petrolatum for nourishing hydration',
+                    'This dermatologist-tested ointment is hypoallergenic and suitable for sensitive skin',
+                    'Multi-benefit formula is made free from preservatives, fragrances and dyes'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: {
+                    'Product Dimensions :':
+                        '3.56 x 3.56 x 2.84 inches; 8 Ounces',
+                    'Manufacturer :': 'Sanofi',
+                    'ASIN :': 'B09BWQZ68V',
+                    'Country of Origin :': 'USA',
+                    'Best Sellers Rank:': '#1,205 in Body Lotions',
+                    'Customer Reviews:': ''
+                },
+                error: null
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41SmJMqrveL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71mKsifY9qL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41mA9+WsHEL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71zdW8ne8cL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41F+qUYMJbL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81Tk4yGmF+L._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51I-mCKt0tL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81NhsrPp7gL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31KuJ-VlKfL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61aPv+9w5kL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51MdFrX26UL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/7139bZSGOnL._SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41w7NDWAZxL._SS40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71juJrvha0L._SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$9.97',
+                    ounce: '($0.83 / Ounce)',
+                    price_block_savings: '$5.42 (35%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '3 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B00AHH00TC?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: "Gold Bond Ultimate Hydrating Lotion Diabetics' Dry Skin Relief, 13 oz., Moisturizes & Soothes",
+                error: null
+            },
+            ASIN: {
+                value: 'B00AHH00TC',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 7.68
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71nj-wGYX8L._AC_SX425_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=95.0.4638.54)\n  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=95.0.4638.54)\n  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            productDescription: {
+                value: "Gold Bond Ultimate Hydrating Lotion Diabetics' Dry Skin Relief combines seven intensive moisturizers, including aloe and vitamins to nourish and moisturize dry, flaky skin. Nine out of 10 users noticed improvement within one hour after using this fast-absorbing, non-greasy formula. Using this hypoallergenic lotion adds protective moisture to your skin and will help nourish dry skin. Best of all, this lotion formulated for diabetics' dry skin is fragrance-free. Using this Gold Bond Ultimate lotion moisturizes diabetic skin irritations with no harsh acids, so it is gentle enough for daily use.",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Item Form': 'Lotion',
+                    Brand: 'Gold Bond',
+                    'Skin Type': 'Flaky Skin, Dry',
+                    'Age Range (Description)': 'Adult',
+                    Scent: 'Unscented '
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    "INCLUDES: ONE (1) 13-oz. pump bottle of Gold Bond Ultimate Hydrating Lotion Diabetics' Dry Skin Relief",
+                    'IMPROVEMENT IN ONE HOUR: Nine out of 10 people with diabetes saw noticeable skin improvement in one hour',
+                    'SEVEN INTENSIVE MOISTURIZERS: Gold Bond Ultimate Lotion for Diabetics Dry Skin soothes dry skin with aloe and nourishing vitamins',
+                    "24-HOUR MOISTURE: This Gold Bond Diabetics' Dry Skin Lotion adds a protective layer of moisture for 24 hours",
+                    'DERMATOLOGIST-TESTED: This skin-hydrating lotion has been tested by dermatologists and is hypoallergenic'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: {
+                    'Is Discontinued By Manufacturer :': 'No',
+                    'Product Dimensions :':
+                        '2.13 x 3.13 x 8.5 inches; 13 Ounces',
+                    'Item model number :': '05350',
+                    'Date First Available :': 'December 3, 2012',
+                    'Manufacturer :': 'Gold Bond',
+                    'ASIN :': 'B00AHH00TC',
+                    'Country of Origin :': 'USA',
+                    'Domestic Shipping:': 'Item can be shipped within U.S.',
+                    'International Shipping:':
+                        'This item can be shipped to select countries outside of the U.S. Learn More',
+                    'Best Sellers Rank:': '#130 in Body Lotions',
+                    'Customer Reviews:': ''
+                },
+                error: null
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/412wRFGYjTL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71nj-wGYX8L._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41X66BzP8LL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/816L5pBU2ZL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51oPEMXkEPL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81roTpvWEyL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51fMjTg0ZAL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81KUzoTnD0L._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51Fx8-BCdqL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91g6NKePneL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51MdFrX26UL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/7139bZSGOnL._AC_SX425_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$7.68',
+                    ounce: '($0.59 / Ounce)',
+                    price_block_savings: '$2.31 (23%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '1,711 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B07W7VNRKN?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'Gold Bond Radiance Renewal Cream, Whipped Butter, 8 Ounce',
+                error: null
+            },
+            ASIN: {
+                value: 'B07W7VNRKN',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 23.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71BWxfTNhAL._AC_SX425_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=96.0.4664.18)\n  (Driver info: chromedriver=95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=96.0.4664.18)\n  (Driver info: chromedriver=95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            productDescription: {
+                value: 'Gold Bond Radiance Renewal Cream, Whipped Butter, 8 Ounce',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Special Ingredients':
+                        'Shea Butter, Coconut oil, Almond Oil',
+                    'Item Form': 'Renewal Cream',
+                    Brand: 'Gold Bond',
+                    'Skin Type': 'All',
+                    'Age Range (Description)': 'Adult'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    'A light-weight body butter with whipped African Shea Butter, coconut oil and almond oil for balanced, long-lasting moisture.',
+                    'African Shea Butter, incredibly nourishing and moisturizing for skin. Light weight and easy to apply Whipped Body butter.',
+                    'Coconut oil helps to maintain healthy, moisturized skin tissue. For balanced, long-lasting moisture without the greasy shine.',
+                    'Almond Oil keeps skin cells healthy and helps skin to look smooth, soft and free of fine lines. Smooth application and indulgent experience.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: {
+                    'Product Dimensions :':
+                        '3.56 x 3.56 x 2.81 inches; 8 Ounces',
+                    'Date First Available :': 'August 1, 2019',
+                    'Manufacturer :': 'AmazonUs/CHMZ7',
+                    'ASIN :': 'B07W7VNRKN',
+                    'Best Sellers Rank:': '#124 in Body Butter',
+                    'Customer Reviews:': ''
+                },
+                error: null
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41evLdzsarL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71BWxfTNhAL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51bjeZkHhmL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91r8ybFKspL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41FPsn7dLRL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71b3-n7t3FL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/411Olxme24L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71-SAHn5uDL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51H4QIfY1VL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81AW8FgR3DL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41ToXXslz6L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81SFoBSObVL._AC_SX425_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$23.99',
+                    ounce: '($3.00 / Ounce)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '2,444 ratings'
                 },
                 error: null
             }

@@ -70,7 +70,8 @@ const ProductDetail = React.forwardRef(
                         title="Dr. Scholl’s® Pain Relief Orthotics for Heavy Duty Support, Men's 8-14">
                         <a
                             className="a-size-large a-link-normal a-color-base"
-                            href={product.url}>
+                            href={product.url}
+                            target="blank">
                             {productTitle}
                         </a>
                     </div>

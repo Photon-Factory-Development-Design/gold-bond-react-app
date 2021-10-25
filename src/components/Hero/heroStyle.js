@@ -1,7 +1,7 @@
 const styles = () => ({
     root: {
         width: '100%',
-        height: '80vh',
+        height: '50vh',
         '& video': {
             objectFit: 'cover'
         }

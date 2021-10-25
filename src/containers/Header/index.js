@@ -12,20 +12,20 @@ const headerBackImage =
 // create custom header
 const HeaderContainer = styled(Box)`
     background: url(${headerBackImage}) no-repeat center center fixed;
-    height: 70vh;
+    height: 40vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    min-height: 500px;
+    min-height: 300px;
 
     @media (max-width: 768px) {
-        height: 80vh;
+        height: 50vh;
     }
 
     @media (min-width: 768px) {
-        min-height: 400px;
+        min-height: 300px;
     }
 `;
 
@@ -72,7 +72,7 @@ const Header = () => {
                     justifyContent="center">
                     <Logo />
                 </Box>
-                <Typography align="center" variant="h1" color="primary">
+                <Typography align="center" variant="h2" color="primary">
                     FIND THE RIGHT GOLD BOND <br />
                     PRODUCT FOR YOU
                 </Typography>

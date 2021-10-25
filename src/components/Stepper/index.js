@@ -51,7 +51,7 @@ const Stepper = ({ steps, activeStep, onUpdateIndex, onGoBack: propsOnGoBack }) 
                                 }}>
                                 <div>{label}</div>
                                 {steps.length > 1 && steps.length === index + 1 && (
-                                    <Button onClick={onGoBack}>Go Back</Button>
+                                    <Button variant="text" onClick={onGoBack}>Go Back</Button>
                                 )}
                             </StepLabel>
                         </StepButton>
