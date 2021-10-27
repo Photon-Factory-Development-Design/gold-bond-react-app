@@ -7911,6 +7911,129 @@ const products = [
                 error: null
             }
         }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B004X8KMU8?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'Gold Bond Medicated Anti-Itch Lotion 5.5 oz. (Pack of 4) Intensive Relief from Itchy, Dry Skin',
+                error: null
+            },
+            ASIN: {
+                value: 'B004X8KMU8',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=96.0.4664.18)\n  (Driver info: chromedriver=95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/81s7amf65BL._AC_SX425_PIbundle-4,TopRight,0,0_SH20_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=96.0.4664.18)\n  (Driver info: chromedriver=95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=96.0.4664.18)\n  (Driver info: chromedriver=95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            productDescription: {
+                value: 'Gold Bond Medicated Anti-Itch Lotion provides intensive relief from dry, itchy skin. This medicated anti-itch lotion is made with seven moisturizers, aloe, and vitamins E and B5 to nourish and soothe skin. The menthol and pramoxine HCl in the formula temporarily relieve pain and itch associated with insect bites, sunburn, and minor burns, cuts, and scrapes. Apply Gold Bond Anti-Itch Lotion anywhere skin is itching, including fingers, cuticles, knuckles, toes and heels. Gold Bond Medicated Anti Itch lotion is dermatologist tested, fragrance free, and steroid free. Stock up with four-count cases of Gold Bond Medicated Anti-Itch Lotion to help keep skin looking and feeling its best all year round when used as directed. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    Brand: 'Gold Bond',
+                    'Active Ingredients': 'Menthol',
+                    'Item Form': 'Lotion',
+                    'Age Range (Description)': 'Adult',
+                    'Unit Count': '22.0 Ounce'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    'INCLUDES: Four (4) 5.5-oz. bottles of Gold Bond Medicated Anti-Itch Lotion, Intensive Relief from Dry, Irritated Skin',
+                    'RELIEVES ITCHING: This Gold Bond Lotion helps relieve itching due to sunburn, rash, insect bites, and more',
+                    'CONTAINS SEVEN MOISTURIZERS: This lotion for dry skin is made with seven moisturizers, aloe, and vitamins E and B5 to nourish and soothe skin',
+                    'SOOTHES IRRITATED SKIN: Gold Bond Medicated Lotion soothes minor skin irritations',
+                    'ALL OVER RELIEF: Apply Gold Bond Anti-Itch Lotion anywhere skin is itching, including fingers, cuticles, knuckles, toes and heels'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: {
+                    'Is Discontinued By Manufacturer :': 'No',
+                    'Product Dimensions :': '5.8 x 2.8 x 6 inches; 1.38 Pounds',
+                    'Date First Available :': 'September 5, 2013',
+                    'Manufacturer :': 'Gold Bond',
+                    'ASIN :': 'B004X8KMU8',
+                    'Best Sellers Rank:': '#27 in Poison Ivy Treatments',
+                    'Customer Reviews:': ''
+                },
+                error: null
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/413XrKSSyvL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81s7amf65BL._AC_SX425_PIbundle-4,TopRight,0,0_SH20_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41AQozSPVCL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/817QZoAli+L._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51CG-VmcVGL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81R0nAJU0EL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51RdigIbBGL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81gZYpcdYPL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51E5xqqV8cL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/914z-7hf1gL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41wkgCrnzdL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81fiU60ZatL._AC_SX425_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51f-Uef6rPL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81CXOaVkHlL._AC_SX425_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#priceblock_ourprice_row"}\n  (Session info: headless chrome=96.0.4664.18)\n  (Driver info: chromedriver=95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}),platform=Mac OS X 11.6.0 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '447 ratings'
+                },
+                error: null
+            }
+        }
     }
 ];
 

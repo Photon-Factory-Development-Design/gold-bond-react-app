@@ -3,12 +3,14 @@ import { Box } from '@material-ui/core';
 import MuiCarousel from 'react-material-ui-carousel';
 import { getQuestion, checkYesNoQuestion } from 'common/constant/questions';
 import { Typography, QuestionItemContainer } from 'components';
+// styles
+import styles from './Carousel.module.scss';
 
 const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
     const [selectedQuestion, setQuestion] = React.useState(null);
     const itemQuestion = React.useMemo(
-        () => getQuestion(questionPath, index),
-        [questionPath, index]
+        () => getQuestion(questionPath.slice(0, index + 1)),
+        [questionPath]
     );
 
     const _onSelectQuestion = React.useCallback(
@@ -22,13 +24,13 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
     return (
         <Box>
             <Box py={1}>
-                <Typography variant="h3" color="darkBlue" align="center">
+                <Typography variant="h3" color="darkBlue" align="center" className={styles.description}>
                     {itemQuestion.description}
                 </Typography>
             </Box>
             {checkYesNoQuestion(itemQuestion) && (
                 <Box my={1}>
-                    <Typography align="center" variant="h3" color="darkBlue">
+                    <Typography align="center" variant="h3" color="darkBlue" className={styles.description}>
                         {itemQuestion.label}
                     </Typography>
                 </Box>
@@ -41,6 +43,7 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                 {itemQuestion &&
                     itemQuestion.questions.map((question, index) => (
                         <Box
+                            width={150}
                             key={`question-item-${question.question || index}`}>
                             <Box
                                 p={1}
@@ -49,7 +52,9 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                                 flexDirection="column"
                                 alignItems="center">
                                 <QuestionItemContainer
-                                    onClick={() => _onSelectQuestion(question, index)}
+                                    onClick={() =>
+                                        _onSelectQuestion(question, index)
+                                    }
                                     url={question.icon}
                                     hoverURL={question.hoverIcon}
                                     selected={
@@ -77,6 +82,7 @@ const Carousel = ({ items, questionPath, activeIndex, onSelectQuestion }) => {
             autoPlay={false}
             indicators={false}
             NextIcon={null}
+            className={styles.carousel}
             navButtonsProps={{
                 className: '',
                 style: {

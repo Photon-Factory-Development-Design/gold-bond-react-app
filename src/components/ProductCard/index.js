@@ -1,6 +1,8 @@
 import React from 'react';
 import Price from '../Price';
 import Link from '../Link';
+// styles
+import styles from './ProductCard.module.scss';
 
 const ProductCard = ({
     ASIN: { value: asin } = { value: null },
@@ -45,7 +47,8 @@ const ProductCard = ({
                 </a>
                 <a
                     className="adt-product-title-clamped a-size-base a-link-normal a-color-base"
-                    href={product.url} target="blank">
+                    href={product.url}
+                    target="blank">
                     <div className="clamp-lines ">
                         <div>{productTitle}</div>
                     </div>
@@ -54,7 +57,9 @@ const ProductCard = ({
             {rateStar && (
                 <div className="adt-product-rating">
                     <span className="aui-average-customer-reviews">
-                        <a href={`${product.url}}#customerReviews`}>
+                        <a
+                            href={`${product.url}}#customerReviews`}
+                            className={styles.rateContainer}>
                             <i className={rateStar}></i>
                         </a>
                         <a
@@ -68,9 +73,11 @@ const ProductCard = ({
 
             <div className="adt-product-price">
                 {priceBlockOutPrice && <Price value={priceBlockOutPrice} />}
-                <span style={{ color: '#888' }}>{ounce}</span>
+                <span style={{ color: '#888', display: 'none' }}>{ounce}</span>
             </div>
-            <div className="adt-product-price" style={{ color: '#888' }}>
+            <div
+                className="adt-product-price"
+                style={{ color: '#888', display: 'none' }}>
                 {priceBlockSavings && priceBlockSavings}
             </div>
             <div className="adt-add-to-cart">

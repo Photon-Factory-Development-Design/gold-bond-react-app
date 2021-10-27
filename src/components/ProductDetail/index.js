@@ -93,11 +93,13 @@ const ProductDetail = React.forwardRef(
                         {priceBlockOutPrice && (
                             <Price value={priceBlockOutPrice} />
                         )}
-                        <span style={{ color: '#888' }}>{ounce}</span>
+                        <span style={{ color: '#888', display: 'none' }}>
+                            {ounce}
+                        </span>
                     </div>
                     <div
                         className="adt-product-price"
-                        style={{ color: '#888' }}>
+                        style={{ color: '#888', display: 'none' }}>
                         {priceBlockSavings && priceBlockSavings}
                     </div>
                     <div className="adt-add-to-cart">

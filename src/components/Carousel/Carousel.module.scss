@@ -1,0 +1,11 @@
+@import "assets/styles/mixins/breakpoints";
+
+.description {
+    @include breakpoint("md-max") {
+        font-size: 30px !important;
+    }
+}
+
+.carousel {
+    width: 100%;
+}

@@ -414,19 +414,45 @@ const questions = {
     ]
 };
 
-export const getQuestion = (questionPath, index) => {
+export const getQuestion = (questionPath, _index = 100) => {
     let currentQuestions = questions;
-    for (var i = 0; i <= index; i++) {
-        if (questionPath.length <= i) {
-            return null;
+    questionPath.forEach((index, _i) => {
+        if (_i <= _index) {
+            currentQuestions = currentQuestions.questions[index];
         }
-
-        const questionIndex = questionPath[i];
-
-        currentQuestions = currentQuestions.questions[questionIndex];
-    }
+    });
 
     return currentQuestions;
+};
+
+export const getItemsInsideQuestion = (question) => {
+    let products = {};
+
+    (question.ASINS || []).forEach((id) => {
+        products[id] = true;
+    });
+
+    if (question.questions) {
+        question.questions.forEach((item) => {
+            products = {
+                ...products,
+                ...getItemsInsideQuestion(item)
+            };
+        });
+    }
+    return products;
+};
+
+export const getRecommendedItems = (questionPath) => {
+    let products = {};
+
+    let currentQuestion = questions;
+    questionPath.forEach((index) => {
+        currentQuestion = currentQuestion.questions[index];
+    });
+
+    products = getItemsInsideQuestion(currentQuestion);
+    return Object.keys(products);
 };
 
 export const checkYesNoQuestion = (question) => {

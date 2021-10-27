@@ -1,0 +1,7 @@
+@import "assets/styles/mixins/breakpoints";
+
+.recommendText {
+    @include breakpoint("md-max") {
+        font-size: 30px !important;
+    }
+}

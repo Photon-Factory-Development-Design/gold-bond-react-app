@@ -40,8 +40,9 @@ const QuestionItemContainer = ({
     return (
         <Box
             onClick={onClick}
-            width={150}
             height={150}
+            maxWidth="100%"
+            width="100%"
             display="flex"
             flexDirection="column"
             justifyContent="center"

@@ -1,0 +1,9 @@
+@import "assets/styles/mixins/breakpoints";
+
+.carousel {
+    width: 100%;
+
+    & svg {
+        font-size: 20px !important;
+    }
+}

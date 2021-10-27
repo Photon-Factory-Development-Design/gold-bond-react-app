@@ -6,12 +6,19 @@ import MuiCarousel from 'react-material-ui-carousel';
 // import { Typography, Link } from 'components';
 import ProductCard from 'components/ProductCard';
 import { ProductDetail } from 'components';
+// styles
+import styles from './ProductContainer.module.scss';
 
 // util to get products from question value
 const getProducts = (asins) =>
     products.filter((product) => asins.includes(product.data.ASIN.value));
 
-const ProductContainer = ({ asins, setDetailProduct, onMoveDetailSection }) => {
+const ProductContainer = ({
+    asins,
+    setDetailProduct,
+    onMoveDetailSection,
+    showAll
+}) => {
     const [products, setProducts] = React.useState([]);
     const productDetailRef = React.useRef(null);
     const theme = useTheme();
@@ -37,29 +44,34 @@ const ProductContainer = ({ asins, setDetailProduct, onMoveDetailSection }) => {
             {matches ? (
                 <React.Fragment>
                     {products.length > 1 &&
-                        products.map((product, index) => (
-                            <ProductCard
-                                setDetailProduct={setDetailProduct}
-                                key={`product-item-${index}`}
-                                product={product}
-                                {...product.data}
-                            />
-                        ))}
+                        (showAll ? products : products.slice(0, 8)).map(
+                            (product, index) => (
+                                <ProductCard
+                                    setDetailProduct={setDetailProduct}
+                                    key={`product-item-${index}`}
+                                    product={product}
+                                    {...product.data}
+                                />
+                            )
+                        )}
                 </React.Fragment>
             ) : (
                 <MuiCarousel
                     animation="slide"
                     autoPlay={false}
+                    className={styles.carousel}
                     indicators={false}>
                     {products.length > 1 &&
-                        products.map((product, index) => (
-                            <ProductCard
-                                setDetailProduct={setDetailProduct}
-                                key={`product-item-${index}`}
-                                product={product}
-                                {...product.data}
-                            />
-                        ))}
+                        (showAll ? products : products.slice(0, 8)).map(
+                            (product, index) => (
+                                <ProductCard
+                                    setDetailProduct={setDetailProduct}
+                                    key={`product-item-${index}`}
+                                    product={product}
+                                    {...product.data}
+                                />
+                            )
+                        )}
                 </MuiCarousel>
             )}
             {products.length === 1 && products[0] && (

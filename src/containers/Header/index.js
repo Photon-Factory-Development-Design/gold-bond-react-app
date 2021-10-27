@@ -5,6 +5,8 @@ import { Typography } from 'components';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Logo from '../Logo/index';
+// styles
+import styles from './Header.module.scss';
 
 const headerBackImage =
     'https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/images/Header.jpg';
@@ -72,14 +74,13 @@ const Header = () => {
                     justifyContent="center">
                     <Logo />
                 </Box>
-                <Typography align="center" variant="h2" color="primary">
+                <Typography align="center" variant="h2" color="primary" className={styles.headerTitle}>
                     FIND THE RIGHT GOLD BOND <br />
                     PRODUCT FOR YOU
                 </Typography>
                 <Box py={2}>
                     <Typography align="center" variant="body1" color="black">
-                        Was it meant to say Diagnosis? Tool is for information
-                        only.
+                        Not a medical diagnosis. Tool is for information only.
                     </Typography>
                 </Box>
             </HeaderTitleContainer>

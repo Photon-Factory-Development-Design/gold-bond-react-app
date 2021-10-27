@@ -1,9 +1,15 @@
 import React from 'react';
-import { Container, Box } from '@material-ui/core';
+import { Container, Box, Button } from '@material-ui/core';
 import { BackgroundContainer, Typography, Stepper, Carousel } from 'components';
 import ProductContainer from './ProductContainer';
-import { getQuestion, checkYesNoQuestion } from 'common/constant/questions';
+import {
+    getQuestion,
+    checkYesNoQuestion,
+    getRecommendedItems
+} from 'common/constant/questions';
 import { defaultAsins as DefaultAsins } from 'common/data/products';
+// styles
+import styles from './QuizContainer.module.scss';
 
 const QuizContainer = React.forwardRef((props, ref) => {
     const [questionPath, setQuestionPath] = React.useState([0]);
@@ -11,27 +17,34 @@ const QuizContainer = React.forwardRef((props, ref) => {
     const [stepperStep, setStepperStep] = React.useState(0);
     const [steps, setSteps] = React.useState(['Categories']);
     const [asins, setAsins] = React.useState(DefaultAsins);
+    const [showAll, setShowAll] = React.useState(false);
 
     const resultsRef = React.useRef(null);
+
+    const getSteps = (questionPath, activeStep) => {
+        let newSteps = ['Categories'];
+        for (var i = 1; i <= activeStep + 1; i++) {
+            const questionItem = getQuestion(questionPath, i);
+            if (!checkYesNoQuestion(questionItem)) {
+                newSteps.push(questionItem.label);
+            }
+        }
+
+        return newSteps;
+    };
 
     const onSelectQuestion = (index) => {
         const newQuestionPath = [].concat(
             questionPath.slice(0, activeStep + 1),
             index
         );
-        const questionItem = getQuestion(newQuestionPath, activeStep + 1);
+        const questionItem = getQuestion(newQuestionPath);
 
         if (questionItem.questions) {
             setQuestionPath(newQuestionPath);
             setActiveStep((prev) => prev + 1);
             if (!checkYesNoQuestion(questionItem)) {
-                let newSteps = ['Categories'];
-                for (var i = 1; i <= activeStep + 1; i++) {
-                    const questionItem = getQuestion(newQuestionPath, i);
-                    if (!checkYesNoQuestion(questionItem)) {
-                        newSteps.push(questionItem.label);
-                    }
-                }
+                let newSteps = getSteps(newQuestionPath, activeStep);
 
                 setSteps(newSteps);
                 setStepperStep(newSteps.length - 1);
@@ -63,11 +76,35 @@ const QuizContainer = React.forwardRef((props, ref) => {
         setStepperStep(step);
 
         // clear asins
-        setAsins(DefaultAsins);
+        // setAsins(DefaultAsins);
+        setQuestionPath((prev) => prev.slice(0, step + 1));
     };
 
+    React.useEffect(() => {
+        // update recommended products
+        if (questionPath.length === 1) {
+            const recommendedItems = getRecommendedItems(questionPath);
+            setAsins(
+                [].concat(
+                    DefaultAsins,
+                    recommendedItems.filter(
+                        (item) => !DefaultAsins.includes(item)
+                    )
+                )
+            );
+        } else {
+            setAsins(getRecommendedItems(questionPath));
+        }
+    }, [questionPath]);
+
     const onGoBack = () => {
-        onUpdateStep(steps.length - 2);
+        // onUpdateStep(steps.length - 2);
+        const newQuestionPath = questionPath.slice(0, questionPath.length - 1);
+        const newSteps = getSteps(newQuestionPath, newQuestionPath.length - 2);
+        setSteps(newSteps);
+        setActiveStep((prev) => prev - 1);
+        setQuestionPath(newQuestionPath);
+        setStepperStep(newSteps.length - 1);
     };
 
     const onMoveDetailSection = React.useCallback(() => {
@@ -78,7 +115,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
     }, []);
 
     return (
-        <BackgroundContainer ref={ref} color="lightDark" vertical={4}>
+        <BackgroundContainer ref={ref} color="lightDark" vertical={8}>
             <Container>
                 <Stepper
                     steps={steps}
@@ -102,8 +139,11 @@ const QuizContainer = React.forwardRef((props, ref) => {
                 pt={5}
                 ref={resultsRef}>
                 <Box mt={5} py={2}>
-                    <Typography variant="h3" color="darkBlue">
-                        RECOMMENDED FOR YOU
+                    <Typography
+                        variant="h3"
+                        color="darkBlue"
+                        className={styles.recommendText}>
+                        RECOMMENDED FOR YOU ({asins.length})
                     </Typography>
                 </Box>
                 <Box my={2} mt={4}>
@@ -112,7 +152,20 @@ const QuizContainer = React.forwardRef((props, ref) => {
                             setDetailProduct={props.setDetailProduct}
                             asins={asins}
                             onMoveDetailSection={onMoveDetailSection}
+                            showAll={showAll}
                         />
+
+                        <Box
+                            display="flex"
+                            flexDirection="row"
+                            justifyContent="center"
+                            mt={3}>
+                            <Button
+                                variant="text"
+                                onClick={() => setShowAll((prev) => !prev)}>
+                                {showAll ? 'Show less' : 'Show more'}
+                            </Button>
+                        </Box>
                     </Container>
                 </Box>
             </Box>

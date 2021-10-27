@@ -1,0 +1,7 @@
+@import "assets/styles/mixins/breakpoints";
+
+.react_player {
+    @include breakpoint('md-max') {
+        height: auto !important;
+    }
+}

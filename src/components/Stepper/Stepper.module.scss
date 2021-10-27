@@ -1,0 +1,7 @@
+@import "assets/styles/mixins/breakpoints";
+
+.stepperLabel {
+    @include breakpoint("md-max") {
+        font-size: 15px;
+    }
+}

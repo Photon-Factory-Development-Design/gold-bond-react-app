@@ -12,8 +12,6 @@ const Link = ({ children, ...props }) => {
         // construct link attributes including href w/ aws values
         if (ref.current && !initRef.current) {
             initRef.current = true;
-
-            console.log('buildATC', ref.current);
             // build ATC
             buildATC(ref.current);
         }

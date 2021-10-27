@@ -22,8 +22,6 @@ export default async (link) => {
         offerings || []
     );
 
-    console.log('newLink', newLink);
-
     if (newLink !== link.href) {
         link.href = newLink;
         attachEvents(link);

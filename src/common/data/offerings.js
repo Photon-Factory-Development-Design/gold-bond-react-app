@@ -382,6 +382,12 @@ let offerings = [
         asin: 'B07W7VNRKN',
         offeringID:
             'H7gBvvFtxVkvznGkrNMmt%2F1SEoE42hDTgvyqwbQg%2BgUzbsKxIHEqNFzICJGcogDVoD1kt6a1xUTnB7mUN182GajebMEvR%2FcBYflq%2FLxfmOF3NI5NPqFyomydsro5nGgodxxNlfsQs61xSi9IIQLoqKr8D5gCVLlfUwkmVwGPljg%2FLIZq%2F7bW6sfdIdNnS0G2'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B004X8KMU8?th=1&psc=1',
+        asin: 'B004X8KMU8',
+        offeringID:
+            'pO1RHbog%2BJyWmqgpwfJn6YtMebYHsuhGG7BSlnnb0lksBi9a0iLIYaEUv5Gdi%2Bs4HYFgGpGpCgleuBkGqP0veR33%2Fazib%2Fm2NDX0HfSXa4SXgWXxywdYicdHr7Rrg%2FZ7WBkuDPWvUZoEbOcc%2FyXQ8Wwq9gQ6gxFmhdrKfqXXYb%2F8TrrBtw8Nx5t%2BeCCi9qJG'
     }
 ];
 
