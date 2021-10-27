@@ -1,6 +1,8 @@
 import React from 'react';
 import Price from 'components/Price';
 import { Link, ProductImage } from 'components';
+// styles
+import styles from './ProductDetail.module.scss';
 
 const ProductDetail = React.forwardRef(
     (
@@ -78,7 +80,9 @@ const ProductDetail = React.forwardRef(
                     {rateStar && (
                         <div className="adt-product-rating">
                             <span className="aui-average-customer-reviews">
-                                <a href={`${product.url}}#customerReviews`}>
+                                <a
+                                    href={`${product.url}}#customerReviews`}
+                                    className={styles.rateContainer}>
                                     <i className={rateStar}></i>
                                 </a>
                                 <a
