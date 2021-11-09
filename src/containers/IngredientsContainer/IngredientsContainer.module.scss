@@ -1,9 +1,10 @@
 @import "assets/styles/mixins/breakpoints";
 
-.recommendText {
+.title {
     font-family: GothamBold !important;
     font-size: 50px !important;
-    @include breakpoint("md-max") {
+    
+    @include breakpoint('md-max') {
         font-size: 40px !important;
     }
 }

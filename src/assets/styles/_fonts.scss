@@ -1,36 +1,55 @@
 @font-face {
     font-family: ChampionLiteweight;
-    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Champion/Champion-Liteweight.otf') format('opentype');
+    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Champion/Champion-Liteweight.otf')
+        format('opentype');
 }
 
 @font-face {
     font-family: ChampionFeatherweight;
-    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Champion/Champion-Featherweight.otf') format('opentype');
+    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Champion/Champion-Featherweight.otf')
+        format('opentype');
+}
+
+@font-face {
+    font-family: ChampionWelterweight;
+    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Champion/Champion-Welterweight.otf')
+        format('opentype');
 }
 
 @font-face {
     font-family: GothamMedium;
-    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Gotham_font/Gotham-Medium.otf') format('opentype');
+    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Gotham_font/Gotham-Medium.otf')
+        format('opentype');
 }
 
 @font-face {
     font-family: GothamBook;
-    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Gotham_font/Gotham-Book.otf') format('opentype');
+    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Gotham_font/Gotham-Book.otf')
+        format('opentype');
 }
 
 @font-face {
-    font-family: "revicons";
+    font-family: GothamBold;
+    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/Gotham_font/Gotham-Bold.otf')
+        format('opentype');
+}
+
+@font-face {
+    font-family: 'revicons';
     fallback: fallback;
-    src: url("https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/revicons/revicons.woff") format('woff'),
-        url("https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/revicons/revicons.ttf") format('ttf'),
-        url("https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/revicons/revicons.eot") format('ttf')
+    src: url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/revicons/revicons.woff')
+            format('woff'),
+        url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/revicons/revicons.ttf')
+            format('ttf'),
+        url('https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/fonts/revicons/revicons.eot')
+            format('ttf');
 }
 
 .react-multi-carousel-list {
     display: flex;
     align-items: center;
     overflow: hidden;
-    position: relative
+    position: relative;
 }
 
 .react-multi-carousel-track {
@@ -42,13 +61,13 @@
     position: relative;
     transform-style: preserve-3d;
     backface-visibility: hidden;
-    will-change: transform, transition
+    will-change: transform, transition;
 }
 
 .react-multiple-carousel__arrow {
     position: absolute;
     outline: 0;
-    transition: all .5s;
+    transition: all 0.5s;
     border-radius: 35px;
     z-index: 1000;
     border: 0;
@@ -56,11 +75,11 @@
     min-width: 43px;
     min-height: 43px;
     opacity: 1;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .react-multiple-carousel__arrow:hover {
-    background: rgba(0, 0, 0, 0.8)
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .react-multiple-carousel__arrow::before {
@@ -70,23 +89,23 @@
     font-family: revicons;
     text-align: center;
     z-index: 2;
-    position: relative
+    position: relative;
 }
 
 .react-multiple-carousel__arrow--left {
-    left: calc(4% + 1px)
+    left: calc(4% + 1px);
 }
 
 .react-multiple-carousel__arrow--left::before {
-    content: "\e824"
+    content: '\e824';
 }
 
 .react-multiple-carousel__arrow--right {
-    right: calc(4% + 1px)
+    right: calc(4% + 1px);
 }
 
 .react-multiple-carousel__arrow--right::before {
-    content: "\e825"
+    content: '\e825';
 }
 
 .react-multi-carousel-dot-list {
@@ -100,7 +119,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    text-align: center
+    text-align: center;
 }
 
 .react-multi-carousel-dot button {
@@ -111,7 +130,7 @@
     opacity: 1;
     padding: 5px 5px 5px 5px;
     box-shadow: none;
-    transition: background .5s;
+    transition: background 0.5s;
     border-width: 2px;
     border-style: solid;
     border-color: grey;
@@ -119,29 +138,28 @@
     margin: 0;
     margin-right: 6px;
     outline: 0;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .react-multi-carousel-dot button:hover:active {
-    background: #080808
+    background: #080808;
 }
 
 .react-multi-carousel-dot--active button {
-    background: #080808
+    background: #080808;
 }
 
 .react-multi-carousel-item {
     transform-style: preserve-3d;
-    backface-visibility: hidden
+    backface-visibility: hidden;
 }
 
-@media all and (-ms-high-contrast:none),
-(-ms-high-contrast:active) {
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .react-multi-carousel-item {
-        flex-shrink: 0 !important
+        flex-shrink: 0 !important;
     }
 
     .react-multi-carousel-track {
-        overflow: visible !important
+        overflow: visible !important;
     }
 }

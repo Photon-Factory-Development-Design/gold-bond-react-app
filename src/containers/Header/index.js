@@ -5,20 +5,15 @@ import { Typography } from 'components';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Logo from '../Logo/index';
+import { base_url } from 'common/constant';
 // styles
 import styles from './Header.module.scss';
 
-const headerBackImage =
-    'https://cdn.jsdelivr.net/gh/Photon-Factory-Development-Design/gold-bond-react-app/src/assets/images/Header.jpg';
+const headerBackImage = `${base_url}/assets/images/Header.jpg`;
 
 // create custom header
 const HeaderContainer = styled(Box)`
-    background: url(${headerBackImage}) no-repeat center center fixed;
     height: 40vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     position: relative;
     min-height: 300px;
 
@@ -60,7 +55,9 @@ const Header = () => {
             display="flex"
             flexDirection="row"
             {...HeaderContainerProps}
-            alignItems="center">
+            alignItems="center"
+            className={styles.header_container}>
+            <img src={headerBackImage} alt="header-bg" className={styles.header_bg} />
             <HeaderTitleContainer
                 display="flex"
                 flexDirection="column"
@@ -74,7 +71,11 @@ const Header = () => {
                     justifyContent="center">
                     <Logo />
                 </Box>
-                <Typography align="center" variant="h2" color="primary" className={styles.headerTitle}>
+                <Typography
+                    align="center"
+                    variant="h2"
+                    color="primary"
+                    className={styles.headerTitle}>
                     FIND THE RIGHT GOLD BOND <br />
                     PRODUCT FOR YOU
                 </Typography>

@@ -1,6 +1,8 @@
 @import "assets/styles/mixins/breakpoints";
 
 .description {
+    font-family: GothamBold !important;
+    font-size: 40px !important;
     @include breakpoint("md-max") {
         font-size: 30px !important;
     }

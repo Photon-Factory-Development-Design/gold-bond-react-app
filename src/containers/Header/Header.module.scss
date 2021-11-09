@@ -1,7 +1,21 @@
 @import "assets/styles/mixins/breakpoints";
 
 .headerTitle {
+    margin-top: -60px !important;
+    font-family: ChampionWelterweight !important;
+    font-size: 50px !important;
     @include breakpoint("md-max") {
         font-size: 40px !important;
     }
+}
+
+.header_bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.header_container {
+    overflow: hidden;
 }

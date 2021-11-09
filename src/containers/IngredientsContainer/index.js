@@ -11,6 +11,8 @@ import 'react-multi-carousel/lib/styles.css';
 import ingredients from './ingredients';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+// styles
+import styles from './IngredientsContainer.module.scss'
 
 const useStyles = makeStyles({
     ingredientItem: {
@@ -106,7 +108,7 @@ const IngrdientsContainer = ({ setIngredient }) => {
     return (
         <BackgroundContainer color="primary">
             <Box py={2}>
-                <Typography color="darkBlue" variant="h2" align="center">
+                <Typography color="darkBlue" variant="h2" align="center" className={styles.title}>
                     CHAMPION YOUR SKIN
                 </Typography>
             </Box>
