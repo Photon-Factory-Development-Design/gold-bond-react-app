@@ -166,6 +166,21 @@ const QuizContainer = React.forwardRef((props, ref) => {
                                 {showAll ? 'Show less' : 'Show more'}
                             </Button>
                         </Box>
+
+                        <Box
+                            display="flex"
+                            flexDirection="row"
+                            justifyContent="center"
+                            mt={3}>
+                            <Button
+                                variant="text"
+                                onClick={() => {
+                                    location.href =
+                                        'https://www.amazon.ca/s?k=Gold+Bond&ref=bl_dp_s_web_0';
+                                }} className={styles.brand_link_btn}>
+                                Go to Gold Bond Brand Store
+                            </Button>
+                        </Box>
                     </Container>
                 </Box>
             </Box>
