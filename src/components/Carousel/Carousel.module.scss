@@ -2,9 +2,9 @@
 
 .description {
     font-family: GothamBold !important;
-    font-size: 40px !important;
+    font-size: 30px !important;
     @include breakpoint('md-max') {
-        font-size: 30px !important;
+        font-size: 25px !important;
     }
 }
 

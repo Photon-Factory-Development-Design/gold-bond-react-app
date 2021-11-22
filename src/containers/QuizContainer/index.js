@@ -162,6 +162,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
                             mt={3}>
                             <Button
                                 variant="text"
+                                className={styles.show_more_btn}
                                 onClick={() => setShowAll((prev) => !prev)}>
                                 {showAll ? 'Show less' : 'Show more'}
                             </Button>

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca171946.css",
+    "main.css": "/static/css/main.71a28173.css",
     "main.js": "/static/js/main.js",
-    "main.css.map": "/static/css/main.ca171946.css.map",
+    "main.css.map": "/static/css/main.71a28173.css.map",
     "main.js.map": "/static/js/main.js.map",
     "static/js/1.chunk.js": "/static/js/1.chunk.js",
     "static/js/1.chunk.js.map": "/static/js/1.chunk.js.map",
@@ -10,7 +10,7 @@
     "static/media/styles.css": "/static/media/revicons.e8746a62.woff"
   },
   "entrypoints": [
-    "static/css/main.ca171946.css",
+    "static/css/main.71a28173.css",
     "static/js/main.js"
   ]
 }
