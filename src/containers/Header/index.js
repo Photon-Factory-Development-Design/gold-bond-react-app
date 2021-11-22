@@ -8,8 +8,11 @@ import Logo from '../Logo/index';
 import { base_url } from 'common/constant';
 // styles
 import styles from './Header.module.scss';
+import useResponsive from 'components/Hooks/useResponsive';
 
 const headerBackImage = `${base_url}/assets/images/Header.jpg`;
+
+const headerBackMobileImage = `${base_url}/assets/images/Header-mobile.jpg`;
 
 // create custom header
 const HeaderContainer = styled(Box)`
@@ -50,6 +53,8 @@ const Header = () => {
         };
     }
 
+    const { isMobile } = useResponsive();
+
     return (
         <HeaderContainer
             display="flex"
@@ -57,7 +62,13 @@ const Header = () => {
             {...HeaderContainerProps}
             alignItems="center"
             className={styles.header_container}>
-            <img src={headerBackImage} alt="header-bg" className={styles.header_bg} />
+            {!isMobile && (
+                <img
+                    src={headerBackImage}
+                    alt="header-bg"
+                    className={styles.header_bg}
+                />
+            )}
             <HeaderTitleContainer
                 display="flex"
                 flexDirection="column"
