@@ -58,12 +58,12 @@ const QuestionItemContainer = ({
             onMouseLeave={() => setHover(false)}>
             {url && (
                 <Box>
-                    {url && (
+                    {!isHighlight && (
                         <div hidden={isHighlight}>
                             <img src={url} height="50" alt="ingredient" />
                         </div>
                     )}
-                    {hover && hoverURL && (
+                    {isHighlight && (
                         <div hidden={!isHighlight}>
                             <img src={hoverURL} height="50" alt="ingredient" />
                         </div>

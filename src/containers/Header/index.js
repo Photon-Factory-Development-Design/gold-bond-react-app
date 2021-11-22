@@ -69,6 +69,13 @@ const Header = () => {
                     className={styles.header_bg}
                 />
             )}
+            {isMobile && (
+                <img
+                    src={headerBackMobileImage}
+                    alt="header-bg"
+                    className={styles.header_bg}
+                />
+            )}
             <HeaderTitleContainer
                 display="flex"
                 flexDirection="column"

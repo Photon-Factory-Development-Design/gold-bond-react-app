@@ -121,13 +121,13 @@ const QuizContainer = React.forwardRef((props, ref) => {
                     steps={steps}
                     activeStep={stepperStep}
                     onUpdateIndex={onUpdateStep}
-                    onGoBack={onGoBack}
                 />
                 <Carousel
                     items={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
                     questionPath={questionPath}
                     activeIndex={activeStep}
                     onSelectQuestion={onSelectQuestion}
+                    onGoBack={onGoBack}
                 />
             </Container>
 
@@ -177,7 +177,8 @@ const QuizContainer = React.forwardRef((props, ref) => {
                                 onClick={() => {
                                     location.href =
                                         'https://www.amazon.ca/s?k=Gold+Bond&ref=bl_dp_s_web_0';
-                                }} className={styles.brand_link_btn}>
+                                }}
+                                className={styles.brand_link_btn}>
                                 Go to Gold Bond Brand Store
                             </Button>
                         </Box>

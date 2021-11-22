@@ -310,13 +310,15 @@ const questions = {
                     label: 'Hand Sanitizer',
                     icon: `${base_url}/assets/images/hand-sanitizer.svg`,
                     hoverIcon: `${base_url}/assets/images/sanitizer-blue.svg`,
-                    ASINS: ['B08NQH1Z66']
+                    ASINS: ['B08NQH1Z66'],
+                    question: 'Hand Sanitizer'
                 },
                 {
                     label: 'Anti-Chafing',
                     icon: `${base_url}/assets/images/chafing-yellow.svg`,
                     hoverIcon: `${base_url}/assets/images/chafing-blue.svg`,
-                    ASINS: ['B007VC9DKI']
+                    ASINS: ['B007VC9DKI'],
+                    question: 'Anti-Chafing'
                 },
                 {
                     label: 'Powder/Spray',

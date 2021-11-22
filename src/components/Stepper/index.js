@@ -4,8 +4,7 @@ import {
     Step,
     StepButton,
     makeStyles,
-    StepLabel,
-    Button
+    StepLabel
 } from '@material-ui/core';
 // styles
 import styles from './Stepper.module.scss';
@@ -22,20 +21,8 @@ const useStyles = makeStyles({
     }
 });
 
-const Stepper = ({
-    steps,
-    activeStep,
-    onUpdateIndex,
-    onGoBack: propsOnGoBack
-}) => {
+const Stepper = ({ steps, activeStep, onUpdateIndex }) => {
     const classes = useStyles();
-
-    const onGoBack = (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-
-        propsOnGoBack();
-    };
 
     return (
         <MuiStepper
@@ -56,15 +43,9 @@ const Stepper = ({
                                     iconContainer: classes.iconContainer,
                                     labelContainer: classes.labelContainer
                                 }}>
-                                <div className={styles.stepperLabel}>{label}</div>
-                                {steps.length > 1 &&
-                                    steps.length === index + 1 && (
-                                        <Button
-                                            variant="text"
-                                            onClick={onGoBack}>
-                                            Go Back
-                                        </Button>
-                                    )}
+                                <div className={styles.stepperLabel}>
+                                    {label}
+                                </div>
                             </StepLabel>
                         </StepButton>
                     </Step>

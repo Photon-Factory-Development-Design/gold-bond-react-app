@@ -1,12 +1,12 @@
 import React from 'react';
-import { Box } from '@material-ui/core';
+import { Box, Button } from '@material-ui/core';
 import MuiCarousel from 'react-material-ui-carousel';
 import { getQuestion, checkYesNoQuestion } from 'common/constant/questions';
 import { Typography, QuestionItemContainer } from 'components';
 // styles
 import styles from './Carousel.module.scss';
 
-const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
+const CarouselItem = ({ questionPath, index, onSelectQuestion, onGoBack }) => {
     const [selectedQuestion, setQuestion] = React.useState(null);
     const itemQuestion = React.useMemo(
         () => getQuestion(questionPath.slice(0, index + 1)),
@@ -24,13 +24,21 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
     return (
         <Box>
             <Box py={1}>
-                <Typography variant="h3" color="darkBlue" align="center" className={styles.description}>
+                <Typography
+                    variant="h3"
+                    color="darkBlue"
+                    align="center"
+                    className={styles.description}>
                     {itemQuestion.description}
                 </Typography>
             </Box>
             {checkYesNoQuestion(itemQuestion) && (
                 <Box my={1}>
-                    <Typography align="center" variant="h3" color="darkBlue" className={styles.description}>
+                    <Typography
+                        align="center"
+                        variant="h3"
+                        color="darkBlue"
+                        className={styles.description}>
                         {itemQuestion.label}
                     </Typography>
                 </Box>
@@ -70,11 +78,28 @@ const CarouselItem = ({ questionPath, index, onSelectQuestion }) => {
                         </Box>
                     ))}
             </Box>
+
+            <Box display="flex" flexDirection="row" justifyContent="center">
+                {index > 0 && (
+                    <Button
+                        variant="text"
+                        onClick={onGoBack}
+                        className={styles.go_back_btn}>
+                        {'<'} Back
+                    </Button>
+                )}
+            </Box>
         </Box>
     );
 };
 
-const Carousel = ({ items, questionPath, activeIndex, onSelectQuestion }) => {
+const Carousel = ({
+    items,
+    questionPath,
+    activeIndex,
+    onSelectQuestion,
+    onGoBack
+}) => {
     return (
         <MuiCarousel
             animation="slide"
@@ -101,6 +126,7 @@ const Carousel = ({ items, questionPath, activeIndex, onSelectQuestion }) => {
                     questionPath={questionPath}
                     index={index}
                     onSelectQuestion={onSelectQuestion}
+                    onGoBack={onGoBack}
                 />
             ))}
         </MuiCarousel>
