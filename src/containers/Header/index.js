@@ -16,17 +16,7 @@ const headerBackMobileImage = `${base_url}/assets/images/Header-mobile.jpg`;
 
 // create custom header
 const HeaderContainer = styled(Box)`
-    height: 40vh;
     position: relative;
-    min-height: 300px;
-
-    @media (max-width: 768px) {
-        height: 50vh;
-    }
-
-    @media (min-width: 768px) {
-        min-height: 300px;
-    }
 `;
 
 const HeaderTitleContainer = styled(Box)``;
@@ -53,7 +43,7 @@ const Header = () => {
         };
     }
 
-    const { isMobile } = useResponsive();
+    const { isMobile, isTablet } = useResponsive();
 
     return (
         <HeaderContainer
@@ -62,14 +52,14 @@ const Header = () => {
             {...HeaderContainerProps}
             alignItems="center"
             className={styles.header_container}>
-            {!isMobile && (
+            {!(isMobile || isTablet) && (
                 <img
                     src={headerBackImage}
                     alt="header-bg"
                     className={styles.header_bg}
                 />
             )}
-            {isMobile && (
+            {(isMobile || isTablet) && (
                 <img
                     src={headerBackMobileImage}
                     alt="header-bg"
