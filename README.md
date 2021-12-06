@@ -40,3 +40,19 @@ This is essential to match styles to AWS texts, rating stars, buttons etc.
 <div id="root"></div>
 ```
 >Note: The id name shoud be matched that you used in JS code. default is `root`. 
+
+## How does `Add to cart` feature works automatically inside React app? 
+1. We're fetching offeringIds which represents unique id for each product to add to product in AWS. Although those have same product ASIN id, the offeringIds will be different for different sellers in AWS. So fetching this offeringID is essential. 
+Sample offering Item structure: 
+```
+{
+        url: 'https://www.amazon.com/gp/product/B015HRFXKM?th=1&psc=1',
+        asin: 'B015HRFXKM',
+        offeringID:            'cN3PBtPvpk4d8gZOYQ0M343i5Feru8LI0Xx31TBMxEgJoK75EV78fvHiyDSbwNrhdcw9jXsniNfAZoHK%2B3EqGoxO8Bdx9diZtLe8Pf4hQ7RNjLh2kNzqjbNCGvXpwJ02mDB5JF8zjrKILedHsGfZfQ%3D%3D'
+}
+```
+2. Once you fetched all offering Ids, then you can add it to offering.js which located in `src/common/data/offerings.js`. 
+
+### Notes that you should consider to build your own app. 
+1. You can use assets of the projects directly like we're doing for other projects. Because once JS code is bundled and deployed, only JS/CSS code are bundled and deployed. So they can't referr any assets like in the project. So you should upload assets first and referr those asses using CDN url of github like mentioned in above section. 
+2. we're using firebase to get updated stock result. We're running cron jobs to get updated stock status from AWS page on cloud server. But what you added to offerings.js is default stock option and that status will be updated about every hour/3 hours etc. 
