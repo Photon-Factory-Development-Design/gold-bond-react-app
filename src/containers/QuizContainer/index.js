@@ -115,7 +115,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
     }, []);
 
     return (
-        <BackgroundContainer ref={ref} color="lightDark" vertical={8}>
+        <BackgroundContainer ref={ref} color="lightDark" marginVerticalBottom={8}>
             <Container>
                 <Stepper
                     steps={steps}
@@ -173,15 +173,15 @@ const QuizContainer = React.forwardRef((props, ref) => {
                             flexDirection="row"
                             justifyContent="center"
                             mt={3}>
-                            <Button
-                                variant="text"
-                                onClick={() => {
-                                    location.href =
-                                        'https://www.amazon.ca/s?k=Gold+Bond&ref=bl_dp_s_web_0';
-                                }}
-                                className={styles.brand_link_btn}>
-                                Go to Gold Bond Brand Store
-                            </Button>
+                            <a
+                                href="https://www.amazon.ca/s?k=Gold+Bond&ref=bl_dp_s_web_0"
+                                target="_blank">
+                                <Button
+                                    variant="text"
+                                    className={styles.brand_link_btn}>
+                                    Go to Gold Bond Brand Store
+                                </Button>
+                            </a>
                         </Box>
                     </Container>
                 </Box>

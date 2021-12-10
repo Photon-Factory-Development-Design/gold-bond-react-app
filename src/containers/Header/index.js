@@ -70,6 +70,7 @@ const Header = () => {
                 display="flex"
                 flexDirection="column"
                 alignItems="center"
+                className={styles.header_title_container}
                 {...HeaderTitleContainerProps}>
                 <Box
                     pt={4}

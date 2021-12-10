@@ -13,7 +13,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: -1;
+    z-index: 1;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -23,9 +23,14 @@
     }
 }
 
+.header_title_container {
+    z-index: 150;
+}
+
 .header_container {
     overflow: hidden;
-    height: 550px;
+    max-height: 400px;
+    background-color: #DFD5CB;
 
     @include breakpoint('sm-max') {
         min-height: 500px;
