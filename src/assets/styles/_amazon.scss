@@ -77,8 +77,8 @@ ul li {
 }
 
 .adt-product-card {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
 
 }
 
