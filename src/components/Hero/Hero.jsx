@@ -3,7 +3,11 @@ import ReactPlayer from 'react-player';
 
 // material ui components
 import Box from '@material-ui/core/Box';
+import Container from '@material-ui/core/Container';
 import withStyles from '@material-ui/core/styles/withStyles';
+
+// core components
+import { BackgroundContainer } from 'components';
 
 // jss
 import styles from './heroStyle';
@@ -14,17 +18,21 @@ const heroVideo =
 
 const Hero = ({ classes }) => {
     return (
-        <Box className={classes.root}>
-            <ReactPlayer
-                url={heroVideo}
-                playing
-                loop
-                muted
-                width="100%"
-                height="100%"
-                className={cssStyle.react_player}
-            />
-        </Box>
+        <BackgroundContainer color="primary">
+            <Container>
+                <Box className={classes.root}>
+                    <ReactPlayer
+                        url={heroVideo}
+                        playing
+                        loop
+                        muted
+                        width="100%"
+                        height="100%"
+                        className={cssStyle.react_player}
+                    />
+                </Box>
+            </Container>
+        </BackgroundContainer>
     );
 };
 

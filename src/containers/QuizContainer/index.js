@@ -174,7 +174,7 @@ const QuizContainer = React.forwardRef((props, ref) => {
                             justifyContent="center"
                             mt={3}>
                             <a
-                                href="https://www.amazon.ca/s?k=Gold+Bond&ref=bl_dp_s_web_0"
+                                href="source https://www.amazon.com/goldbond"
                                 target="_blank">
                                 <Button
                                     variant="text"

@@ -82,12 +82,12 @@ const ProductDetail = React.forwardRef(
                             <span className="aui-average-customer-reviews">
                                 <a
                                     href={`${product.url}}#customerReviews`}
-                                    className={styles.rateContainer}>
+                                    className={styles.rateContainer} target="blank">
                                     <i className={rateStar}></i>
                                 </a>
                                 <a
                                     className="a-size-base a-link-normal a-color-base"
-                                    href={`${product.url}}#customerReviews`}>
+                                    href={`${product.url}}#customerReviews`} target="blank">
                                     {acrCustomerReviewText}
                                 </a>
                             </span>

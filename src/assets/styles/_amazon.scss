@@ -75,3 +75,13 @@ ul li {
     justify-content: center;
     cursor: pointer;
 }
+
+.adt-product-card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.adt-product-title {
+    flex: 1;
+}
