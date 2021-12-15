@@ -77,8 +77,10 @@ ul li {
 }
 
 .adt-product-card {
-    display: flex !important;
-    flex-direction: column !important;
+    @media (min-width: 576px) {
+        display: flex !important;
+        flex-direction: column !important;
+    }
 
 }
 
