@@ -5,9 +5,9 @@
     font-family: ChampionWelterweight !important;
     font-size: 2vw !important;
 
-    // @include breakpoint('md-max') {
-    //     font-size: 40px !important;
-    // }
+    @include breakpoint('md-max') {
+        font-size: 40px !important;
+    }
 }
 
 .header_bg {
@@ -25,6 +25,18 @@
 
 .headerBgContainer {
     height: 19vw;
+
+    @media only screen and (max-width: 1023px) {
+        position: absolute;
+        bottom: -60px;
+        width: 100%;
+        height: unset;
+    }
+
+    @media only screen and (max-width: 499px) {
+        bottom: 0px;
+        height: 100%;
+    }
 }
 
 .header_title_container {
@@ -32,15 +44,25 @@
     position: absolute;
     transform: translateY(-50%);
     top: calc(50% - 2.2vw);
+    padding-right: 4.2vw;
+
+    @media only screen and (max-width: 1023px) {
+        top: -3.4vw;
+        transform: translateY(-0%);
+        padding-right: 0px;
+    }
 
 }
 
 .header_container {
     overflow: hidden;
     background-color: #DFD5CB;
+    justify-content: flex-end;
+    border-bottom: 30px solid #003D54;
 
-    @include breakpoint('sm-max') {
+    @media only screen and (max-width: 1023px) {
         min-height: 700px;
         align-items: flex-start !important;
+        justify-content: center !important;
     }
 }

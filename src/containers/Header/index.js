@@ -27,13 +27,13 @@ const Header = () => {
         HeaderTitleContainerProps = {};
 
     if (useMediaQuery(theme.breakpoints.up('md'))) {
-        HeaderContainerProps = {
-            justifyContent: 'flex-end'
-        };
-        HeaderTitleContainerProps = {
-            pr: 8,
-            mr: 8
-        };
+        // HeaderContainerProps = {
+        //     justifyContent: 'flex-end'
+        // };
+        // HeaderTitleContainerProps = {
+        //     pr: 8,
+        //     mr: 8
+        // };
     } else {
         HeaderContainerProps = {
             justifyContent: 'center'
@@ -63,20 +63,22 @@ const Header = () => {
                 </div>
             )}
             {isTablet && (
-                <div className={styles.headerTabletImage}>
+                <div className={styles.headerBgContainer}>
                     <img
-                        src={headerBackImage}
+                        src={headerTabletImage}
                         alt="header-bg"
                         className={styles.header_bg}
                     />
                 </div>
             )}
             {isMobile && (
-                <img
-                    src={headerBackMobileImage}
-                    alt="header-bg"
-                    className={styles.header_bg}
-                />
+                <div className={styles.headerBgContainer}>
+                    <img
+                        src={headerBackMobileImage}
+                        alt="header-bg"
+                        className={styles.header_bg}
+                    />
+                </div>
             )}
             <HeaderTitleContainer
                 display="flex"

@@ -1,3 +1,7 @@
 .logo {
     width: 12vw;
+
+    @media only screen and (max-width: 1023px) {
+        width: 150px;
+    }
 }

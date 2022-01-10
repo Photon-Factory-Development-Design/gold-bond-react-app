@@ -33,6 +33,13 @@ const QuizContainer = React.forwardRef((props, ref) => {
         return newSteps;
     };
 
+    const onMoveDetailSection = React.useCallback(() => {
+        ref.current.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }, []);
+
     const onSelectQuestion = (index) => {
         const newQuestionPath = [].concat(
             questionPath.slice(0, activeStep + 1),
@@ -54,6 +61,8 @@ const QuizContainer = React.forwardRef((props, ref) => {
         } else {
             // show asins
             setAsins(questionItem.ASINS);
+
+            onMoveDetailSection();
         }
     };
 
@@ -106,13 +115,6 @@ const QuizContainer = React.forwardRef((props, ref) => {
         setQuestionPath(newQuestionPath);
         setStepperStep(newSteps.length - 1);
     };
-
-    const onMoveDetailSection = React.useCallback(() => {
-        ref.current.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    }, []);
 
     return (
         <BackgroundContainer ref={ref} color="lightDark" marginVerticalBottom={8}>

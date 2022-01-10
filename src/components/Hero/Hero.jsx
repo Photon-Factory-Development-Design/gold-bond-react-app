@@ -29,6 +29,7 @@ const Hero = ({ classes }) => {
                         width="100%"
                         height="100%"
                         className={cssStyle.react_player}
+                        playsinline
                     />
                 </Box>
             </Container>

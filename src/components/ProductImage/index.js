@@ -59,12 +59,12 @@ const ProductImage = ({ img }) => {
                     />
                 </Box>
             ) : (
-                <img src={img} alt="img" />
+                <img src={img} alt="img" style={{ maxHeight: '300px' }} />
             )}
             <img
                 src={img}
                 onLoad={onLoadImage}
-                style={{ display: 'none' }}
+                style={{ display: 'none', maxHeight: '300px' }}
                 alt="img"
             />
         </React.Fragment>
