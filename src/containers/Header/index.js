@@ -11,6 +11,7 @@ import styles from './Header.module.scss';
 import useResponsive from 'components/Hooks/useResponsive';
 
 const headerBackImage = `${base_url}/assets/images/Header.jpg`;
+const headerTabletImage = `${base_url}/assets/images/Header-tablet.jpg`;
 
 const headerBackMobileImage = `${base_url}/assets/images/Header-mobile.jpg`;
 
@@ -43,7 +44,7 @@ const Header = () => {
         };
     }
 
-    const { isMobile, isTablet } = useResponsive();
+    const { isMobile, isTablet, isDesktop } = useResponsive();
 
     return (
         <HeaderContainer
@@ -52,14 +53,25 @@ const Header = () => {
             {...HeaderContainerProps}
             alignItems="center"
             className={styles.header_container}>
-            {!(isMobile || isTablet) && (
-                <img
-                    src={headerBackImage}
-                    alt="header-bg"
-                    className={styles.header_bg}
-                />
+            {isDesktop && (
+                <div className={styles.headerBgContainer}>
+                    <img
+                        src={headerBackImage}
+                        alt="header-bg"
+                        className={styles.header_bg}
+                    />
+                </div>
             )}
-            {(isMobile || isTablet) && (
+            {isTablet && (
+                <div className={styles.headerTabletImage}>
+                    <img
+                        src={headerBackImage}
+                        alt="header-bg"
+                        className={styles.header_bg}
+                    />
+                </div>
+            )}
+            {isMobile && (
                 <img
                     src={headerBackMobileImage}
                     alt="header-bg"
