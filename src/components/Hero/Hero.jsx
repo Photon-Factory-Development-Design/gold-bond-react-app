@@ -18,7 +18,7 @@ const heroVideo =
 
 const Hero = ({ classes }) => {
     return (
-        <BackgroundContainer color="primary">
+        <BackgroundContainer>
             <Container>
                 <Box className={classes.root}>
                     <ReactPlayer
